@@ -4045,6 +4045,29 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
     canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
     canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
+  },
+  {
+    deal_id: "VIRAL_DEAL_AUDAZ_200526",
+    post_days: 4, fase: 1,
+    gmv_activacion: 8768, gmv_lw: 1611, gmv_dlw_pct: 444.3, gmv_l4w: 1687, gmv_dl4w_pct: 419.7,
+    usuarios_unicos: 41, usr_lw: 9, usr_dlw_pct: 355.6, usr_l4w: 9.0, usr_dl4w_pct: 355.6,
+    cr_pct: null, aov: 190.61, aov_lw: 178.98, aov_dlw_pct: 6.5, aov_l4w: 177.58, aov_dl4w_pct: 7.3,
+    unidades_total: 50, und_lw: 9, und_dlw_pct: 455.6, und_l4w: 9.5, und_dl4w_pct: 426.3,
+    ordenes_total: 46, ord_lw: 9, ord_dlw_pct: 411.1, ord_l4w: 9.5, ord_dl4w_pct: 384.2,
+    impresiones_total: null,
+    so_turbo_mx: 4573911, gmv_categoria: 73095,
+    gmv_cat_lw: 56481, gmv_cat_l4w: 58508,
+    share_deal_cat_pct: 12.00, share_lw_pct: 2.85, share_l4w_pct: 2.88,
+    gmv_basket: 20063, gmv_sellup: 11295, pct_sellup: 56.30,
+    aov_basket: 436.15, aov_deal_post: 190.61,
+    cross_ordenes: 46, cross_skus_distintos: 163,
+    cross_top_producto: "Aguacate Para Hoy X3", cross_top_ordenes: 5, cross_top_pct: 10.87,
+    inv_oos_cierre_viral_avg: 3, inv_oos_post_avg: 2,
+    inv_cov_viral_ap_avg: 61.9, inv_cov_viral_ci_avg: 60.7,
+    inv_cov_post_avg: 60.7, inv_cov_bench_avg: 57.8,
+    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
+    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
+    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
   }
 ];
 
@@ -4359,7 +4382,10 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_FRUVER_190526", sync: "82057", name: "Pepino", ordenes: 628, usuarios: 528, unidades: 1370, gmv: 20677, aov: 32.93, impresiones: 9339, cr_pct: 5.65, gmv_dlw_pct: 107.4, gmv_dl4w_pct: 115.7, seg_nuevo: 249, seg_nuevo_pct: 40, seg_reactivado: 146, seg_reactivado_pct: 23, seg_retenido: 233, seg_retenido_pct: 37, stock_viral: 1504, stock_post: 523, stock_bench: 727, stock_delta_pct: -28.0, oos_cierre_viral: 8, oos_post: 7, cov_viral_ap: 71.1, cov_viral_ci: 59.6, cov_post: 56.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   { deal_id: "VIRAL_DEAL_FRUVER_190526", sync: "82058", name: "Cebolla Blanca", ordenes: 574, usuarios: 480, unidades: 1183, gmv: 11181, aov: 19.48, impresiones: 6921, cr_pct: 6.94, gmv_dlw_pct: 108.5, gmv_dl4w_pct: 134.9, seg_nuevo: 215, seg_nuevo_pct: 37, seg_reactivado: 164, seg_reactivado_pct: 29, seg_retenido: 195, seg_retenido_pct: 34, stock_viral: 1459, stock_post: 483, stock_bench: 744, stock_delta_pct: -35.0, oos_cierre_viral: 5, oos_post: 3, cov_viral_ap: 71.1, cov_viral_ci: 65.0, cov_post: 65.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   { deal_id: "VIRAL_DEAL_FRUVER_190526", sync: "82060", name: "Zanahoria", ordenes: 577, usuarios: 460, unidades: 2816, gmv: 9249, aov: 16.03, impresiones: 8906, cr_pct: 5.17, gmv_dlw_pct: 116.4, gmv_dl4w_pct: 158.9, seg_nuevo: 214, seg_nuevo_pct: 37, seg_reactivado: 133, seg_reactivado_pct: 23, seg_retenido: 230, seg_retenido_pct: 40, stock_viral: 5655, stock_post: 3049, stock_bench: 1360, stock_delta_pct: 124.3, oos_cierre_viral: 1, oos_post: 1, cov_viral_ap: 71.1, cov_viral_ci: 67.9, cov_post: 67.9, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
-  { deal_id: "VIRAL_DEAL_FRUVER_190526", sync: "10412", name: "Calabaza Italiana", ordenes: 258, usuarios: 211, unidades: 851, gmv: 7046, aov: 27.31, impresiones: 7344, cr_pct: 2.87, gmv_dlw_pct: 121.3, gmv_dl4w_pct: 138.2, seg_nuevo: 97, seg_nuevo_pct: 38, seg_reactivado: 71, seg_reactivado_pct: 28, seg_retenido: 90, seg_retenido_pct: 35, stock_viral: 852, stock_post: 341, stock_bench: 551, stock_delta_pct: -38.0, oos_cierre_viral: 12, oos_post: 9, cov_viral_ap: 90.0, cov_viral_ci: 76.7, cov_post: 73.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
+  { deal_id: "VIRAL_DEAL_FRUVER_190526", sync: "10412", name: "Calabaza Italiana", ordenes: 258, usuarios: 211, unidades: 851, gmv: 7046, aov: 27.31, impresiones: 7344, cr_pct: 2.87, gmv_dlw_pct: 121.3, gmv_dl4w_pct: 138.2, seg_nuevo: 97, seg_nuevo_pct: 38, seg_reactivado: 71, seg_reactivado_pct: 28, seg_retenido: 90, seg_retenido_pct: 35, stock_viral: 852, stock_post: 341, stock_bench: 551, stock_delta_pct: -38.0, oos_cierre_viral: 12, oos_post: 9, cov_viral_ap: 90.0, cov_viral_ci: 76.7, cov_post: 73.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  // Audaz 200526
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "81181", name: "Hogaza masa madre congelada", ordenes: 31, usuarios: 27, unidades: 32, gmv: 5542, aov: 178.76, impresiones: null, cr_pct: null, gmv_dlw_pct: 289.5, gmv_dl4w_pct: 304.3, seg_nuevo: 12, seg_nuevo_pct: 39, seg_reactivado: 7, seg_reactivado_pct: 23, seg_retenido: 12, seg_retenido_pct: 39, stock_viral: 206, stock_post: 173, stock_bench: 208, stock_delta_pct: -16.7, oos_cierre_viral: 2, oos_post: 1, cov_viral_ap: 64.4, cov_viral_ci: 64.4, cov_post: 64.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "86864", name: "Trilogía de galletas- Audaz", ordenes: 15, usuarios: 15, unidades: 18, gmv: 3226, aov: 215.09, impresiones: null, cr_pct: null, gmv_dlw_pct: 1617.0, gmv_dl4w_pct: 919.5, seg_nuevo: 11, seg_nuevo_pct: 73, seg_reactivado: 1, seg_reactivado_pct: 7, seg_retenido: 3, seg_retenido_pct: 20, stock_viral: 133, stock_post: 109, stock_bench: 66, stock_delta_pct: 65.7, oos_cierre_viral: 4, oos_post: 3, cov_viral_ap: 59.3, cov_viral_ci: 56.9, cov_post: 56.9, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -4864,7 +4890,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_FRUVER_190526", subcategoria: "Snacks salados", ordenes: 203, gmv: 14636, pct_sellup: 2.62, order: 5 },
   { deal_id: "VIRAL_DEAL_FRUVER_190526", subcategoria: "Agua Natural", ordenes: 262, gmv: 13696, pct_sellup: 2.46, order: 6 },
   { deal_id: "VIRAL_DEAL_FRUVER_190526", subcategoria: "Cervezas", ordenes: 98, gmv: 12836, pct_sellup: 2.30, order: 7 },
-  { deal_id: "VIRAL_DEAL_FRUVER_190526", subcategoria: "Panaderia salada", ordenes: 176, gmv: 11829, pct_sellup: 2.12, order: 8 }
+  { deal_id: "VIRAL_DEAL_FRUVER_190526", subcategoria: "Panaderia salada", ordenes: 176, gmv: 11829, pct_sellup: 2.12, order: 8 },
+  // Audaz 200526
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Frutas", ordenes: 15, gmv: 707, pct_sellup: 6.26, order: 1 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Yogurt", ordenes: 6, gmv: 569, pct_sellup: 5.04, order: 2 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Galletas", ordenes: 4, gmv: 526, pct_sellup: 4.65, order: 3 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Huevos", ordenes: 7, gmv: 476, pct_sellup: 4.21, order: 4 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Gaseosas", ordenes: 9, gmv: 457, pct_sellup: 4.04, order: 5 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Embutidos", ordenes: 4, gmv: 411, pct_sellup: 3.64, order: 6 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Leche natural", ordenes: 7, gmv: 353, pct_sellup: 3.12, order: 7 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Barras de cereal y granola", ordenes: 2, gmv: 317, pct_sellup: 2.80, order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -5582,7 +5617,20 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_FRUVER_190526", sync: "12456", name: "Fresas", subcategoria: "Frutas", ordenes: 153, pct_deal: 7.67, order: 9 },
   { deal_id: "VIRAL_DEAL_FRUVER_190526", sync: "72931", name: "Mango Ataulfo", subcategoria: "Frutas", ordenes: 145, pct_deal: 7.26, order: 10 },
   { deal_id: "VIRAL_DEAL_FRUVER_190526", sync: "5559", name: "Huevo Blanco San Juan 30 und", subcategoria: "Huevos", ordenes: 105, pct_deal: 5.26, order: 11 },
-  { deal_id: "VIRAL_DEAL_FRUVER_190526", sync: "82050", name: "Manzana Golden", subcategoria: "Frutas", ordenes: 97, pct_deal: 4.86, order: 12 }
+  { deal_id: "VIRAL_DEAL_FRUVER_190526", sync: "82050", name: "Manzana Golden", subcategoria: "Frutas", ordenes: 97, pct_deal: 4.86, order: 12 },
+  // Audaz 200526
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "14693", name: "Aguacate Para Hoy X3", subcategoria: "Frutas", ordenes: 5, pct_deal: 10.87, order: 1 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "8033", name: "Ciel Agua Natural Purificada 10 L", subcategoria: "Agua Natural", ordenes: 4, pct_deal: 8.70, order: 2 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "81993", name: "Plátano Chiapas", subcategoria: "Frutas", ordenes: 4, pct_deal: 8.70, order: 3 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "14375", name: "Limon Sin Semilla Malla", subcategoria: "Frutas", ordenes: 3, pct_deal: 6.52, order: 4 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "5559", name: "Huevo Blanco San Juan 30 und", subcategoria: "Huevos", ordenes: 3, pct_deal: 6.52, order: 5 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "13274", name: "San Rafael Salchicha de Pavo 500 g", subcategoria: "Embutidos", ordenes: 3, pct_deal: 6.52, order: 6 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "72772", name: "Alpura Leche Extra Proteína Baja en Grasa 1 L", subcategoria: "Leche natural", ordenes: 3, pct_deal: 6.52, order: 7 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "81998", name: "Tomate Guaje Saladette", subcategoria: "Frutas", ordenes: 2, pct_deal: 4.35, order: 8 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "82058", name: "Cebolla Blanca", subcategoria: "Frutas", ordenes: 2, pct_deal: 4.35, order: 9 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "71940", name: "Coca-Cola Refresco Sin Azúcar 12 x 355 mL", subcategoria: "Gaseosas", ordenes: 2, pct_deal: 4.35, order: 10 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "8746", name: "Noche Buena Queso Manchego Rebanado", subcategoria: "Quesos semiduros", ordenes: 2, pct_deal: 4.35, order: 11 },
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "6211", name: "Raid Max - Insecticida - 400 ml", subcategoria: "Insecticidas", ordenes: 2, pct_deal: 4.35, order: 12 }
 
 
 
