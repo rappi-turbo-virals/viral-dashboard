@@ -4068,6 +4068,29 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
     canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
     canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
+  },
+  {
+    deal_id: "VIRAL_DEAL_LALA_210526",
+    post_days: 4, fase: 1,
+    gmv_activacion: 84659, gmv_lw: 7686, gmv_dlw_pct: 1001.5, gmv_l4w: 4820, gmv_dl4w_pct: 1656.5,
+    usuarios_unicos: 571, usr_lw: 80, usr_dlw_pct: 613.8, usr_l4w: 51.25, usr_dl4w_pct: 1014.1,
+    cr_pct: null, aov: 133.74, aov_lw: 80.06, aov_dlw_pct: 67.1, aov_l4w: 77.82, aov_dl4w_pct: 71.9,
+    unidades_total: 1732, und_lw: 160, und_dlw_pct: 982.5, und_l4w: 100.5, und_dl4w_pct: 1623.4,
+    ordenes_total: 633, ord_lw: 96, ord_dlw_pct: 559.4, ord_l4w: 60.5, ord_dl4w_pct: 946.3,
+    impresiones_total: null,
+    so_turbo_mx: 4379721, gmv_categoria: 142878,
+    gmv_cat_lw: 73050, gmv_cat_l4w: 68795,
+    share_deal_cat_pct: 59.25, share_lw_pct: 10.52, share_l4w_pct: 7.01,
+    gmv_basket: 157021, gmv_sellup: 72361, pct_sellup: 46.08,
+    aov_basket: 248.06, aov_deal_post: 133.74,
+    cross_ordenes: 633, cross_skus_distintos: 753,
+    cross_top_producto: "Plátano Chiapas", cross_top_ordenes: 29, cross_top_pct: 4.58,
+    inv_oos_cierre_viral_avg: 49, inv_oos_post_avg: 43,
+    inv_cov_viral_ap_avg: 49.2, inv_cov_viral_ci_avg: 22.2,
+    inv_cov_post_avg: 31.7, inv_cov_bench_avg: 32.7,
+    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
+    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
+    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
   }
 ];
 
@@ -4385,7 +4408,9 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_FRUVER_190526", sync: "10412", name: "Calabaza Italiana", ordenes: 258, usuarios: 211, unidades: 851, gmv: 7046, aov: 27.31, impresiones: 7344, cr_pct: 2.87, gmv_dlw_pct: 121.3, gmv_dl4w_pct: 138.2, seg_nuevo: 97, seg_nuevo_pct: 38, seg_reactivado: 71, seg_reactivado_pct: 28, seg_retenido: 90, seg_retenido_pct: 35, stock_viral: 852, stock_post: 341, stock_bench: 551, stock_delta_pct: -38.0, oos_cierre_viral: 12, oos_post: 9, cov_viral_ap: 90.0, cov_viral_ci: 76.7, cov_post: 73.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   // Audaz 200526
   { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "81181", name: "Hogaza masa madre congelada", ordenes: 31, usuarios: 27, unidades: 32, gmv: 5542, aov: 178.76, impresiones: 3719, cr_pct: 0.83, gmv_dlw_pct: 289.5, gmv_dl4w_pct: 304.3, seg_nuevo: 12, seg_nuevo_pct: 39, seg_reactivado: 7, seg_reactivado_pct: 23, seg_retenido: 12, seg_retenido_pct: 39, stock_viral: 206, stock_post: 173, stock_bench: 208, stock_delta_pct: -16.7, oos_cierre_viral: 2, oos_post: 1, cov_viral_ap: 64.4, cov_viral_ci: 64.4, cov_post: 64.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
-  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "86864", name: "Trilogía de galletas- Audaz", ordenes: 15, usuarios: 15, unidades: 18, gmv: 3226, aov: 215.09, impresiones: 1749, cr_pct: 0.86, gmv_dlw_pct: 1617.0, gmv_dl4w_pct: 919.5, seg_nuevo: 11, seg_nuevo_pct: 73, seg_reactivado: 1, seg_reactivado_pct: 7, seg_retenido: 3, seg_retenido_pct: 20, stock_viral: 133, stock_post: 109, stock_bench: 66, stock_delta_pct: 65.7, oos_cierre_viral: 4, oos_post: 3, cov_viral_ap: 59.3, cov_viral_ci: 56.9, cov_post: 56.9, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "86864", name: "Trilogía de galletas- Audaz", ordenes: 15, usuarios: 15, unidades: 18, gmv: 3226, aov: 215.09, impresiones: 1749, cr_pct: 0.86, gmv_dlw_pct: 1617.0, gmv_dl4w_pct: 919.5, seg_nuevo: 11, seg_nuevo_pct: 73, seg_reactivado: 1, seg_reactivado_pct: 7, seg_retenido: 3, seg_retenido_pct: 20, stock_viral: 133, stock_post: 109, stock_bench: 66, stock_delta_pct: 65.7, oos_cierre_viral: 4, oos_post: 3, cov_viral_ap: 59.3, cov_viral_ci: 56.9, cov_post: 56.9, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  // Lala 210526
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "14588", name: "Lala 100 Leche Fresca sin Lactosa Proteína 1 L", ordenes: 633, usuarios: 571, unidades: 1732, gmv: 84659, aov: 133.74, impresiones: null, cr_pct: null, gmv_dlw_pct: 1001.5, gmv_dl4w_pct: 1656.5, seg_nuevo: 517, seg_nuevo_pct: 82, seg_reactivado: 78, seg_reactivado_pct: 12, seg_retenido: 38, seg_retenido_pct: 6, stock_viral: 2487, stock_post: 1071, stock_bench: 879, stock_delta_pct: 21.9, oos_cierre_viral: 49, oos_post: 43, cov_viral_ap: 49.2, cov_viral_ci: 22.2, cov_post: 31.7, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -4899,7 +4924,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Gaseosas", ordenes: 9, gmv: 457, pct_sellup: 4.04, order: 5 },
   { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Embutidos", ordenes: 4, gmv: 411, pct_sellup: 3.64, order: 6 },
   { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Leche natural", ordenes: 7, gmv: 353, pct_sellup: 3.12, order: 7 },
-  { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Barras de cereal y granola", ordenes: 2, gmv: 317, pct_sellup: 2.80, order: 8 }
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", subcategoria: "Barras de cereal y granola", ordenes: 2, gmv: 317, pct_sellup: 2.80, order: 8 },
+  // Lala 210526
+  { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Otros medicamentos", ordenes: 1, gmv: 7315, pct_sellup: 10.11, order: 1 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Frutas", ordenes: 85, gmv: 2938, pct_sellup: 4.06, order: 2 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Cervezas", ordenes: 24, gmv: 2672, pct_sellup: 3.69, order: 3 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Gaseosas", ordenes: 60, gmv: 2480, pct_sellup: 3.43, order: 4 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Snacks salados", ordenes: 49, gmv: 2461, pct_sellup: 3.40, order: 5 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Huevos", ordenes: 36, gmv: 2251, pct_sellup: 3.11, order: 6 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Galletas", ordenes: 44, gmv: 2021, pct_sellup: 2.79, order: 7 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Yogurt", ordenes: 34, gmv: 1739, pct_sellup: 2.40, order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -5630,8 +5664,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "82058", name: "Cebolla Blanca", subcategoria: "Frutas", ordenes: 2, pct_deal: 4.35, order: 9 },
   { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "71940", name: "Coca-Cola Refresco Sin Azúcar 12 x 355 mL", subcategoria: "Gaseosas", ordenes: 2, pct_deal: 4.35, order: 10 },
   { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "8746", name: "Noche Buena Queso Manchego Rebanado", subcategoria: "Quesos semiduros", ordenes: 2, pct_deal: 4.35, order: 11 },
-  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "6211", name: "Raid Max - Insecticida - 400 ml", subcategoria: "Insecticidas", ordenes: 2, pct_deal: 4.35, order: 12 }
-
-
-
+  { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "6211", name: "Raid Max - Insecticida - 400 ml", subcategoria: "Insecticidas", ordenes: 2, pct_deal: 4.35, order: 12 },
+  // Lala 210526
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "81993", name: "Plátano Chiapas", subcategoria: "Frutas", ordenes: 29, pct_deal: 4.58, order: 1 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "91927", name: "Panini Sobre con 7 Estampas Fifa World Cup 2026 1 Und", subcategoria: "Otros Bienestar y Ocio", ordenes: 20, pct_deal: 3.16, order: 2 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "5559", name: "Huevo Blanco San Juan 30 und", subcategoria: "Huevos", ordenes: 18, pct_deal: 2.84, order: 3 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "14946", name: "Mallas Limón Con Semilla - 5 piezas", subcategoria: "Frutas", ordenes: 16, pct_deal: 2.53, order: 4 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "11715", name: "Oral-B Cepillo Dental Advanced 5 Acciones Con Carbon", subcategoria: "Cepillos dentales", ordenes: 15, pct_deal: 2.37, order: 5 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "5672", name: "San Juan - Huevo blanco 12 ud.", subcategoria: "Huevos", ordenes: 13, pct_deal: 2.05, order: 6 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "7164", name: "Coca-Cola Refresco Sin Azúcar Chubby 355 mL", subcategoria: "Gaseosas", ordenes: 9, pct_deal: 1.42, order: 7 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "9107", name: "Lala - Queso Panela Volcanes 200 g", subcategoria: "Quesos frescos", ordenes: 9, pct_deal: 1.42, order: 8 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "6744", name: "Coca-Cola Original Refresco Pet 600 mL", subcategoria: "Gaseosas", ordenes: 8, pct_deal: 1.26, order: 9 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "81998", name: "Tomate Guaje Saladette", subcategoria: "Frutas", ordenes: 7, pct_deal: 1.11, order: 10 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "75039", name: "Galletas Marinela Barritas Fresa 268g", subcategoria: "Barras de cereal y granola", ordenes: 7, pct_deal: 1.11, order: 11 },
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "12227", name: "Ciel Agua Natural Purificada 1 L", subcategoria: "Agua Natural", ordenes: 7, pct_deal: 1.11, order: 12 }
 ];
