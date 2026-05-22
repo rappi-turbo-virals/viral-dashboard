@@ -825,7 +825,7 @@ const PREVIRAL_DEALS = [
     maker_name: "PepsiCo",
     maker_aux: "Pepsico",
     business_unit: "Foods",
-    descuento_pct: 60,
+    descuento_pct: 50,
     incrementalidad: 12,
     tipo_viral: "1 día",
     ciudades: "Nacional",
@@ -842,7 +842,7 @@ const PREVIRAL_DEALS = [
     budget_total_usd: 7540.60,
     financiamiento_maker: "ADS",
     pct_growth_vs_maker: 30,
-    categoria_display: "Galletas"
+    categoria_display: "Snacks salados"
   },
   {
     deal_id: "VIRAL_DEAL_MEZCALDESTREZA_120626",
@@ -2682,11 +2682,12 @@ const PREVIRAL_SKU_DETAIL = [
   { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "10606", ean: "7501030459927", pid: "2115038941", name: "Golden Nuts Enchilados 100 g", subcategoria: "Snacks salados", h_units: 29.7, h_orders: 26.5, avg_price: 25.31, ex_incr_units: 178, ex_incr_orders: 159, ex_budget_mxn: 2253, ex_budget_usd: 131.14, real_units: 727, final_budget_mxn: 9200, final_budget_usd: 535.51, sku_order: 3 },
   { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "74146", ean: "7500810011980", pid: "2115779730", name: "Pop Karameladas 240g", subcategoria: "Pochoclos", h_units: 16.1, h_orders: 15.1, avg_price: 64.37, ex_incr_units: 97, ex_incr_orders: 91, ex_budget_mxn: 3122, ex_budget_usd: 181.72, real_units: 156, final_budget_mxn: 5021, final_budget_usd: 292.26, sku_order: 4 },
   // Pepsico 110626
-  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "6591", ean: "7501000658923", pid: "2109994899", name: "María Gamesa Galleta Fortificadas 170 g", subcategoria: "Galletas", h_units: 20.9, h_orders: 13.9, avg_price: 17.24, ex_incr_units: 251, ex_incr_orders: 167, ex_budget_mxn: 2597, ex_budget_usd: 150.64, real_units: 8549, final_budget_mxn: 88431, final_budget_usd: 5129.70, sku_order: 1 },
-  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "79884", ean: "7500478037216", pid: "2115006748", name: "Galletas Gamesa Marías Doradas 456 Gr", subcategoria: "Galletas", h_units: 5.0, h_orders: 5.0, avg_price: 68.74, ex_incr_units: 60, ex_incr_orders: 60, ex_budget_mxn: 2475, ex_budget_usd: 143.56, real_units: 513, final_budget_mxn: 21158, final_budget_usd: 1227.26, sku_order: 2 },
-  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "75013", ean: "7500478004720", pid: "2114166739", name: "Galletas De Avena Quaker Manzana Y Canela 240g", subcategoria: "Galletas", h_units: 3.0, h_orders: 2.6, avg_price: 53.08, ex_incr_units: 36, ex_incr_orders: 31, ex_budget_mxn: 1147, ex_budget_usd: 66.53, real_units: 398, final_budget_mxn: 12676, final_budget_usd: 735.26, sku_order: 3 },
-  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "71777", ean: "7500478013777", pid: "2113437477", name: "Emperador Galletas Sabor Vainilla - 382 g", subcategoria: "Galletas", h_units: 0.9, h_orders: 0.9, avg_price: 34.90, ex_incr_units: 11, ex_incr_orders: 11, ex_budget_mxn: 230, ex_budget_usd: 13.34, real_units: 185, final_budget_mxn: 3874, final_budget_usd: 224.71, sku_order: 4 },
-  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "72345", ean: "7500478013784", pid: "2113443602", name: "Gamesa Emperador Galletas Combinado 382 g", subcategoria: "Galletas", h_units: 0.9, h_orders: 1.1, avg_price: 67.02, ex_incr_units: 11, ex_incr_orders: 13, ex_budget_mxn: 442, ex_budget_usd: 25.64, real_units: 96, final_budget_mxn: 3860, final_budget_usd: 223.90, sku_order: 5 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "10929", ean: "7501011167735", pid: "2109996749", name: "Doritos Nacho 223Gr", subcategoria: "Snacks salados", h_units: 109.2, h_orders: 103.6, avg_price: 63.86, ex_incr_units: 1310, ex_incr_orders: 1243, ex_budget_mxn: 41828, ex_budget_usd: 2426.22, real_units: 1264, final_budget_mxn: 40360, final_budget_usd: 2341.07, sku_order: 1 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "12376", ean: "7500478007981", pid: "2109995000", name: "Ruffles Papas Fritas Onduladas Sabor Queso 185 g", subcategoria: "Snacks salados", h_units: 103.8, h_orders: 98.0, avg_price: 61.00, ex_incr_units: 1246, ex_incr_orders: 1176, ex_budget_mxn: 38003, ex_budget_usd: 2204.35, real_units: 1202, final_budget_mxn: 36661, final_budget_usd: 2126.51, sku_order: 2 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "9476", ean: "7501011155008", pid: "2109993580", name: "Paketaxo Botana Surtida Quexo 208 g", subcategoria: "Snacks salados", h_units: 71.6, h_orders: 68.4, avg_price: 62.91, ex_incr_units: 859, ex_incr_orders: 821, ex_budget_mxn: 27020, ex_budget_usd: 1567.29, real_units: 829, final_budget_mxn: 26076, final_budget_usd: 1512.53, sku_order: 3 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "11947", ean: "7501011133884", pid: "2109995036", name: "Sabritas - Papa Sal 160g", subcategoria: "Snacks salados", h_units: 61.3, h_orders: 54.4, avg_price: 61.06, ex_incr_units: 736, ex_incr_orders: 653, ex_budget_mxn: 22470, ex_budget_usd: 1303.36, real_units: 710, final_budget_mxn: 21676, final_budget_usd: 1257.31, sku_order: 4 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "13013", ean: "7501000655380", pid: "2109994639", name: "Gamesa Galleta Fortificada Marías 510 g", subcategoria: "Galletas", h_units: 10.4, h_orders: 10.0, avg_price: 47.52, ex_incr_units: 125, ex_incr_orders: 120, ex_budget_mxn: 2970, ex_budget_usd: 172.27, real_units: 121, final_budget_mxn: 2875, final_budget_usd: 166.76, sku_order: 5 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "14458", ean: "7500478018192", pid: "2109996762", name: "Saladitas Gamesa Galleta Salada Clásica 504 g", subcategoria: "Galletas", h_units: 6.3, h_orders: 6.3, avg_price: 63.71, ex_incr_units: 76, ex_incr_orders: 76, ex_budget_mxn: 2421, ex_budget_usd: 140.43, real_units: 73, final_budget_mxn: 2325, final_budget_usd: 134.86, sku_order: 6 },
   // Gepp
   { deal_id: "VIRAL_DEAL_GEPP_270426", sync: "8161", ean: "36731326003", pid: "2115518974", name: "Gatorade Bebida Hidratante Sabor Ponche de Frutas 1 L", subcategoria: "Isotónicos", h_units: 89.2, h_orders: 64.3, avg_price: 32.65, ex_incr_units: 981, ex_incr_orders: 707, ex_budget_mxn: 12812, ex_budget_usd: 743.16, real_units: 1382, final_budget_mxn: 18049, final_budget_usd: 1046.93, sku_order: 1 },
   { deal_id: "VIRAL_DEAL_GEPP_270426", sync: "8939", ean: "36731323002", pid: "2115620178", name: "Gatorade Bebida Rehidratante sabor Uva 1l - Gatorade - 1000 mL", subcategoria: "Isotónicos", h_units: 85.0, h_orders: 63.6, avg_price: 31.88, ex_incr_units: 935, ex_incr_orders: 700, ex_budget_mxn: 11923, ex_budget_usd: 691.59, real_units: 1349, final_budget_mxn: 17202, final_budget_usd: 997.80, sku_order: 2 },
