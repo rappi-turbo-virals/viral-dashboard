@@ -1783,7 +1783,7 @@ const PREVIRAL_DEALS = [
     categoria_display: "Protectores solares"
   },
   {
-    deal_id: "VIRAL_DEAL_FRUVER_020626",
+    deal_id: "VIRAL_DEAL_FRUVER_010626",
     maker_name: "Fruver",
     maker_aux: "Fruver",
     business_unit: "Foods",
@@ -1792,7 +1792,7 @@ const PREVIRAL_DEALS = [
     tipo_viral: "forecast",
     ciudades: "—",
     fecha_planeacion: "2026-05-12",
-    fecha_ejecucion: "2026-06-02",
+    fecha_ejecucion: "2026-06-01",
     fecha_fin: null,
     usd_mxn: 17.26,
     fecha_tasa: "2026-05-12",
@@ -1807,7 +1807,7 @@ const PREVIRAL_DEALS = [
     categoria_display: "Por definir"
   },
   {
-    deal_id: "VIRAL_DEAL_FRUVER_160626",
+    deal_id: "VIRAL_DEAL_FRUVER_180626",
     maker_name: "Fruver",
     maker_aux: "Fruver",
     business_unit: "Foods",
@@ -1816,7 +1816,7 @@ const PREVIRAL_DEALS = [
     tipo_viral: "forecast",
     ciudades: "—",
     fecha_planeacion: "2026-05-12",
-    fecha_ejecucion: "2026-06-16",
+    fecha_ejecucion: "2026-06-18",
     fecha_fin: null,
     usd_mxn: 17.26,
     fecha_tasa: "2026-05-12",
