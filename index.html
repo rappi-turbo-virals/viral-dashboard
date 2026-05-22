@@ -590,6 +590,12 @@
       border-left: 3px solid #F9A825;
     }
 
+    .calendar-event.on-hold {
+      background: #EDE7F6;
+      color: #7C4DFF;
+      border-left: 3px solid #7C4DFF;
+    }
+
     .calendar-legend {
       display: flex;
       gap: 20px;
@@ -614,6 +620,7 @@
     .cal-dot-future { background: #E6F9ED; border-left: 3px solid var(--green); }
     .cal-dot-past { background: #E3F2FD; border-left: 3px solid #1565C0; }
     .cal-dot-forecast { background: #FFF8E1; border-left: 3px solid #F9A825; }
+    .cal-dot-onhold { background: #EDE7F6; border-left: 3px solid #7C4DFF; }
 
     /* Calendar expand panel */
     #cal-expand-detail {
@@ -774,6 +781,17 @@
       font-weight: 700;
     }
 
+    .cal-onhold-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 16px;
+      border-radius: 20px;
+      background: #EDE7F6;
+      color: #7C4DFF;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
     /* Catalogo */
     .catalogo-filters {
       display: flex;
@@ -894,6 +912,7 @@
         <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-future"></div>Futuro</div>
         <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-past"></div>Pasado</div>
         <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-forecast"></div>Forecast</div>
+        <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-onhold"></div>On Hold</div>
       </div>
       <div class="calendar-nav">
         <select id="filter-canal" class="cal-filter-select">
@@ -1512,7 +1531,7 @@
 
       // Total deals planned for this month (including those without postmortem)
       const totalPlanned = filteredDeals.filter(d => {
-        if (!d.fecha_ejecucion || d.tipo_viral === 'forecast') return false;
+        if (!d.fecha_ejecucion || d.tipo_viral === 'forecast' || d.tipo_viral === 'on-hold') return false;
         const date = new Date(d.fecha_ejecucion + 'T00:00:00');
         return date.getFullYear() === calYear && date.getMonth() === calMonth;
       }).length;
@@ -1541,6 +1560,8 @@
         let type;
         if (d.tipo_viral === 'forecast') {
           type = 'forecast'; // amarillo
+        } else if (d.tipo_viral === 'on-hold') {
+          type = 'on-hold'; // morado
         } else if (execDate.getTime() === todayDate.getTime()) {
           type = 'exec'; // hoy — coral
         } else if (execDate > todayDate) {
@@ -1635,6 +1656,7 @@
       const isFuture = execDate > todayDate;
       const isToday = execDate.getTime() === todayDate.getTime();
       const isForecast = deal.tipo_viral === 'forecast';
+      const isOnHold = deal.tipo_viral === 'on-hold';
 
       let bodyHtml = '';
 
@@ -1650,6 +1672,29 @@
             </div>
             <div class="cal-forecast-badge">Forecast</div>
             <div style="margin-top:12px;color:var(--gray-text);font-size:13px;">Este viral esta en etapa de forecast. Aún no tiene datos de planeacion confirmados.</div>
+          </div>
+        `;
+
+        container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        document.getElementById('cal-expand-close').addEventListener('click', () => {
+          container.innerHTML = '';
+        });
+        return;
+      }
+
+      if (isOnHold) {
+        // ON HOLD viral — minimal panel morado
+        container.innerHTML = `
+          <div class="cal-expand-panel" style="border-top-color:#7C4DFF;">
+            <div class="cal-expand-header">
+              <div>
+                <h3>${deal.maker_name}</h3>
+                <span style="color:var(--gray-text);font-size:13px;">${deal.fecha_ejecucion}${deal.fecha_fin ? ' → ' + deal.fecha_fin : ''} · ${deal.business_unit} · ${deal.ciudades}</span>
+              </div>
+              <button class="cal-expand-close" id="cal-expand-close">&times;</button>
+            </div>
+            <div class="cal-onhold-badge">On Hold</div>
+            <div style="margin-top:12px;color:var(--gray-text);font-size:13px;">Este viral está on hold. La fecha y parámetros pueden cambiar.</div>
           </div>
         `;
 
@@ -1879,7 +1924,7 @@
 
       // Populate viral dropdown once
       if (!catalogoInitialized) {
-        PREVIRAL_DEALS.filter(d => d.tipo_viral !== 'forecast')
+        PREVIRAL_DEALS.filter(d => d.tipo_viral !== 'forecast' && d.tipo_viral !== 'on-hold')
           .map(deal => ({ id: deal.deal_id, label: `${deal.maker_aux} (${deal.fecha_ejecucion})` }))
           .sort((a, b) => a.label.localeCompare(b.label))
           .forEach(d => {
