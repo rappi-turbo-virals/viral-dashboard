@@ -4103,7 +4103,7 @@ const POSTMORTEM_DEALS = [
   },
   {
     deal_id: "VIRAL_DEAL_LALA_210526",
-    post_days: 4, fase: 1,
+    post_days: 4, fase: 2,
     gmv_activacion: 84659, gmv_lw: 7686, gmv_dlw_pct: 1001.5, gmv_l4w: 4820, gmv_dl4w_pct: 1656.5,
     usuarios_unicos: 571, usr_lw: 80, usr_dlw_pct: 613.8, usr_l4w: 51.25, usr_dl4w_pct: 1014.1,
     cr_pct: null, aov: 133.74, aov_lw: 80.06, aov_dlw_pct: 67.1, aov_l4w: 77.82, aov_dl4w_pct: 71.9,
@@ -4120,9 +4120,9 @@ const POSTMORTEM_DEALS = [
     inv_oos_cierre_viral_avg: 49, inv_oos_post_avg: 43,
     inv_cov_viral_ap_avg: 49.2, inv_cov_viral_ci_avg: 22.2,
     inv_cov_post_avg: 31.7, inv_cov_bench_avg: 32.7,
-    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
-    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
-    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
+    canib_ord_post: 248, canib_ord_bench: 236.75, canib_ord_delta_pct: 4.8,
+    canib_und_post: 475, canib_und_bench: 428, canib_und_delta_pct: 11.0,
+    canib_cli_post: 266, canib_cli_bench: 213.25, canib_cli_delta_pct: 24.7
   }
 ];
 
@@ -4442,7 +4442,7 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "81181", name: "Hogaza masa madre congelada", ordenes: 31, usuarios: 27, unidades: 32, gmv: 5542, aov: 178.76, impresiones: 3719, cr_pct: 0.83, gmv_dlw_pct: 289.5, gmv_dl4w_pct: 304.3, seg_nuevo: 12, seg_nuevo_pct: 39, seg_reactivado: 7, seg_reactivado_pct: 23, seg_retenido: 12, seg_retenido_pct: 39, stock_viral: 206, stock_post: 173, stock_bench: 208, stock_delta_pct: -16.7, oos_cierre_viral: 2, oos_post: 1, cov_viral_ap: 64.4, cov_viral_ci: 64.4, cov_post: 64.4, canib_ord_post: 35, canib_ord_bench: 49.50, canib_ord_delta_pct: -29.3, canib_und_post: 42, canib_und_bench: 63.75, canib_und_delta_pct: -34.1, canib_cli_post: 35, canib_cli_bench: 47.25, canib_cli_delta_pct: -25.9 },
   { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "86864", name: "Trilogía de galletas- Audaz", ordenes: 15, usuarios: 15, unidades: 18, gmv: 3226, aov: 215.09, impresiones: 1749, cr_pct: 0.86, gmv_dlw_pct: 1617.0, gmv_dl4w_pct: 919.5, seg_nuevo: 11, seg_nuevo_pct: 73, seg_reactivado: 1, seg_reactivado_pct: 7, seg_retenido: 3, seg_retenido_pct: 20, stock_viral: 133, stock_post: 109, stock_bench: 66, stock_delta_pct: 65.7, oos_cierre_viral: 4, oos_post: 3, cov_viral_ap: 59.3, cov_viral_ci: 56.9, cov_post: 56.9, canib_ord_post: 4, canib_ord_bench: 6.75, canib_ord_delta_pct: -40.7, canib_und_post: 5, canib_und_bench: 7, canib_und_delta_pct: -28.6, canib_cli_post: 5, canib_cli_bench: 5.50, canib_cli_delta_pct: -9.1 },
   // Lala 210526
-  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "14588", name: "Lala 100 Leche Fresca sin Lactosa Proteína 1 L", ordenes: 633, usuarios: 571, unidades: 1732, gmv: 84659, aov: 133.74, impresiones: null, cr_pct: null, gmv_dlw_pct: 1001.5, gmv_dl4w_pct: 1656.5, seg_nuevo: 517, seg_nuevo_pct: 82, seg_reactivado: 78, seg_reactivado_pct: 12, seg_retenido: 38, seg_retenido_pct: 6, stock_viral: 2487, stock_post: 1071, stock_bench: 879, stock_delta_pct: 21.9, oos_cierre_viral: 49, oos_post: 43, cov_viral_ap: 49.2, cov_viral_ci: 22.2, cov_post: 31.7, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "14588", name: "Lala 100 Leche Fresca sin Lactosa Proteína 1 L", ordenes: 633, usuarios: 571, unidades: 1732, gmv: 84659, aov: 133.74, impresiones: null, cr_pct: null, gmv_dlw_pct: 1001.5, gmv_dl4w_pct: 1656.5, seg_nuevo: 517, seg_nuevo_pct: 82, seg_reactivado: 78, seg_reactivado_pct: 12, seg_retenido: 38, seg_retenido_pct: 6, stock_viral: 2487, stock_post: 1071, stock_bench: 879, stock_delta_pct: 21.9, oos_cierre_viral: 49, oos_post: 43, cov_viral_ap: 49.2, cov_viral_ci: 22.2, cov_post: 31.7, canib_ord_post: 248, canib_ord_bench: 236.75, canib_ord_delta_pct: 4.8, canib_und_post: 475, canib_und_bench: 428, canib_und_delta_pct: 11.0, canib_cli_post: 266, canib_cli_bench: 213.25, canib_cli_delta_pct: 24.7 }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
