@@ -4146,6 +4146,29 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
     canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
     canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
+  },
+  {
+    deal_id: "VIRAL_DEAL_PALMAR_230526",
+    post_days: 4, fase: 1,
+    gmv_activacion: 34743, gmv_lw: 4530, gmv_dlw_pct: 667.0, gmv_l4w: 6027, gmv_dl4w_pct: 476.4,
+    usuarios_unicos: 100, usr_lw: 18, usr_dlw_pct: 455.6, usr_l4w: 15, usr_dl4w_pct: 566.7,
+    cr_pct: 0.99, aov: 304.76, aov_lw: 251.65, aov_dlw_pct: 21.1, aov_l4w: 321.44, aov_dl4w_pct: -5.2,
+    unidades_total: 140, und_lw: 19, und_dlw_pct: 636.8, und_l4w: 23.17, und_dl4w_pct: 504.3,
+    ordenes_total: 114, ord_lw: 18, ord_dlw_pct: 533.3, ord_l4w: 18.75, ord_dl4w_pct: 508.0,
+    impresiones_total: 10053,
+    so_turbo_mx: 5815725, gmv_categoria: 368652,
+    gmv_cat_lw: 336248, gmv_cat_l4w: 290589,
+    share_deal_cat_pct: 9.42, share_lw_pct: 1.35, share_l4w_pct: 2.07,
+    gmv_basket: 51062, gmv_sellup: 16319, pct_sellup: 31.96,
+    aov_basket: 447.91, aov_deal_post: 304.76,
+    cross_ordenes: 114, cross_skus_distintos: 285,
+    cross_top_producto: "Topo Chico Agua Mineral 1500 mL", cross_top_ordenes: 6, cross_top_pct: 5.26,
+    inv_oos_cierre_viral_avg: 19, inv_oos_post_avg: 18,
+    inv_cov_viral_ap_avg: 76.6, inv_cov_viral_ci_avg: 72.1,
+    inv_cov_post_avg: 72.5, inv_cov_bench_avg: 71.9,
+    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
+    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
+    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
   }
 ];
 
@@ -4469,7 +4492,11 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   // Madrileña 220526
   { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "5747", name: "Vino Tinto Las Moras Malbec Finca 750 mL", ordenes: 441, usuarios: 318, unidades: 722, gmv: 77101, aov: 174.83, impresiones: 7493, cr_pct: 4.24, gmv_dlw_pct: 337.7, gmv_dl4w_pct: 290.3, seg_nuevo: 239, seg_nuevo_pct: 48, seg_reactivado: 68, seg_reactivado_pct: 14, seg_retenido: 187, seg_retenido_pct: 38, stock_viral: 2241, stock_post: 6448, stock_bench: 2271, stock_delta_pct: 184.0, oos_cierre_viral: 35, oos_post: 37, cov_viral_ap: 57.1, cov_viral_ci: 58.3, cov_post: 57.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "11629", name: "Vino Blanco Finca Las Moras Sauvignon Blanc 750 mL", ordenes: 145, usuarios: 139, unidades: 202, gmv: 24485, aov: 168.86, impresiones: 5247, cr_pct: 2.65, gmv_dlw_pct: 66.7, gmv_dl4w_pct: 93.5, seg_nuevo: 92, seg_nuevo_pct: 56, seg_reactivado: 26, seg_reactivado_pct: 16, seg_retenido: 46, seg_retenido_pct: 28, stock_viral: 2079, stock_post: 7449, stock_bench: 1871, stock_delta_pct: 298.1, oos_cierre_viral: 29, oos_post: 31, cov_viral_ap: 63.0, cov_viral_ci: 64.2, cov_post: 62.7, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
-  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "13148", name: "Vino Rosado Las Moras Finca 750 mL", ordenes: 148, usuarios: 120, unidades: 183, gmv: 21471, aov: 145.08, impresiones: 2610, cr_pct: 4.60, gmv_dlw_pct: 277.1, gmv_dl4w_pct: 299.7, seg_nuevo: 104, seg_nuevo_pct: 64, seg_reactivado: 20, seg_reactivado_pct: 12, seg_retenido: 38, seg_retenido_pct: 24, stock_viral: 701, stock_post: 2113, stock_bench: 551, stock_delta_pct: 283.5, oos_cierre_viral: 45, oos_post: 46, cov_viral_ap: 58.1, cov_viral_ci: 47.7, cov_post: 47.1, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "13148", name: "Vino Rosado Las Moras Finca 750 mL", ordenes: 148, usuarios: 120, unidades: 183, gmv: 21471, aov: 145.08, impresiones: 2610, cr_pct: 4.60, gmv_dlw_pct: 277.1, gmv_dl4w_pct: 299.7, seg_nuevo: 104, seg_nuevo_pct: 64, seg_reactivado: 20, seg_reactivado_pct: 12, seg_retenido: 38, seg_retenido_pct: 24, stock_viral: 701, stock_post: 2113, stock_bench: 551, stock_delta_pct: 283.5, oos_cierre_viral: 45, oos_post: 46, cov_viral_ap: 58.1, cov_viral_ci: 47.7, cov_post: 47.1, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  // Palmar 230526
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "82936", name: "Pack Mixto Hard Seltzer Palmar Sabores Surtidos 8 x 355 mL", ordenes: 80, usuarios: 72, unidades: 99, gmv: 18793, aov: 234.91, impresiones: 4082, cr_pct: 1.76, gmv_dlw_pct: 521.0, gmv_dl4w_pct: 691.8, seg_nuevo: 65, seg_nuevo_pct: 78, seg_reactivado: 10, seg_reactivado_pct: 12, seg_retenido: 8, seg_retenido_pct: 10, stock_viral: 345, stock_post: 720, stock_bench: 229, stock_delta_pct: 214.8, oos_cierre_viral: 17, oos_post: 17, cov_viral_ap: 80.7, cov_viral_ci: 70.2, cov_post: 70.2, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "83702", name: "Tequila Taddel Reposado Cristalino 750 mL", ordenes: 18, usuarios: 16, unidades: 22, gmv: 9100, aov: 505.54, impresiones: 4530, cr_pct: 0.35, gmv_dlw_pct: null, gmv_dl4w_pct: 144.8, seg_nuevo: 16, seg_nuevo_pct: 94, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 1, seg_retenido_pct: 6, stock_viral: 404, stock_post: 1171, stock_bench: 175, stock_delta_pct: 570.1, oos_cierre_viral: 7, oos_post: 7, cov_viral_ap: 88.9, cov_viral_ci: 87.0, cov_post: 87.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "73551", name: "Ginebra Palmar Frutos Rojos y Rosa Exclusivo 750 mL", ordenes: 19, usuarios: 16, unidades: 19, gmv: 6850, aov: 360.54, impresiones: 1441, cr_pct: 1.11, gmv_dlw_pct: 355.7, gmv_dl4w_pct: 493.2, seg_nuevo: 11, seg_nuevo_pct: 55, seg_reactivado: 3, seg_reactivado_pct: 15, seg_retenido: 6, seg_retenido_pct: 30, stock_viral: 454, stock_post: 1248, stock_bench: 264, stock_delta_pct: 373.6, oos_cierre_viral: 32, oos_post: 31, cov_viral_ap: 60.3, cov_viral_ci: 59.0, cov_post: 60.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5001,7 +5028,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Cigarrillos", ordenes: 42, gmv: 6395, pct_sellup: 2.69, order: 5 },
   { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Gaseosas", ordenes: 95, gmv: 5184, pct_sellup: 2.18, order: 6 },
   { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Frutas", ordenes: 49, gmv: 2952, pct_sellup: 1.24, order: 7 },
-  { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Rones", ordenes: 12, gmv: 2625, pct_sellup: 1.10, order: 8 }
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Rones", ordenes: 12, gmv: 2625, pct_sellup: 1.10, order: 8 },
+  // Palmar 230526
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Cervezas", ordenes: 18, gmv: 2878, pct_sellup: 5.64, order: 1 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Mezcales", ordenes: 2, gmv: 1690, pct_sellup: 3.31, order: 2 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Snacks salados", ordenes: 15, gmv: 1616, pct_sellup: 3.16, order: 3 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Gaseosas", ordenes: 17, gmv: 973, pct_sellup: 1.91, order: 4 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Cocteles", ordenes: 1, gmv: 714, pct_sellup: 1.40, order: 5 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Cigarrillos", ordenes: 4, gmv: 579, pct_sellup: 1.13, order: 6 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Tequilas", ordenes: 1, gmv: 575, pct_sellup: 1.13, order: 7 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Agua saborizada", ordenes: 5, gmv: 533, pct_sellup: 1.04, order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -5758,5 +5794,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "74154", name: "Chips Toque Maestro Parmesano 140g", subcategoria: "Snacks salados", ordenes: 9, pct_deal: 1.43, order: 9 },
   { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "14156", name: "Hielo Club 5 kg", subcategoria: "Hielo", ordenes: 9, pct_deal: 1.43, order: 10 },
   { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "5314", name: "Pack Cerveza Michelob Ultra Light 6 x 355 mL", subcategoria: "Cervezas", ordenes: 9, pct_deal: 1.43, order: 11 },
-  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "14946", name: "Mallas Limón Con Semilla 5 piezas", subcategoria: "Frutas", ordenes: 9, pct_deal: 1.43, order: 12 }
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "14946", name: "Mallas Limón Con Semilla 5 piezas", subcategoria: "Frutas", ordenes: 9, pct_deal: 1.43, order: 12 },
+  // Palmar 230526
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "4730", name: "Topo Chico Agua Mineral 1500 mL", subcategoria: "Agua Natural Gasificada", ordenes: 6, pct_deal: 5.26, order: 1 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "14156", name: "Hielo Club 5 kg", subcategoria: "Hielo", ordenes: 5, pct_deal: 4.39, order: 2 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "14033", name: "Cerveza Carta Blanca Lager Six Pack 355 mL", subcategoria: "Cervezas", ordenes: 4, pct_deal: 3.51, order: 3 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "12699", name: "Seagrams Refresco Quina Agua Seagrams 235 mL", subcategoria: "Agua saborizada", ordenes: 4, pct_deal: 3.51, order: 4 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "5314", name: "Pack Cerveza Michelob Ultra Light 6 x 355 mL", subcategoria: "Cervezas", ordenes: 3, pct_deal: 2.63, order: 5 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "5860", name: "Sabritas Papas Clásicas Receta Crujiente 170 g", subcategoria: "Snacks salados", ordenes: 3, pct_deal: 2.63, order: 6 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "6467", name: "Marlboro Gold 20", subcategoria: "Cigarrillos", ordenes: 3, pct_deal: 2.63, order: 7 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "14946", name: "Mallas Limón Con Semilla 5 piezas", subcategoria: "Frutas", ordenes: 3, pct_deal: 2.63, order: 8 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "12376", name: "Ruffles Papas Fritas Onduladas Sabor Queso 185 g", subcategoria: "Snacks salados", ordenes: 3, pct_deal: 2.63, order: 9 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "12009", name: "Schweppes Pack Agua Tónica x 296 mL", subcategoria: "Gaseosas", ordenes: 3, pct_deal: 2.63, order: 10 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "10280", name: "KLYR Bolsa con hielo cubo gourmet 5 kg", subcategoria: "Hielo", ordenes: 3, pct_deal: 2.63, order: 11 },
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "6149", name: "Coca-Cola Refresco Sin Azúcar 600 mL", subcategoria: "Gaseosas", ordenes: 2, pct_deal: 1.75, order: 12 }
 ];
