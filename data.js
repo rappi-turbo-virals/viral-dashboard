@@ -4123,6 +4123,29 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: 248, canib_ord_bench: 236.75, canib_ord_delta_pct: 4.8,
     canib_und_post: 475, canib_und_bench: 428, canib_und_delta_pct: 11.0,
     canib_cli_post: 266, canib_cli_bench: 213.25, canib_cli_delta_pct: 24.7
+  },
+  {
+    deal_id: "VIRAL_DEAL_MADRILENA_220526",
+    post_days: 4, fase: 1,
+    gmv_activacion: 123057, gmv_lw: 37997, gmv_dlw_pct: 223.9, gmv_l4w: 37784, gmv_dl4w_pct: 225.7,
+    usuarios_unicos: 485, usr_lw: 170, usr_dlw_pct: 185.3, usr_l4w: 157.5, usr_dl4w_pct: 207.9,
+    cr_pct: null, aov: 195.64, aov_lw: 170.39, aov_dlw_pct: 14.8, aov_l4w: 178.49, aov_dl4w_pct: 9.6,
+    unidades_total: 1107, und_lw: 316, und_dlw_pct: 250.3, und_l4w: 311, und_dl4w_pct: 255.9,
+    ordenes_total: 629, ord_lw: 223, ord_dlw_pct: 182.1, ord_l4w: 211.75, ord_dl4w_pct: 197.0,
+    impresiones_total: null,
+    so_turbo_mx: 5326350, gmv_categoria: 234435,
+    gmv_cat_lw: 174901, gmv_cat_l4w: 186401,
+    share_deal_cat_pct: 52.49, share_lw_pct: 21.73, share_l4w_pct: 20.27,
+    gmv_basket: 237930, gmv_sellup: 114873, pct_sellup: 48.28,
+    aov_basket: 378.27, aov_deal_post: 195.64,
+    cross_ordenes: 629, cross_skus_distintos: 848,
+    cross_top_producto: "Topo Chico Agua Mineral 1500 mL", cross_top_ordenes: 24, cross_top_pct: 3.82,
+    inv_oos_cierre_viral_avg: 36, inv_oos_post_avg: 38,
+    inv_cov_viral_ap_avg: 59.4, inv_cov_viral_ci_avg: 56.7,
+    inv_cov_post_avg: 55.6, inv_cov_bench_avg: 62.2,
+    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
+    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
+    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
   }
 ];
 
@@ -4442,7 +4465,11 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "81181", name: "Hogaza masa madre congelada", ordenes: 31, usuarios: 27, unidades: 32, gmv: 5542, aov: 178.76, impresiones: 3719, cr_pct: 0.83, gmv_dlw_pct: 289.5, gmv_dl4w_pct: 304.3, seg_nuevo: 12, seg_nuevo_pct: 39, seg_reactivado: 7, seg_reactivado_pct: 23, seg_retenido: 12, seg_retenido_pct: 39, stock_viral: 206, stock_post: 173, stock_bench: 208, stock_delta_pct: -16.7, oos_cierre_viral: 2, oos_post: 1, cov_viral_ap: 64.4, cov_viral_ci: 64.4, cov_post: 64.4, canib_ord_post: 35, canib_ord_bench: 49.50, canib_ord_delta_pct: -29.3, canib_und_post: 42, canib_und_bench: 63.75, canib_und_delta_pct: -34.1, canib_cli_post: 35, canib_cli_bench: 47.25, canib_cli_delta_pct: -25.9 },
   { deal_id: "VIRAL_DEAL_AUDAZ_200526", sync: "86864", name: "Trilogía de galletas- Audaz", ordenes: 15, usuarios: 15, unidades: 18, gmv: 3226, aov: 215.09, impresiones: 1749, cr_pct: 0.86, gmv_dlw_pct: 1617.0, gmv_dl4w_pct: 919.5, seg_nuevo: 11, seg_nuevo_pct: 73, seg_reactivado: 1, seg_reactivado_pct: 7, seg_retenido: 3, seg_retenido_pct: 20, stock_viral: 133, stock_post: 109, stock_bench: 66, stock_delta_pct: 65.7, oos_cierre_viral: 4, oos_post: 3, cov_viral_ap: 59.3, cov_viral_ci: 56.9, cov_post: 56.9, canib_ord_post: 4, canib_ord_bench: 6.75, canib_ord_delta_pct: -40.7, canib_und_post: 5, canib_und_bench: 7, canib_und_delta_pct: -28.6, canib_cli_post: 5, canib_cli_bench: 5.50, canib_cli_delta_pct: -9.1 },
   // Lala 210526
-  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "14588", name: "Lala 100 Leche Fresca sin Lactosa Proteína 1 L", ordenes: 633, usuarios: 571, unidades: 1732, gmv: 84659, aov: 133.74, impresiones: null, cr_pct: null, gmv_dlw_pct: 1001.5, gmv_dl4w_pct: 1656.5, seg_nuevo: 517, seg_nuevo_pct: 82, seg_reactivado: 78, seg_reactivado_pct: 12, seg_retenido: 38, seg_retenido_pct: 6, stock_viral: 2487, stock_post: 1071, stock_bench: 879, stock_delta_pct: 21.9, oos_cierre_viral: 49, oos_post: 43, cov_viral_ap: 49.2, cov_viral_ci: 22.2, cov_post: 31.7, canib_ord_post: 248, canib_ord_bench: 236.75, canib_ord_delta_pct: 4.8, canib_und_post: 475, canib_und_bench: 428, canib_und_delta_pct: 11.0, canib_cli_post: 266, canib_cli_bench: 213.25, canib_cli_delta_pct: 24.7 }
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "14588", name: "Lala 100 Leche Fresca sin Lactosa Proteína 1 L", ordenes: 633, usuarios: 571, unidades: 1732, gmv: 84659, aov: 133.74, impresiones: null, cr_pct: null, gmv_dlw_pct: 1001.5, gmv_dl4w_pct: 1656.5, seg_nuevo: 517, seg_nuevo_pct: 82, seg_reactivado: 78, seg_reactivado_pct: 12, seg_retenido: 38, seg_retenido_pct: 6, stock_viral: 2487, stock_post: 1071, stock_bench: 879, stock_delta_pct: 21.9, oos_cierre_viral: 49, oos_post: 43, cov_viral_ap: 49.2, cov_viral_ci: 22.2, cov_post: 31.7, canib_ord_post: 248, canib_ord_bench: 236.75, canib_ord_delta_pct: 4.8, canib_und_post: 475, canib_und_bench: 428, canib_und_delta_pct: 11.0, canib_cli_post: 266, canib_cli_bench: 213.25, canib_cli_delta_pct: 24.7 },
+  // Madrileña 220526
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "5747", name: "Vino Tinto Las Moras Malbec Finca 750 mL", ordenes: 441, usuarios: 318, unidades: 722, gmv: 77101, aov: 174.83, impresiones: null, cr_pct: null, gmv_dlw_pct: 337.7, gmv_dl4w_pct: 290.3, seg_nuevo: 239, seg_nuevo_pct: 48, seg_reactivado: 68, seg_reactivado_pct: 14, seg_retenido: 187, seg_retenido_pct: 38, stock_viral: 2241, stock_post: 6448, stock_bench: 2271, stock_delta_pct: 184.0, oos_cierre_viral: 35, oos_post: 37, cov_viral_ap: 57.1, cov_viral_ci: 58.3, cov_post: 57.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "11629", name: "Vino Blanco Finca Las Moras Sauvignon Blanc 750 mL", ordenes: 145, usuarios: 139, unidades: 202, gmv: 24485, aov: 168.86, impresiones: null, cr_pct: null, gmv_dlw_pct: 66.7, gmv_dl4w_pct: 93.5, seg_nuevo: 92, seg_nuevo_pct: 56, seg_reactivado: 26, seg_reactivado_pct: 16, seg_retenido: 46, seg_retenido_pct: 28, stock_viral: 2079, stock_post: 7449, stock_bench: 1871, stock_delta_pct: 298.1, oos_cierre_viral: 29, oos_post: 31, cov_viral_ap: 63.0, cov_viral_ci: 64.2, cov_post: 62.7, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "13148", name: "Vino Rosado Las Moras Finca 750 mL", ordenes: 148, usuarios: 120, unidades: 183, gmv: 21471, aov: 145.08, impresiones: null, cr_pct: null, gmv_dlw_pct: 277.1, gmv_dl4w_pct: 299.7, seg_nuevo: 104, seg_nuevo_pct: 64, seg_reactivado: 20, seg_reactivado_pct: 12, seg_retenido: 38, seg_retenido_pct: 24, stock_viral: 701, stock_post: 2113, stock_bench: 551, stock_delta_pct: 283.5, oos_cierre_viral: 45, oos_post: 46, cov_viral_ap: 58.1, cov_viral_ci: 47.7, cov_post: 47.1, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -4965,7 +4992,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Snacks salados", ordenes: 49, gmv: 2461, pct_sellup: 3.40, order: 5 },
   { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Huevos", ordenes: 36, gmv: 2251, pct_sellup: 3.11, order: 6 },
   { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Galletas", ordenes: 44, gmv: 2021, pct_sellup: 2.79, order: 7 },
-  { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Yogurt", ordenes: 34, gmv: 1739, pct_sellup: 2.40, order: 8 }
+  { deal_id: "VIRAL_DEAL_LALA_210526", subcategoria: "Yogurt", ordenes: 34, gmv: 1739, pct_sellup: 2.40, order: 8 },
+  // Madrileña 220526
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Cervezas", ordenes: 98, gmv: 14696, pct_sellup: 6.18, order: 1 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Tequilas", ordenes: 13, gmv: 8615, pct_sellup: 3.62, order: 2 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Snacks salados", ordenes: 97, gmv: 7517, pct_sellup: 3.16, order: 3 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Vino tinto", ordenes: 37, gmv: 6748, pct_sellup: 2.84, order: 4 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Cigarrillos", ordenes: 42, gmv: 6395, pct_sellup: 2.69, order: 5 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Gaseosas", ordenes: 95, gmv: 5184, pct_sellup: 2.18, order: 6 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Frutas", ordenes: 49, gmv: 2952, pct_sellup: 1.24, order: 7 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", subcategoria: "Rones", ordenes: 12, gmv: 2625, pct_sellup: 1.10, order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -5709,5 +5745,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_LALA_210526", sync: "6744", name: "Coca-Cola Original Refresco Pet 600 mL", subcategoria: "Gaseosas", ordenes: 8, pct_deal: 1.26, order: 9 },
   { deal_id: "VIRAL_DEAL_LALA_210526", sync: "81998", name: "Tomate Guaje Saladette", subcategoria: "Frutas", ordenes: 7, pct_deal: 1.11, order: 10 },
   { deal_id: "VIRAL_DEAL_LALA_210526", sync: "75039", name: "Galletas Marinela Barritas Fresa 268g", subcategoria: "Barras de cereal y granola", ordenes: 7, pct_deal: 1.11, order: 11 },
-  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "12227", name: "Ciel Agua Natural Purificada 1 L", subcategoria: "Agua Natural", ordenes: 7, pct_deal: 1.11, order: 12 }
+  { deal_id: "VIRAL_DEAL_LALA_210526", sync: "12227", name: "Ciel Agua Natural Purificada 1 L", subcategoria: "Agua Natural", ordenes: 7, pct_deal: 1.11, order: 12 },
+  // Madrileña 220526
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "4730", name: "Topo Chico Agua Mineral 1500 mL", subcategoria: "Agua Natural Gasificada", ordenes: 24, pct_deal: 3.82, order: 1 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "91927", name: "Panini Sobre con 7 Estampas Fifa World Cup 2026 1 Und", subcategoria: "Otros Bienestar y Ocio", ordenes: 13, pct_deal: 2.07, order: 2 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "8033", name: "Ciel Agua Natural Purificada 10 L", subcategoria: "Agua Natural", ordenes: 12, pct_deal: 1.91, order: 3 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "12376", name: "Ruffles Papas Fritas Onduladas Sabor Queso 185 g", subcategoria: "Snacks salados", ordenes: 11, pct_deal: 1.75, order: 4 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "14693", name: "Aguacate Para Hoy X3", subcategoria: "Frutas", ordenes: 11, pct_deal: 1.75, order: 5 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "13802", name: "Pack Cerveza Bohemia Botella 6 x 355 mL", subcategoria: "Cervezas", ordenes: 10, pct_deal: 1.59, order: 6 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "13818", name: "Topo Chico Agua Mineral 600 mL", subcategoria: "Agua Natural", ordenes: 9, pct_deal: 1.43, order: 7 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "6149", name: "Coca-Cola Refresco Sin Azúcar 600 mL", subcategoria: "Gaseosas", ordenes: 9, pct_deal: 1.43, order: 8 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "74154", name: "Chips Toque Maestro Parmesano 140g", subcategoria: "Snacks salados", ordenes: 9, pct_deal: 1.43, order: 9 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "14156", name: "Hielo Club 5 kg", subcategoria: "Hielo", ordenes: 9, pct_deal: 1.43, order: 10 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "5314", name: "Pack Cerveza Michelob Ultra Light 6 x 355 mL", subcategoria: "Cervezas", ordenes: 9, pct_deal: 1.43, order: 11 },
+  { deal_id: "VIRAL_DEAL_MADRILENA_220526", sync: "14946", name: "Mallas Limón Con Semilla 5 piezas", subcategoria: "Frutas", ordenes: 9, pct_deal: 1.43, order: 12 }
 ];
