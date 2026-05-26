@@ -4193,6 +4193,29 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
     canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
     canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
+  },
+  {
+    deal_id: "VIRAL_DEAL_ELECTROLIFE_240526",
+    post_days: 4, fase: 1,
+    gmv_activacion: 24177, gmv_lw: 12145, gmv_dlw_pct: 99.1, gmv_l4w: 10568, gmv_dl4w_pct: 128.8,
+    usuarios_unicos: 441, usr_lw: 248, usr_dlw_pct: 77.8, usr_l4w: 211, usr_dl4w_pct: 109.0,
+    cr_pct: null, aov: 51.01, aov_lw: 45.49, aov_dlw_pct: 12.1, aov_l4w: 46.56, aov_dl4w_pct: 9.6,
+    unidades_total: 982, und_lw: 488, und_dlw_pct: 101.2, und_l4w: 426.25, und_dl4w_pct: 130.4,
+    ordenes_total: 474, ord_lw: 267, ord_dlw_pct: 77.5, ord_l4w: 227, ord_dl4w_pct: 108.8,
+    impresiones_total: null,
+    so_turbo_mx: 5630892, gmv_categoria: 123248,
+    gmv_cat_lw: 94051, gmv_cat_l4w: 88932,
+    share_deal_cat_pct: 19.62, share_lw_pct: 12.91, share_l4w_pct: 11.88,
+    gmv_basket: 115985, gmv_sellup: 85582, pct_sellup: 73.77,
+    aov_basket: 244.69, aov_deal_post: 51.01,
+    cross_ordenes: 474, cross_skus_distintos: 830,
+    cross_top_producto: "Electrolife Bebida Rehidratante Zero Ponche Frutas 625 mL", cross_top_ordenes: 41, cross_top_pct: 8.65,
+    inv_oos_cierre_viral_avg: 42, inv_oos_post_avg: 42,
+    inv_cov_viral_ap_avg: 58.3, inv_cov_viral_ci_avg: 50.6,
+    inv_cov_post_avg: 50.7, inv_cov_bench_avg: 61.4,
+    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
+    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
+    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
   }
 ];
 
@@ -4520,7 +4543,10 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   // Palmar 230526
   { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "82936", name: "Pack Mixto Hard Seltzer Palmar Sabores Surtidos 8 x 355 mL", ordenes: 80, usuarios: 72, unidades: 99, gmv: 18793, aov: 234.91, impresiones: 4082, cr_pct: 1.76, gmv_dlw_pct: 521.0, gmv_dl4w_pct: 691.8, seg_nuevo: 65, seg_nuevo_pct: 78, seg_reactivado: 10, seg_reactivado_pct: 12, seg_retenido: 8, seg_retenido_pct: 10, stock_viral: 345, stock_post: 720, stock_bench: 229, stock_delta_pct: 214.8, oos_cierre_viral: 17, oos_post: 17, cov_viral_ap: 80.7, cov_viral_ci: 70.2, cov_post: 70.2, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "83702", name: "Tequila Taddel Reposado Cristalino 750 mL", ordenes: 18, usuarios: 16, unidades: 22, gmv: 9100, aov: 505.54, impresiones: 4530, cr_pct: 0.35, gmv_dlw_pct: null, gmv_dl4w_pct: 144.8, seg_nuevo: 16, seg_nuevo_pct: 94, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 1, seg_retenido_pct: 6, stock_viral: 404, stock_post: 1171, stock_bench: 175, stock_delta_pct: 570.1, oos_cierre_viral: 7, oos_post: 7, cov_viral_ap: 88.9, cov_viral_ci: 87.0, cov_post: 87.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
-  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "73551", name: "Ginebra Palmar Frutos Rojos y Rosa Exclusivo 750 mL", ordenes: 19, usuarios: 16, unidades: 19, gmv: 6850, aov: 360.54, impresiones: 1441, cr_pct: 1.11, gmv_dlw_pct: 355.7, gmv_dl4w_pct: 493.2, seg_nuevo: 11, seg_nuevo_pct: 55, seg_reactivado: 3, seg_reactivado_pct: 15, seg_retenido: 6, seg_retenido_pct: 30, stock_viral: 454, stock_post: 1248, stock_bench: 264, stock_delta_pct: 373.6, oos_cierre_viral: 32, oos_post: 31, cov_viral_ap: 60.3, cov_viral_ci: 59.0, cov_post: 60.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "73551", name: "Ginebra Palmar Frutos Rojos y Rosa Exclusivo 750 mL", ordenes: 19, usuarios: 16, unidades: 19, gmv: 6850, aov: 360.54, impresiones: 1441, cr_pct: 1.11, gmv_dlw_pct: 355.7, gmv_dl4w_pct: 493.2, seg_nuevo: 11, seg_nuevo_pct: 55, seg_reactivado: 3, seg_reactivado_pct: 15, seg_retenido: 6, seg_retenido_pct: 30, stock_viral: 454, stock_post: 1248, stock_bench: 264, stock_delta_pct: 373.6, oos_cierre_viral: 32, oos_post: 31, cov_viral_ap: 60.3, cov_viral_ci: 59.0, cov_post: 60.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  // Electrolife 240526
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "12304", name: "Electrolife Bebida Rehidratante Zero Uva 625 mL", ordenes: 307, usuarios: 303, unidades: 547, gmv: 13585, aov: 44.25, impresiones: null, cr_pct: null, gmv_dlw_pct: 77.4, gmv_dl4w_pct: 110.0, seg_nuevo: 229, seg_nuevo_pct: 62, seg_reactivado: 69, seg_reactivado_pct: 19, seg_retenido: 71, seg_retenido_pct: 19, stock_viral: 5946, stock_post: 5741, stock_bench: 4376, stock_delta_pct: 31.2, oos_cierre_viral: 31, oos_post: 30, cov_viral_ap: 68.4, cov_viral_ci: 60.8, cov_post: 62.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "13072", name: "Electrolife Bebida Rehidratante Zero Fresa Kiwi 625 mL", ordenes: 244, usuarios: 212, unidades: 435, gmv: 10591, aov: 43.41, impresiones: null, cr_pct: null, gmv_dlw_pct: 136.0, gmv_dl4w_pct: 158.4, seg_nuevo: 173, seg_nuevo_pct: 58, seg_reactivado: 45, seg_reactivado_pct: 15, seg_retenido: 79, seg_retenido_pct: 27, stock_viral: 4478, stock_post: 4419, stock_bench: 3522, stock_delta_pct: 25.5, oos_cierre_viral: 53, oos_post: 54, cov_viral_ap: 48.3, cov_viral_ci: 40.4, cov_post: 39.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5061,7 +5087,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Cocteles", ordenes: 1, gmv: 714, pct_sellup: 1.40, order: 5 },
   { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Cigarrillos", ordenes: 4, gmv: 579, pct_sellup: 1.13, order: 6 },
   { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Tequilas", ordenes: 1, gmv: 575, pct_sellup: 1.13, order: 7 },
-  { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Agua saborizada", ordenes: 5, gmv: 533, pct_sellup: 1.04, order: 8 }
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", subcategoria: "Agua saborizada", ordenes: 5, gmv: 533, pct_sellup: 1.04, order: 8 },
+  // Electrolife 240526
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Snacks salados", ordenes: 91, gmv: 7548, pct_sellup: 6.51, order: 1 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Cervezas", ordenes: 48, gmv: 6591, pct_sellup: 5.68, order: 2 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Gaseosas", ordenes: 92, gmv: 5439, pct_sellup: 4.69, order: 3 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Agua Natural", ordenes: 73, gmv: 4346, pct_sellup: 3.75, order: 4 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Cigarrillos", ordenes: 26, gmv: 3919, pct_sellup: 3.38, order: 5 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Frutas", ordenes: 65, gmv: 2918, pct_sellup: 2.52, order: 6 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Deportes", ordenes: 2, gmv: 2599, pct_sellup: 2.24, order: 7 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Chocolates", ordenes: 36, gmv: 2341, pct_sellup: 2.02, order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -5831,5 +5866,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "12376", name: "Ruffles Papas Fritas Onduladas Sabor Queso 185 g", subcategoria: "Snacks salados", ordenes: 3, pct_deal: 2.63, order: 9 },
   { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "12009", name: "Schweppes Pack Agua Tónica x 296 mL", subcategoria: "Gaseosas", ordenes: 3, pct_deal: 2.63, order: 10 },
   { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "10280", name: "KLYR Bolsa con hielo cubo gourmet 5 kg", subcategoria: "Hielo", ordenes: 3, pct_deal: 2.63, order: 11 },
-  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "6149", name: "Coca-Cola Refresco Sin Azúcar 600 mL", subcategoria: "Gaseosas", ordenes: 2, pct_deal: 1.75, order: 12 }
+  { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "6149", name: "Coca-Cola Refresco Sin Azúcar 600 mL", subcategoria: "Gaseosas", ordenes: 2, pct_deal: 1.75, order: 12 },
+  // Electrolife 240526
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "74953", name: "Electrolife Bebida Rehidratante Zero Ponche Frutas 625 mL", subcategoria: "Suero", ordenes: 41, pct_deal: 8.65, order: 1 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "5898", name: "Electrolit Suero Rehidratante Sabor Lima-Limón 625 mL", subcategoria: "Suero", ordenes: 24, pct_deal: 5.06, order: 2 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "81993", name: "Plátano Chiapas", subcategoria: "Frutas", ordenes: 18, pct_deal: 3.80, order: 3 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "5896", name: "Electrolit Suero Rehidratante Sabor Mora Azul 625 mL", subcategoria: "Suero", ordenes: 17, pct_deal: 3.59, order: 4 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "9103", name: "Electrolit Suero Rehidratante Sabor Fresa Kiwi 625 mL", subcategoria: "Suero", ordenes: 17, pct_deal: 3.59, order: 5 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "14946", name: "Mallas Limón Con Semilla 5 piezas", subcategoria: "Frutas", ordenes: 13, pct_deal: 2.74, order: 6 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "6149", name: "Coca-Cola Refresco Sin Azúcar 600 mL", subcategoria: "Gaseosas", ordenes: 12, pct_deal: 2.53, order: 7 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "8033", name: "Ciel Agua Natural Purificada 10 L", subcategoria: "Agua Natural", ordenes: 12, pct_deal: 2.53, order: 8 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "15327", name: "Doritos Nacho 146 g", subcategoria: "Snacks salados", ordenes: 11, pct_deal: 2.32, order: 9 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "5314", name: "Pack Cerveza Michelob Ultra Light 6 x 355 mL", subcategoria: "Cervezas", ordenes: 11, pct_deal: 2.32, order: 10 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "6744", name: "Coca-Cola Original Refresco Pet 600 mL", subcategoria: "Gaseosas", ordenes: 11, pct_deal: 2.32, order: 11 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "13818", name: "Topo Chico Agua Mineral 600 mL", subcategoria: "Agua Natural", ordenes: 11, pct_deal: 2.32, order: 12 }
 ];
