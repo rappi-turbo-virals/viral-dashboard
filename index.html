@@ -591,9 +591,9 @@
     }
 
     .calendar-event.on-hold {
-      background: #EDE7F6;
-      color: #7C4DFF;
-      border-left: 3px solid #7C4DFF;
+      background: #FFEBEE;
+      color: #C62828;
+      border-left: 3px solid #C62828;
     }
 
     .calendar-legend {
@@ -620,7 +620,7 @@
     .cal-dot-future { background: #E6F9ED; border-left: 3px solid var(--green); }
     .cal-dot-past { background: #E3F2FD; border-left: 3px solid #1565C0; }
     .cal-dot-forecast { background: #FFF8E1; border-left: 3px solid #F9A825; }
-    .cal-dot-onhold { background: #EDE7F6; border-left: 3px solid #7C4DFF; }
+    .cal-dot-onhold { background: #FFEBEE; border-left: 3px solid #C62828; }
 
     /* Calendar expand panel */
     #cal-expand-detail {
@@ -786,8 +786,8 @@
       align-items: center;
       padding: 8px 16px;
       border-radius: 20px;
-      background: #EDE7F6;
-      color: #7C4DFF;
+      background: #FFEBEE;
+      color: #C62828;
       font-size: 14px;
       font-weight: 700;
     }
@@ -912,7 +912,7 @@
         <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-future"></div>Futuro</div>
         <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-past"></div>Pasado</div>
         <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-forecast"></div>Forecast</div>
-        <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-onhold"></div>On Hold</div>
+        <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-onhold"></div>Cancelado</div>
       </div>
       <div class="calendar-nav">
         <select id="filter-canal" class="cal-filter-select">
@@ -1561,7 +1561,7 @@
         if (d.tipo_viral === 'forecast') {
           type = 'forecast'; // amarillo
         } else if (d.tipo_viral === 'on-hold') {
-          type = 'on-hold'; // morado
+          type = 'on-hold'; // rojo — cancelado
         } else if (execDate.getTime() === todayDate.getTime()) {
           type = 'exec'; // hoy — coral
         } else if (execDate > todayDate) {
@@ -1683,9 +1683,12 @@
       }
 
       if (isOnHold) {
-        // ON HOLD viral — minimal panel morado
+        // CANCELADO viral — panel rojo con info de previral visible
+        const skuDetail = PREVIRAL_SKU_DETAIL.filter(s => s.deal_id === deal.deal_id);
+        const totalBudget = skuDetail.reduce((s, r) => s + (r.final_budget_mxn || 0), 0);
+        const totalUnits = skuDetail.reduce((s, r) => s + (r.real_units || 0), 0);
         container.innerHTML = `
-          <div class="cal-expand-panel" style="border-top-color:#7C4DFF;">
+          <div class="cal-expand-panel" style="border-top-color:#C62828;">
             <div class="cal-expand-header">
               <div>
                 <h3>${deal.maker_name}</h3>
@@ -1693,8 +1696,16 @@
               </div>
               <button class="cal-expand-close" id="cal-expand-close">&times;</button>
             </div>
-            <div class="cal-onhold-badge">On Hold</div>
-            <div style="margin-top:12px;color:var(--gray-text);font-size:13px;">Este viral está on hold. La fecha y parámetros pueden cambiar.</div>
+            <div class="cal-onhold-badge">Cancelado</div>
+            <div style="margin-top:12px;color:var(--gray-text);font-size:13px;">Este viral fue cancelado. La información de planeación se conserva como referencia.</div>
+            <div style="margin-top:16px;">
+              <div class="kpi-grid" style="opacity:0.7;">
+                <div class="kpi-card"><div class="label">Budget Total</div><div class="value">$${totalBudget >= 1000000 ? (totalBudget/1000000).toFixed(2) + 'M' : (totalBudget/1000).toFixed(0) + 'k'}</div></div>
+                <div class="kpi-card"><div class="label">SKUs</div><div class="value">${skuDetail.length}</div></div>
+                <div class="kpi-card"><div class="label">Unidades Plan</div><div class="value">${totalUnits.toLocaleString()}</div></div>
+                <div class="kpi-card"><div class="label">Descuento</div><div class="value">${deal.descuento_pct || '-'}%</div></div>
+              </div>
+            </div>
           </div>
         `;
 
