@@ -1683,29 +1683,48 @@
       }
 
       if (isOnHold) {
-        // CANCELADO viral — panel rojo con info de previral visible
+        // CANCELADO viral — mismo display que previral normal + badge cancelado
         const skuDetail = PREVIRAL_SKU_DETAIL.filter(s => s.deal_id === deal.deal_id);
-        const totalBudget = skuDetail.reduce((s, r) => s + (r.final_budget_mxn || 0), 0);
-        const totalUnits = skuDetail.reduce((s, r) => s + (r.real_units || 0), 0);
+        const skuRows = skuDetail.map(s => `
+          <tr>
+            <td>${s.name}</td>
+            <td>${s.sync}</td>
+            <td>${s.ean}</td>
+            <td>${s.pid}</td>
+            <td>${s.subcategoria}</td>
+          </tr>
+        `).join('');
+
         container.innerHTML = `
           <div class="cal-expand-panel" style="border-top-color:#C62828;">
             <div class="cal-expand-header">
               <div>
                 <h3>${deal.maker_name}</h3>
-                <span style="color:var(--gray-text);font-size:13px;">${deal.fecha_ejecucion}${deal.fecha_fin ? ' → ' + deal.fecha_fin : ''} · ${deal.business_unit} · ${deal.ciudades}</span>
+                <div class="meta">
+                  <span class="badge badge-coral">${deal.descuento_pct}% OFF</span>
+                  <span class="badge badge-gray">${deal.tipo_viral}</span>
+                  <span>${deal.ciudades}</span>
+                  <span>${deal.categoria_display}</span>
+                  <span>Planeación: ${deal.fecha_planeacion}</span>
+                </div>
               </div>
               <button class="cal-expand-close" id="cal-expand-close">&times;</button>
             </div>
             <div class="cal-onhold-badge">Cancelado</div>
-            <div style="margin-top:12px;color:var(--gray-text);font-size:13px;">Este viral fue cancelado. La información de planeación se conserva como referencia.</div>
-            <div style="margin-top:16px;">
-              <div class="kpi-grid" style="opacity:0.7;">
-                <div class="kpi-card"><div class="label">Budget Total</div><div class="value">$${totalBudget >= 1000000 ? (totalBudget/1000000).toFixed(2) + 'M' : (totalBudget/1000).toFixed(0) + 'k'}</div></div>
-                <div class="kpi-card"><div class="label">SKUs</div><div class="value">${skuDetail.length}</div></div>
-                <div class="kpi-card"><div class="label">Unidades Plan</div><div class="value">${totalUnits.toLocaleString()}</div></div>
-                <div class="kpi-card"><div class="label">Descuento</div><div class="value">${deal.descuento_pct || '-'}%</div></div>
-              </div>
+            <div style="margin-top:8px;color:var(--gray-text);font-size:13px;">Este viral fue cancelado. La información de planeación se conserva como referencia.</div>
+            <div class="cal-budget-compact" style="margin-top:16px;">
+              <span><strong>Budget Total:</strong> ${fmtMXN(deal.budget_total_mxn)}</span>
+              <span><strong>Maker:</strong> ${fmtMXN(deal.budget_maker_mxn)}</span>
+              <span><strong>Growth:</strong> ${fmtMXN(deal.budget_growth_mxn)}</span>
             </div>
+            <div class="sub-title">SKUs (${skuDetail.length})</div>
+            <div class="table-wrapper">
+              <table>
+                <thead><tr><th>SKU</th><th>Sync</th><th>EAN</th><th>PID</th><th>Subcategoria</th></tr></thead>
+                <tbody>${skuRows}</tbody>
+              </table>
+            </div>
+            <button class="cal-expand-link" onclick="navigateTo('detalle','${deal.deal_id}')" style="margin-top:16px;">Ver detalle completo &rarr;</button>
           </div>
         `;
 
