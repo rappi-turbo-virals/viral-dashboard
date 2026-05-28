@@ -4216,6 +4216,29 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: 561, canib_ord_bench: 620.25, canib_ord_delta_pct: -9.6,
     canib_und_post: 1274, canib_und_bench: 1324, canib_und_delta_pct: -3.8,
     canib_cli_post: 619, canib_cli_bench: 607.75, canib_cli_delta_pct: 1.9
+  },
+  {
+    deal_id: "VIRAL_DEAL_GRANEL_260526",
+    post_days: 4, fase: 1,
+    gmv_activacion: 39893, gmv_lw: 2289, gmv_dlw_pct: 1643.0, gmv_l4w: 2499, gmv_dl4w_pct: 1496.7,
+    usuarios_unicos: 463, usr_lw: 58, usr_dlw_pct: 698.3, usr_l4w: 67.75, usr_dl4w_pct: 583.4,
+    cr_pct: null, aov: 90.05, aov_lw: 39.46, aov_dlw_pct: 128.2, aov_l4w: 40.30, aov_dl4w_pct: 123.4,
+    unidades_total: 1581, und_lw: 85, und_dlw_pct: 1760.0, und_l4w: 96, und_dl4w_pct: 1546.9,
+    ordenes_total: 443, ord_lw: 58, ord_dlw_pct: 663.8, ord_l4w: 62, ord_dl4w_pct: 614.5,
+    impresiones_total: null,
+    so_turbo_mx: 5441644, gmv_categoria: 62805,
+    gmv_cat_lw: 30771, gmv_cat_l4w: 29279,
+    share_deal_cat_pct: 63.52, share_lw_pct: 7.44, share_l4w_pct: 8.53,
+    gmv_basket: 168303, gmv_sellup: 134522, pct_sellup: 79.93,
+    aov_basket: 379.92, aov_deal_post: 90.05,
+    cross_ordenes: 443, cross_skus_distintos: 1036,
+    cross_top_producto: "Platano Chiapas para hoy", cross_top_ordenes: 44, cross_top_pct: 9.93,
+    inv_oos_cierre_viral_avg: 11, inv_oos_post_avg: 11,
+    inv_cov_viral_ap_avg: 59.5, inv_cov_viral_ci_avg: 43.6,
+    inv_cov_post_avg: 44.5, inv_cov_bench_avg: 63.5,
+    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
+    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
+    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
   }
 ];
 
@@ -4546,7 +4569,13 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "73551", name: "Ginebra Palmar Frutos Rojos y Rosa Exclusivo 750 mL", ordenes: 19, usuarios: 16, unidades: 19, gmv: 6850, aov: 360.54, impresiones: 1441, cr_pct: 1.11, gmv_dlw_pct: 355.7, gmv_dl4w_pct: 493.2, seg_nuevo: 11, seg_nuevo_pct: 55, seg_reactivado: 3, seg_reactivado_pct: 15, seg_retenido: 6, seg_retenido_pct: 30, stock_viral: 454, stock_post: 1248, stock_bench: 264, stock_delta_pct: 373.6, oos_cierre_viral: 32, oos_post: 31, cov_viral_ap: 60.3, cov_viral_ci: 59.0, cov_post: 60.3, canib_ord_post: 12, canib_ord_bench: 3.5, canib_ord_delta_pct: 242.9, canib_und_post: 18, canib_und_bench: 5.25, canib_und_delta_pct: 242.9, canib_cli_post: 11, canib_cli_bench: 4.75, canib_cli_delta_pct: 131.6 },
   // Electrolife 240526
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "12304", name: "Electrolife Bebida Rehidratante Zero Uva 625 mL", ordenes: 307, usuarios: 303, unidades: 547, gmv: 13585, aov: 44.25, impresiones: null, cr_pct: null, gmv_dlw_pct: 77.4, gmv_dl4w_pct: 110.0, seg_nuevo: 229, seg_nuevo_pct: 62, seg_reactivado: 69, seg_reactivado_pct: 19, seg_retenido: 71, seg_retenido_pct: 19, stock_viral: 5946, stock_post: 5741, stock_bench: 4376, stock_delta_pct: 31.2, oos_cierre_viral: 31, oos_post: 30, cov_viral_ap: 68.4, cov_viral_ci: 60.8, cov_post: 62.0, canib_ord_post: 313, canib_ord_bench: 363.50, canib_ord_delta_pct: -13.9, canib_und_post: 712, canib_und_bench: 781, canib_und_delta_pct: -8.8, canib_cli_post: 364, canib_cli_bench: 354.50, canib_cli_delta_pct: 2.7 },
-  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "13072", name: "Electrolife Bebida Rehidratante Zero Fresa Kiwi 625 mL", ordenes: 244, usuarios: 212, unidades: 435, gmv: 10591, aov: 43.41, impresiones: null, cr_pct: null, gmv_dlw_pct: 136.0, gmv_dl4w_pct: 158.4, seg_nuevo: 173, seg_nuevo_pct: 58, seg_reactivado: 45, seg_reactivado_pct: 15, seg_retenido: 79, seg_retenido_pct: 27, stock_viral: 4478, stock_post: 4419, stock_bench: 3522, stock_delta_pct: 25.5, oos_cierre_viral: 53, oos_post: 54, cov_viral_ap: 48.3, cov_viral_ci: 40.4, cov_post: 39.3, canib_ord_post: 248, canib_ord_bench: 256.75, canib_ord_delta_pct: -3.4, canib_und_post: 562, canib_und_bench: 543, canib_und_delta_pct: 3.5, canib_cli_post: 255, canib_cli_bench: 253.25, canib_cli_delta_pct: 0.7 }
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "13072", name: "Electrolife Bebida Rehidratante Zero Fresa Kiwi 625 mL", ordenes: 244, usuarios: 212, unidades: 435, gmv: 10591, aov: 43.41, impresiones: null, cr_pct: null, gmv_dlw_pct: 136.0, gmv_dl4w_pct: 158.4, seg_nuevo: 173, seg_nuevo_pct: 58, seg_reactivado: 45, seg_reactivado_pct: 15, seg_retenido: 79, seg_retenido_pct: 27, stock_viral: 4478, stock_post: 4419, stock_bench: 3522, stock_delta_pct: 25.5, oos_cierre_viral: 53, oos_post: 54, cov_viral_ap: 48.3, cov_viral_ci: 40.4, cov_post: 39.3, canib_ord_post: 248, canib_ord_bench: 256.75, canib_ord_delta_pct: -3.4, canib_und_post: 562, canib_und_bench: 543, canib_und_delta_pct: 3.5, canib_cli_post: 255, canib_cli_bench: 253.25, canib_cli_delta_pct: 0.7 },
+  // Granel 260526
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "86777", name: "Cacahuate Japonés 200 g", ordenes: 197, usuarios: 225, unidades: 382, gmv: 9495, aov: 48.2, impresiones: null, cr_pct: null, gmv_dlw_pct: 1720.1, gmv_dl4w_pct: 1869.5, seg_nuevo: 167, seg_nuevo_pct: 86, seg_reactivado: 14, seg_reactivado_pct: 7, seg_retenido: 19, seg_retenido_pct: 10, stock_viral: 276, stock_post: 251, stock_bench: 145, stock_delta_pct: 73.1, oos_cierre_viral: 8, oos_post: 7, cov_viral_ap: 54.5, cov_viral_ci: 47.7, cov_post: 50.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "86776", name: "Cacahuate Español Salado 200 g", ordenes: 173, usuarios: 192, unidades: 316, gmv: 9098, aov: 52.59, impresiones: null, cr_pct: null, gmv_dlw_pct: 1428.7, gmv_dl4w_pct: 1592.4, seg_nuevo: 149, seg_nuevo_pct: 87, seg_reactivado: 8, seg_reactivado_pct: 5, seg_retenido: 19, seg_retenido_pct: 11, stock_viral: 193, stock_post: 184, stock_bench: 133, stock_delta_pct: 38.3, oos_cierre_viral: 7, oos_post: 7, cov_viral_ap: 56.8, cov_viral_ci: 50.0, cov_post: 50.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "86761", name: "Cacahuate Japones Enchilado 200 g", ordenes: 162, usuarios: 174, unidades: 284, gmv: 8355, aov: 51.57, impresiones: null, cr_pct: null, gmv_dlw_pct: 1754.4, gmv_dl4w_pct: 1349.3, seg_nuevo: 141, seg_nuevo_pct: 88, seg_reactivado: 7, seg_reactivado_pct: 4, seg_retenido: 16, seg_retenido_pct: 10, stock_viral: 130, stock_post: 128, stock_bench: 113, stock_delta_pct: 13.3, oos_cierre_viral: 12, oos_post: 12, cov_viral_ap: 54.5, cov_viral_ci: 38.6, cov_post: 38.6, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "86754", name: "Cacahuate Enchilado 200 g", ordenes: 145, usuarios: 156, unidades: 252, gmv: 7237, aov: 49.91, impresiones: null, cr_pct: null, gmv_dlw_pct: 1269.7, gmv_dl4w_pct: 1851.4, seg_nuevo: 125, seg_nuevo_pct: 87, seg_reactivado: 8, seg_reactivado_pct: 6, seg_retenido: 12, seg_retenido_pct: 8, stock_viral: 214, stock_post: 203, stock_bench: 137, stock_delta_pct: 48.2, oos_cierre_viral: 9, oos_post: 8, cov_viral_ap: 59.1, cov_viral_ci: 45.5, cov_post: 47.7, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "83016", name: "Cacahuate Sin Sal 200 g", ordenes: 160, usuarios: 165, unidades: 347, gmv: 5710, aov: 35.69, impresiones: null, cr_pct: null, gmv_dlw_pct: 2856.4, gmv_dl4w_pct: 974.0, seg_nuevo: 119, seg_nuevo_pct: 76, seg_reactivado: 15, seg_reactivado_pct: 10, seg_retenido: 28, seg_retenido_pct: 18, stock_viral: 125, stock_post: 146, stock_bench: 167, stock_delta_pct: -12.6, oos_cierre_viral: 20, oos_post: 20, cov_viral_ap: 72.7, cov_viral_ci: 36.4, cov_post: 36.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5096,7 +5125,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Cigarrillos", ordenes: 26, gmv: 3919, pct_sellup: 3.38, order: 5 },
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Frutas", ordenes: 65, gmv: 2918, pct_sellup: 2.52, order: 6 },
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Deportes", ordenes: 2, gmv: 2599, pct_sellup: 2.24, order: 7 },
-  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Chocolates", ordenes: 36, gmv: 2341, pct_sellup: 2.02, order: 8 }
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", subcategoria: "Chocolates", ordenes: 36, gmv: 2341, pct_sellup: 2.02, order: 8 },
+  // Granel 260526
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Snacks salados", ordenes: 107, gmv: 8552, pct_sellup: 6.36, order: 1 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Frutas", ordenes: 139, gmv: 8513, pct_sellup: 6.33, order: 2 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Gaseosas", ordenes: 118, gmv: 5994, pct_sellup: 4.46, order: 3 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Cervezas", ordenes: 39, gmv: 5919, pct_sellup: 4.40, order: 4 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Yogurt", ordenes: 59, gmv: 5620, pct_sellup: 4.18, order: 5 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Frutos secos y semillas", ordenes: 88, gmv: 5455, pct_sellup: 4.06, order: 6 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Quesos semiduros", ordenes: 34, gmv: 3583, pct_sellup: 2.66, order: 7 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Chocolates", ordenes: 40, gmv: 3403, pct_sellup: 2.53, order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -5879,5 +5917,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "15327", name: "Doritos Nacho 146 g", subcategoria: "Snacks salados", ordenes: 11, pct_deal: 2.32, order: 9 },
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "5314", name: "Pack Cerveza Michelob Ultra Light 6 x 355 mL", subcategoria: "Cervezas", ordenes: 11, pct_deal: 2.32, order: 10 },
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "6744", name: "Coca-Cola Original Refresco Pet 600 mL", subcategoria: "Gaseosas", ordenes: 11, pct_deal: 2.32, order: 11 },
-  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "13818", name: "Topo Chico Agua Mineral 600 mL", subcategoria: "Agua Natural", ordenes: 11, pct_deal: 2.32, order: 12 }
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "13818", name: "Topo Chico Agua Mineral 600 mL", subcategoria: "Agua Natural", ordenes: 11, pct_deal: 2.32, order: 12 },
+  // Granel 260526
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "81993", name: "Platano Chiapas para hoy", subcategoria: "Frutas", ordenes: 44, pct_deal: 9.93, order: 1 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "14946", name: "Mallas Limón Con Semilla 5 piezas", subcategoria: "Frutas", ordenes: 27, pct_deal: 6.09, order: 2 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "14693", name: "Aguacate para hoy 3 pzas", subcategoria: "Frutas", ordenes: 24, pct_deal: 5.42, order: 3 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "82057", name: "Pepino", subcategoria: "Frutas", ordenes: 20, pct_deal: 4.51, order: 4 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "81998", name: "Tomate Guaje Saladette", subcategoria: "Frutas", ordenes: 18, pct_deal: 4.06, order: 5 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "14375", name: "Limon Sin Semilla Malla", subcategoria: "Frutas", ordenes: 15, pct_deal: 3.39, order: 6 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "82060", name: "Zanahoria", subcategoria: "Frutas", ordenes: 15, pct_deal: 3.39, order: 7 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "12302", name: "Kinder Chocolate Con Relleno a Base de Leche 50 g", subcategoria: "Chocolates", ordenes: 14, pct_deal: 3.16, order: 8 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "11206", name: "Ciel Pack Agua Natura 6 x 1 L", subcategoria: "Agua Natural", ordenes: 13, pct_deal: 2.93, order: 9 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "6149", name: "Coca-Cola Refresco Sin Azúcar 600 mL", subcategoria: "Gaseosas", ordenes: 12, pct_deal: 2.71, order: 10 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "72931", name: "Mango Ataulfo para hoy", subcategoria: "Frutas", ordenes: 12, pct_deal: 2.71, order: 11 },
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "13655", name: "Bove Queso Oaxaca Organico 400 g", subcategoria: "Quesos semiduros", ordenes: 12, pct_deal: 2.71, order: 12 }
 ];
