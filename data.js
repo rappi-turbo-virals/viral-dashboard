@@ -4196,7 +4196,7 @@ const POSTMORTEM_DEALS = [
   },
   {
     deal_id: "VIRAL_DEAL_ELECTROLIFE_240526",
-    post_days: 4, fase: 1,
+    post_days: 4, fase: 2,
     gmv_activacion: 24177, gmv_lw: 12145, gmv_dlw_pct: 99.1, gmv_l4w: 10568, gmv_dl4w_pct: 128.8,
     usuarios_unicos: 441, usr_lw: 248, usr_dlw_pct: 77.8, usr_l4w: 211, usr_dl4w_pct: 109.0,
     cr_pct: null, aov: 51.01, aov_lw: 45.49, aov_dlw_pct: 12.1, aov_l4w: 46.56, aov_dl4w_pct: 9.6,
@@ -4213,9 +4213,9 @@ const POSTMORTEM_DEALS = [
     inv_oos_cierre_viral_avg: 42, inv_oos_post_avg: 42,
     inv_cov_viral_ap_avg: 58.3, inv_cov_viral_ci_avg: 50.6,
     inv_cov_post_avg: 50.7, inv_cov_bench_avg: 61.4,
-    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
-    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
-    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
+    canib_ord_post: 561, canib_ord_bench: 620.25, canib_ord_delta_pct: -9.6,
+    canib_und_post: 1274, canib_und_bench: 1324, canib_und_delta_pct: -3.8,
+    canib_cli_post: 619, canib_cli_bench: 607.75, canib_cli_delta_pct: 1.9
   }
 ];
 
@@ -4545,8 +4545,8 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "83702", name: "Tequila Taddel Reposado Cristalino 750 mL", ordenes: 18, usuarios: 16, unidades: 22, gmv: 9100, aov: 505.54, impresiones: 4530, cr_pct: 0.35, gmv_dlw_pct: null, gmv_dl4w_pct: 144.8, seg_nuevo: 16, seg_nuevo_pct: 94, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 1, seg_retenido_pct: 6, stock_viral: 404, stock_post: 1171, stock_bench: 175, stock_delta_pct: 570.1, oos_cierre_viral: 7, oos_post: 7, cov_viral_ap: 88.9, cov_viral_ci: 87.0, cov_post: 87.0, canib_ord_post: 12, canib_ord_bench: 5.5, canib_ord_delta_pct: 118.2, canib_und_post: 24, canib_und_bench: 6.25, canib_und_delta_pct: 284.0, canib_cli_post: 15, canib_cli_bench: 3.25, canib_cli_delta_pct: 361.5 },
   { deal_id: "VIRAL_DEAL_PALMAR_230526", sync: "73551", name: "Ginebra Palmar Frutos Rojos y Rosa Exclusivo 750 mL", ordenes: 19, usuarios: 16, unidades: 19, gmv: 6850, aov: 360.54, impresiones: 1441, cr_pct: 1.11, gmv_dlw_pct: 355.7, gmv_dl4w_pct: 493.2, seg_nuevo: 11, seg_nuevo_pct: 55, seg_reactivado: 3, seg_reactivado_pct: 15, seg_retenido: 6, seg_retenido_pct: 30, stock_viral: 454, stock_post: 1248, stock_bench: 264, stock_delta_pct: 373.6, oos_cierre_viral: 32, oos_post: 31, cov_viral_ap: 60.3, cov_viral_ci: 59.0, cov_post: 60.3, canib_ord_post: 12, canib_ord_bench: 3.5, canib_ord_delta_pct: 242.9, canib_und_post: 18, canib_und_bench: 5.25, canib_und_delta_pct: 242.9, canib_cli_post: 11, canib_cli_bench: 4.75, canib_cli_delta_pct: 131.6 },
   // Electrolife 240526
-  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "12304", name: "Electrolife Bebida Rehidratante Zero Uva 625 mL", ordenes: 307, usuarios: 303, unidades: 547, gmv: 13585, aov: 44.25, impresiones: null, cr_pct: null, gmv_dlw_pct: 77.4, gmv_dl4w_pct: 110.0, seg_nuevo: 229, seg_nuevo_pct: 62, seg_reactivado: 69, seg_reactivado_pct: 19, seg_retenido: 71, seg_retenido_pct: 19, stock_viral: 5946, stock_post: 5741, stock_bench: 4376, stock_delta_pct: 31.2, oos_cierre_viral: 31, oos_post: 30, cov_viral_ap: 68.4, cov_viral_ci: 60.8, cov_post: 62.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
-  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "13072", name: "Electrolife Bebida Rehidratante Zero Fresa Kiwi 625 mL", ordenes: 244, usuarios: 212, unidades: 435, gmv: 10591, aov: 43.41, impresiones: null, cr_pct: null, gmv_dlw_pct: 136.0, gmv_dl4w_pct: 158.4, seg_nuevo: 173, seg_nuevo_pct: 58, seg_reactivado: 45, seg_reactivado_pct: 15, seg_retenido: 79, seg_retenido_pct: 27, stock_viral: 4478, stock_post: 4419, stock_bench: 3522, stock_delta_pct: 25.5, oos_cierre_viral: 53, oos_post: 54, cov_viral_ap: 48.3, cov_viral_ci: 40.4, cov_post: 39.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "12304", name: "Electrolife Bebida Rehidratante Zero Uva 625 mL", ordenes: 307, usuarios: 303, unidades: 547, gmv: 13585, aov: 44.25, impresiones: null, cr_pct: null, gmv_dlw_pct: 77.4, gmv_dl4w_pct: 110.0, seg_nuevo: 229, seg_nuevo_pct: 62, seg_reactivado: 69, seg_reactivado_pct: 19, seg_retenido: 71, seg_retenido_pct: 19, stock_viral: 5946, stock_post: 5741, stock_bench: 4376, stock_delta_pct: 31.2, oos_cierre_viral: 31, oos_post: 30, cov_viral_ap: 68.4, cov_viral_ci: 60.8, cov_post: 62.0, canib_ord_post: 313, canib_ord_bench: 363.50, canib_ord_delta_pct: -13.9, canib_und_post: 712, canib_und_bench: 781, canib_und_delta_pct: -8.8, canib_cli_post: 364, canib_cli_bench: 354.50, canib_cli_delta_pct: 2.7 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_240526", sync: "13072", name: "Electrolife Bebida Rehidratante Zero Fresa Kiwi 625 mL", ordenes: 244, usuarios: 212, unidades: 435, gmv: 10591, aov: 43.41, impresiones: null, cr_pct: null, gmv_dlw_pct: 136.0, gmv_dl4w_pct: 158.4, seg_nuevo: 173, seg_nuevo_pct: 58, seg_reactivado: 45, seg_reactivado_pct: 15, seg_retenido: 79, seg_retenido_pct: 27, stock_viral: 4478, stock_post: 4419, stock_bench: 3522, stock_delta_pct: 25.5, oos_cierre_viral: 53, oos_post: 54, cov_viral_ap: 48.3, cov_viral_ci: 40.4, cov_post: 39.3, canib_ord_post: 248, canib_ord_bench: 256.75, canib_ord_delta_pct: -3.4, canib_und_post: 562, canib_und_bench: 543, canib_und_delta_pct: 3.5, canib_cli_post: 255, canib_cli_bench: 253.25, canib_cli_delta_pct: 0.7 }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
