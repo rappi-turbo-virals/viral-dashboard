@@ -4239,6 +4239,36 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
     canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
     canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
+  },
+  // Lala 270526
+  {
+    deal_id: "VIRAL_DEAL_LALA_270526",
+    post_days: 4,
+    fase: 1,
+    gmv_activacion: 57744,
+    gmv_lw: 10021, gmv_dlw_pct: 476.2,
+    gmv_l4w: 5856, gmv_dl4w_pct: 886.1,
+    usuarios_unicos: 320,
+    usr_lw: 118, usr_dlw_pct: 171.2,
+    usr_l4w: 68.83, usr_dl4w_pct: 364.9,
+    cr_pct: 4.22,
+    aov: 161.30, aov_lw: 74.23, aov_dlw_pct: 117.3, aov_l4w: 78.08, aov_dl4w_pct: 106.6,
+    unidades_total: 1255, und_lw: 208, und_dlw_pct: 503.4, und_l4w: 125.58, und_dl4w_pct: 899.4,
+    ordenes_total: 358, ord_lw: 135, ord_dlw_pct: 165.2, ord_l4w: 75, ord_dl4w_pct: 377.3,
+    impresiones_total: 7581,
+    so_turbo_mx: 4234785, gmv_categoria: 126657,
+    gmv_cat_lw: 76385, gmv_cat_l4w: 77257,
+    share_deal_cat_pct: 49.21, share_lw_pct: 18.07, share_l4w_pct: 13.60,
+    gmv_basket: 95578, gmv_sellup: 37834, pct_sellup: 39.58,
+    aov_basket: 266.98, aov_deal_post: 161.30,
+    cross_ordenes: 358, cross_skus_distintos: 446,
+    cross_top_producto: "Platano Chiapas para hoy", cross_top_ordenes: 17, cross_top_pct: 4.75,
+    inv_oos_cierre_viral_avg: 47, inv_oos_post_avg: 40,
+    inv_cov_viral_ap_avg: 44.9, inv_cov_viral_ci_avg: 19.0,
+    inv_cov_post_avg: 32.0, inv_cov_bench_avg: 25.2,
+    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
+    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
+    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
   }
 ];
 
@@ -4575,7 +4605,10 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "86776", name: "Cacahuate Español Salado 200 g", ordenes: 173, usuarios: 192, unidades: 316, gmv: 9098, aov: 52.59, impresiones: null, cr_pct: null, gmv_dlw_pct: 1428.7, gmv_dl4w_pct: 1592.4, seg_nuevo: 149, seg_nuevo_pct: 87, seg_reactivado: 8, seg_reactivado_pct: 5, seg_retenido: 19, seg_retenido_pct: 11, stock_viral: 193, stock_post: 184, stock_bench: 133, stock_delta_pct: 38.3, oos_cierre_viral: 7, oos_post: 7, cov_viral_ap: 56.8, cov_viral_ci: 50.0, cov_post: 50.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "86761", name: "Cacahuate Japones Enchilado 200 g", ordenes: 162, usuarios: 174, unidades: 284, gmv: 8355, aov: 51.57, impresiones: null, cr_pct: null, gmv_dlw_pct: 1754.4, gmv_dl4w_pct: 1349.3, seg_nuevo: 141, seg_nuevo_pct: 88, seg_reactivado: 7, seg_reactivado_pct: 4, seg_retenido: 16, seg_retenido_pct: 10, stock_viral: 130, stock_post: 128, stock_bench: 113, stock_delta_pct: 13.3, oos_cierre_viral: 12, oos_post: 12, cov_viral_ap: 54.5, cov_viral_ci: 38.6, cov_post: 38.6, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "86754", name: "Cacahuate Enchilado 200 g", ordenes: 145, usuarios: 156, unidades: 252, gmv: 7237, aov: 49.91, impresiones: null, cr_pct: null, gmv_dlw_pct: 1269.7, gmv_dl4w_pct: 1851.4, seg_nuevo: 125, seg_nuevo_pct: 87, seg_reactivado: 8, seg_reactivado_pct: 6, seg_retenido: 12, seg_retenido_pct: 8, stock_viral: 214, stock_post: 203, stock_bench: 137, stock_delta_pct: 48.2, oos_cierre_viral: 9, oos_post: 8, cov_viral_ap: 59.1, cov_viral_ci: 45.5, cov_post: 47.7, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
-  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "83016", name: "Cacahuate Sin Sal 200 g", ordenes: 160, usuarios: 165, unidades: 347, gmv: 5710, aov: 35.69, impresiones: null, cr_pct: null, gmv_dlw_pct: 2856.4, gmv_dl4w_pct: 974.0, seg_nuevo: 119, seg_nuevo_pct: 76, seg_reactivado: 15, seg_reactivado_pct: 10, seg_retenido: 28, seg_retenido_pct: 18, stock_viral: 125, stock_post: 146, stock_bench: 167, stock_delta_pct: -12.6, oos_cierre_viral: 20, oos_post: 20, cov_viral_ap: 72.7, cov_viral_ci: 36.4, cov_post: 36.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "83016", name: "Cacahuate Sin Sal 200 g", ordenes: 160, usuarios: 165, unidades: 347, gmv: 5710, aov: 35.69, impresiones: null, cr_pct: null, gmv_dlw_pct: 2856.4, gmv_dl4w_pct: 974.0, seg_nuevo: 119, seg_nuevo_pct: 76, seg_reactivado: 15, seg_reactivado_pct: 10, seg_retenido: 28, seg_retenido_pct: 18, stock_viral: 125, stock_post: 146, stock_bench: 167, stock_delta_pct: -12.6, oos_cierre_viral: 20, oos_post: 20, cov_viral_ap: 72.7, cov_viral_ci: 36.4, cov_post: 36.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  // Lala 270526
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "72152", name: "Lala 100 Leche Sin Lactosa Low Carb Light 1 L", ordenes: 262, usuarios: 235, unidades: 824, gmv: 37011, aov: 141.26, impresiones: 3253, cr_pct: 8.05, gmv_dlw_pct: 24137.9, gmv_dl4w_pct: 6726.5, seg_nuevo: 244, seg_nuevo_pct: 93, seg_reactivado: 8, seg_reactivado_pct: 3, seg_retenido: 10, seg_retenido_pct: 4, stock_viral: 914, stock_post: 360, stock_bench: 266, stock_delta_pct: 35.3, oos_cierre_viral: 38, oos_post: 32, cov_viral_ap: 50.0, cov_viral_ci: 26.9, cov_post: 39.1, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "14588", name: "Lala 100 Leche Fresca sin Lactosa Proteína 1 L", ordenes: 146, usuarios: 134, unidades: 431, gmv: 20733, aov: 142.01, impresiones: 4328, cr_pct: 3.37, gmv_dlw_pct: 110.1, gmv_dl4w_pct: 280.5, seg_nuevo: 96, seg_nuevo_pct: 66, seg_reactivado: 29, seg_reactivado_pct: 20, seg_retenido: 21, seg_retenido_pct: 14, stock_viral: 709, stock_post: 576, stock_bench: 806, stock_delta_pct: -28.6, oos_cierre_viral: 56, oos_post: 48, cov_viral_ap: 39.7, cov_viral_ci: 11.1, cov_post: 25.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5134,7 +5167,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Yogurt", ordenes: 59, gmv: 5620, pct_sellup: 4.18, order: 5 },
   { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Frutos secos y semillas", ordenes: 88, gmv: 5455, pct_sellup: 4.06, order: 6 },
   { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Quesos semiduros", ordenes: 34, gmv: 3583, pct_sellup: 2.66, order: 7 },
-  { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Chocolates", ordenes: 40, gmv: 3403, pct_sellup: 2.53, order: 8 }
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", subcategoria: "Chocolates", ordenes: 40, gmv: 3403, pct_sellup: 2.53, order: 8 },
+  // Lala 270526
+  { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Cervezas", ordenes: 10, gmv: 1962, pct_sellup: 5.19, order: 1 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Yogurt", ordenes: 31, gmv: 1846, pct_sellup: 4.88, order: 2 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Snacks salados", ordenes: 19, gmv: 1797, pct_sellup: 4.75, order: 3 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Gaseosas", ordenes: 23, gmv: 1706, pct_sellup: 4.51, order: 4 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Frutas", ordenes: 41, gmv: 1573, pct_sellup: 4.16, order: 5 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Huevos", ordenes: 25, gmv: 1419, pct_sellup: 3.75, order: 6 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Chocolates", ordenes: 11, gmv: 1154, pct_sellup: 3.05, order: 7 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Galletas", ordenes: 19, gmv: 1058, pct_sellup: 2.80, order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -5930,5 +5972,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "11206", name: "Ciel Pack Agua Natura 6 x 1 L", subcategoria: "Agua Natural", ordenes: 13, pct_deal: 2.93, order: 9 },
   { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "6149", name: "Coca-Cola Refresco Sin Azúcar 600 mL", subcategoria: "Gaseosas", ordenes: 12, pct_deal: 2.71, order: 10 },
   { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "72931", name: "Mango Ataulfo para hoy", subcategoria: "Frutas", ordenes: 12, pct_deal: 2.71, order: 11 },
-  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "13655", name: "Bove Queso Oaxaca Organico 400 g", subcategoria: "Quesos semiduros", ordenes: 12, pct_deal: 2.71, order: 12 }
+  { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "13655", name: "Bove Queso Oaxaca Organico 400 g", subcategoria: "Quesos semiduros", ordenes: 12, pct_deal: 2.71, order: 12 },
+  // Lala 270526
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "81993", name: "Platano Chiapas para hoy", subcategoria: "Frutas", ordenes: 17, pct_deal: 4.75, order: 1 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "14693", name: "Aguacate para hoy -3 pzas", subcategoria: "Frutas", ordenes: 11, pct_deal: 3.07, order: 2 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "12616", name: "Bachoco - Huevo Blanco - 12 ud.", subcategoria: "Huevos", ordenes: 8, pct_deal: 2.23, order: 3 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "5672", name: "San Juan - Huevo blanco - 12 ud.", subcategoria: "Huevos", ordenes: 8, pct_deal: 2.23, order: 4 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "78855", name: "La Lechera Leche Condensada Sabor Original 375 g", subcategoria: "Leche condensada", ordenes: 6, pct_deal: 1.68, order: 5 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "91927", name: "Panini Sobre con 7 Estampas Fifa World Cup 2026 1 Und", subcategoria: "Otros Bienestar y Ocio", ordenes: 6, pct_deal: 1.68, order: 6 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "11576", name: "Oikos Yoghurt Griego Con Fresa 150 g", subcategoria: "Yogurt", ordenes: 5, pct_deal: 1.40, order: 7 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "9151", name: "Epura Agua Purificada Sin Sodio 10 L", subcategoria: "Agua Natural", ordenes: 5, pct_deal: 1.40, order: 8 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "12376", name: "Ruffles Papas Fritas Onduladas Sabor Queso 185 g", subcategoria: "Snacks salados", ordenes: 5, pct_deal: 1.40, order: 9 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "6302", name: "E Pura Agua Natural 1500 mL", subcategoria: "Agua Natural", ordenes: 4, pct_deal: 1.12, order: 10 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "82057", name: "Pepino", subcategoria: "Frutas", ordenes: 4, pct_deal: 1.12, order: 11 },
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "6744", name: "Coca-Cola Original Refresco Pet 600 mL", subcategoria: "Gaseosas", ordenes: 4, pct_deal: 1.12, order: 12 }
 ];
