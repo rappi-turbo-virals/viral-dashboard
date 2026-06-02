@@ -4317,6 +4317,30 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
     canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
     canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
+  },
+  // Colima 310526
+  {
+    deal_id: "VIRAL_DEAL_COLIMA_310526",
+    post_days: 2, fase: 1,
+    gmv_activacion: 26156, gmv_lw: 5142, gmv_dlw_pct: 408.7, gmv_l4w: 4372, gmv_dl4w_pct: 498.3,
+    usuarios_unicos: 160, usr_lw: 37, usr_dlw_pct: 332.4, usr_l4w: 32.5, usr_dl4w_pct: 392.3,
+    cr_pct: 39.41,
+    aov: 149.46, aov_lw: 125.41, aov_dlw_pct: 19.2, aov_l4w: 121.44, aov_dl4w_pct: 23.1,
+    unidades_total: 606, und_lw: 116, und_dlw_pct: 422.4, und_l4w: 102.0, und_dl4w_pct: 494.1,
+    ordenes_total: 175, ord_lw: 41, ord_dlw_pct: 326.8, ord_l4w: 36.0, ord_dl4w_pct: 386.1,
+    impresiones_total: 406,
+    so_turbo_mx: 4359616,
+    gmv_categoria: 421644, gmv_cat_lw: 607742, gmv_cat_l4w: 564947,
+    share_deal_cat_pct: 6.20, share_lw_pct: 0.85, share_l4w_pct: 0.77,
+    gmv_basket: 56822, gmv_sellup: 30667, pct_sellup: 54.0,
+    aov_basket: 324.70, aov_deal_post: 149.46,
+    cross_ordenes: 175, cross_skus_distintos: 327,
+    cross_top_producto: "Cerveza Cervecería de Colima Piedra Lisa Ipa Botella 355 mL", cross_top_ordenes: 7, cross_top_pct: 4.00,
+    inv_oos_cierre_viral_avg: 39.3, inv_oos_post_avg: 39.0,
+    inv_cov_viral_ap_avg: 61.6, inv_cov_viral_ci_avg: 42.3, inv_cov_post_avg: 42.5, inv_cov_bench_avg: 62.9,
+    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
+    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
+    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
   }
 ];
 
@@ -4668,7 +4692,12 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "8524", name: "Pack Cerveza Heineken Original Botella 6 x 355 mL", ordenes: 1199, usuarios: 1025, unidades: 1678, gmv: 223145, aov: 186.11, impresiones: 23611, cr_pct: 5.08, gmv_dlw_pct: 659.3, gmv_dl4w_pct: 520.1, seg_nuevo: 571, seg_nuevo_pct: 53, seg_reactivado: 361, seg_reactivado_pct: 33, seg_retenido: 112, seg_retenido_pct: 15, stock_viral: 2155, stock_post: 820, stock_bench: 1318, stock_delta_pct: -37.8, oos_cierre_viral: 21, oos_post: 12, cov_viral_ap: 88.7, cov_viral_ci: 54.2, cov_post: 67.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "11434", name: "Tecate Light Lata 12pack", ordenes: 910, usuarios: 690, unidades: 1224, gmv: 205929, aov: 226.30, impresiones: 20957, cr_pct: 4.34, gmv_dlw_pct: 403.8, gmv_dl4w_pct: 407.9, seg_nuevo: 409, seg_nuevo_pct: 50, seg_reactivado: 202, seg_reactivado_pct: 30, seg_retenido: 87, seg_retenido_pct: 20, stock_viral: 1540, stock_post: 539, stock_bench: 775, stock_delta_pct: -30.5, oos_cierre_viral: 22, oos_post: 20, cov_viral_ap: 82.5, cov_viral_ci: 57.7, cov_post: 61.9, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "10119", name: "XX Dos Equis Lager Especial Lata 12pack 355 mL", ordenes: 591, usuarios: 487, unidades: 863, gmv: 191014, aov: 323.20, impresiones: 10047, cr_pct: 5.88, gmv_dlw_pct: 308.8, gmv_dl4w_pct: 465.5, seg_nuevo: 291, seg_nuevo_pct: 55, seg_reactivado: 173, seg_reactivado_pct: 35, seg_retenido: 28, seg_retenido_pct: 10, stock_viral: 926, stock_post: 222, stock_bench: 700, stock_delta_pct: -68.3, oos_cierre_viral: 38, oos_post: 38, cov_viral_ap: 85.7, cov_viral_ci: 21.9, cov_post: 21.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
-  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "12099", name: "Pack Cerveza Indio Tipo Vienna Oscura Lata 12 x 355 mL", ordenes: 846, usuarios: 666, unidades: 1134, gmv: 228379, aov: 269.95, impresiones: 12709, cr_pct: 6.66, gmv_dlw_pct: 1095.3, gmv_dl4w_pct: 1059.8, seg_nuevo: 433, seg_nuevo_pct: 59, seg_reactivado: 196, seg_reactivado_pct: 26, seg_retenido: 46, seg_retenido_pct: 15, stock_viral: 1532, stock_post: 617, stock_bench: 865, stock_delta_pct: -28.6, oos_cierre_viral: 22, oos_post: 22, cov_viral_ap: 82.9, cov_viral_ci: 50.5, cov_post: 50.5, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "12099", name: "Pack Cerveza Indio Tipo Vienna Oscura Lata 12 x 355 mL", ordenes: 846, usuarios: 666, unidades: 1134, gmv: 228379, aov: 269.95, impresiones: 12709, cr_pct: 6.66, gmv_dlw_pct: 1095.3, gmv_dl4w_pct: 1059.8, seg_nuevo: 433, seg_nuevo_pct: 59, seg_reactivado: 196, seg_reactivado_pct: 26, seg_retenido: 46, seg_retenido_pct: 15, stock_viral: 1532, stock_post: 617, stock_bench: 865, stock_delta_pct: -28.6, oos_cierre_viral: 22, oos_post: 22, cov_viral_ap: 82.9, cov_viral_ci: 50.5, cov_post: 50.5, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  // Colima 310526
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "13477", name: "Cerveza Cervecería de Colima Piedra Lisa Lata 355 mL", ordenes: 129, usuarios: 115, unidades: 382, gmv: 17169, aov: 133.09, impresiones: 190, cr_pct: 67.89, gmv_dlw_pct: 349.9, gmv_dl4w_pct: 390.5, seg_nuevo: 88, seg_nuevo_pct: 72, seg_reactivado: 12, seg_reactivado_pct: 9, seg_retenido: 15, seg_retenido_pct: 19, stock_viral: 2139, stock_post: 1741, stock_bench: 1704, stock_delta_pct: 2.2, oos_cierre_viral: 48, oos_post: 49, cov_viral_ap: 52.9, cov_viral_ci: 43.5, cov_post: 43.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "13816", name: "Cerveza Cervecería de Colima Colimita Lata 355 mL", ordenes: 59, usuarios: 59, unidades: 133, gmv: 5726, aov: 97.05, impresiones: 84, cr_pct: 70.24, gmv_dlw_pct: 399.7, gmv_dl4w_pct: 608.1, seg_nuevo: 48, seg_nuevo_pct: 81, seg_reactivado: 6, seg_reactivado_pct: 10, seg_retenido: 5, seg_retenido_pct: 9, stock_viral: 624, stock_post: 557, stock_bench: 507, stock_delta_pct: 9.7, oos_cierre_viral: 60, oos_post: 60, cov_viral_ap: 51.8, cov_viral_ci: 27.7, cov_post: 27.6, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "91744", name: "Colima Cero Session IPA Lata 355 mL", ordenes: 26, usuarios: 26, unidades: 43, gmv: 1534, aov: 58.99, impresiones: 60, cr_pct: 43.33, gmv_dlw_pct: 964.8, gmv_dl4w_pct: 1602.7, seg_nuevo: 24, seg_nuevo_pct: 92, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 2, seg_retenido_pct: 8, stock_viral: 226, stock_post: 216, stock_bench: 215, stock_delta_pct: 0.3, oos_cierre_viral: 28, oos_post: 28, cov_viral_ap: 66.7, cov_viral_ci: 41.7, cov_post: 41.7, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "91743", name: "Colima Cero Lager Ambar Lata 355 mL", ordenes: 26, usuarios: 26, unidades: 48, gmv: 1727, aov: 66.42, impresiones: 72, cr_pct: 36.11, gmv_dlw_pct: 4739.7, gmv_dl4w_pct: 4710.2, seg_nuevo: 26, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 227, stock_post: 226, stock_bench: 218, stock_delta_pct: 3.5, oos_cierre_viral: 21, oos_post: 19, cov_viral_ap: 75.0, cov_viral_ci: 56.3, cov_post: 57.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5254,7 +5283,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Tequilas",      ordenes: 47,  gmv: 19663,  pct_sellup: 4.42,  order: 5 },
   { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Vino tinto",    ordenes: 61,  gmv: 14648,  pct_sellup: 3.29,  order: 6 },
   { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Mezcales",      ordenes: 23,  gmv: 11683,  pct_sellup: 2.62,  order: 7 },
-  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Rones",         ordenes: 46,  gmv: 11602,  pct_sellup: 2.61,  order: 8 }
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Rones",         ordenes: 46,  gmv: 11602,  pct_sellup: 2.61,  order: 8 },
+  // Colima 310526
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Cervezas",      ordenes: 57, gmv: 6728,  pct_sellup: 21.94, order: 1 },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Gaseosas",      ordenes: 25, gmv: 1692,  pct_sellup: 5.52,  order: 2 },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Snacks salados",ordenes: 22, gmv: 1499,  pct_sellup: 4.89,  order: 3 },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Cigarrillos",   ordenes: 9,  gmv: 1434,  pct_sellup: 4.68,  order: 4 },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Frutas",        ordenes: 25, gmv: 1336,  pct_sellup: 4.36,  order: 5 },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Agua Natural",  ordenes: 19, gmv: 1173,  pct_sellup: 3.83,  order: 6 },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Tequilas",      ordenes: 3,  gmv: 1132,  pct_sellup: 3.69,  order: 7 },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Suero",         ordenes: 12, gmv: 774,   pct_sellup: 2.52,  order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -6089,5 +6127,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "14693", name: "Aguacate para hoy 3 pzas",                       subcategoria: "Frutas",                     ordenes: 43, pct_deal: 1.00, order: 9  },
   { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "12376", name: "Ruffles Papas Fritas Onduladas Sabor Queso 185 g",subcategoria: "Snacks salados",            ordenes: 39, pct_deal: 0.91, order: 10 },
   { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "13802", name: "Pack Cerveza Bohemia Botella 6 x 355 mL",        subcategoria: "Cervezas",                   ordenes: 38, pct_deal: 0.88, order: 11 },
-  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "15322", name: "Hot Nuts Cacahuates Original 100 g",             subcategoria: "Frutos secos y semillas",    ordenes: 37, pct_deal: 0.86, order: 12 }
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "15322", name: "Hot Nuts Cacahuates Original 100 g",             subcategoria: "Frutos secos y semillas",    ordenes: 37, pct_deal: 0.86, order: 12 },
+  // Colima 310526
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "13126", name: "Cerveza Cervecería de Colima Piedra Lisa Ipa Botella 355 mL", subcategoria: "Cervezas",                ordenes: 7, pct_deal: 4.00, order: 1  },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "14693", name: "Aguacate para hoy 3 pzas",                                   subcategoria: "Frutas",                  ordenes: 7, pct_deal: 4.00, order: 2  },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "5314",  name: "Pack Cerveza Michelob Ultra Light 6 x 355 mL",               subcategoria: "Cervezas",                ordenes: 6, pct_deal: 3.43, order: 3  },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "14946", name: "Mallas Limón Con Semilla 5 piezas",                          subcategoria: "Frutas",                  ordenes: 6, pct_deal: 3.43, order: 4  },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "81094", name: "Colima Cero Session IPA Botella 355ml",                      subcategoria: "Cervezas",                ordenes: 5, pct_deal: 2.86, order: 5  },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "4730",  name: "Topo Chico Agua Mineral 1500 mL",                            subcategoria: "Agua Natural Gasificada", ordenes: 5, pct_deal: 2.86, order: 6  },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "13818", name: "Topo Chico Agua Mineral 600 mL",                             subcategoria: "Agua Natural",            ordenes: 5, pct_deal: 2.86, order: 7  },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "12827", name: "Cerveza Cervecería de Colima Colimita Lager Botella 355 mL", subcategoria: "Cervezas",                ordenes: 5, pct_deal: 2.86, order: 8  },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "81993", name: "Platano Chiapas para hoy",                                   subcategoria: "Frutas",                  ordenes: 5, pct_deal: 2.86, order: 9  },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "13692", name: "Pack Cerveza Clara Modelo Especial 6 x 355 mL",              subcategoria: "Cervezas",                ordenes: 4, pct_deal: 2.29, order: 10 },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "14156", name: "Hielo Club 5 kg",                                            subcategoria: "Hielo",                   ordenes: 4, pct_deal: 2.29, order: 11 },
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "4939",  name: "Cerveza Corona Extra Latón 710 mL",                          subcategoria: "Cervezas",                ordenes: 4, pct_deal: 2.29, order: 12 }
 ];
