@@ -4269,6 +4269,30 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
     canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
     canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
+  },
+  // Electrolit 280526
+  {
+    deal_id: "VIRAL_DEAL_ELECTROLIT_280526",
+    post_days: 4, fase: 2,
+    gmv_activacion: 54340, gmv_lw: 28001, gmv_dlw_pct: 94.1, gmv_l4w: 35196, gmv_dl4w_pct: 54.4,
+    usuarios_unicos: 851, usr_lw: 642, usr_dlw_pct: 32.6, usr_l4w: 793.75, usr_dl4w_pct: 7.2,
+    cr_pct: 1.92,
+    aov: 58.12, aov_lw: 50.54, aov_dlw_pct: 15.0, aov_l4w: 52.32, aov_dl4w_pct: 11.1,
+    unidades_total: 2043, und_lw: 1063, und_dlw_pct: 92.2, und_l4w: 1335, und_dl4w_pct: 53.0,
+    ordenes_total: 935, ord_lw: 554, ord_dlw_pct: 68.8, ord_l4w: 672.75, ord_dl4w_pct: 39.0,
+    impresiones_total: 44434,
+    so_turbo_mx: 4378544, gmv_categoria: 74142, gmv_cat_lw: 44255, gmv_cat_l4w: 56623,
+    share_deal_cat_pct: 73.30, share_lw_pct: 63.28, share_l4w_pct: 62.16,
+    gmv_basket: 238332, gmv_sellup: 183993, pct_sellup: 77.20,
+    aov_basket: 254.90, aov_deal_post: 58.12,
+    cross_ordenes: 935, cross_skus_distintos: 1234,
+    cross_top_producto: "Platano Chiapas para hoy", cross_top_ordenes: 36, cross_top_pct: 3.85,
+    inv_oos_cierre_viral_avg: 37.8, inv_oos_post_avg: 35.4,
+    inv_cov_viral_ap_avg: 56.4, inv_cov_viral_ci_avg: 57.0,
+    inv_cov_post_avg: 59.5, inv_cov_bench_avg: 50.9,
+    canib_ord_post: 5090, canib_ord_bench: 4495.75, canib_ord_delta_pct: 13.2,
+    canib_und_post: 9484, canib_und_bench: 8605.25, canib_und_delta_pct: 10.2,
+    canib_cli_post: 5338, canib_cli_bench: 4529, canib_cli_delta_pct: 17.9
   }
 ];
 
@@ -4608,7 +4632,13 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_GRANEL_260526", sync: "83016", name: "Cacahuate Sin Sal 200 g", ordenes: 160, usuarios: 165, unidades: 347, gmv: 5710, aov: 35.69, impresiones: null, cr_pct: null, gmv_dlw_pct: 2856.4, gmv_dl4w_pct: 974.0, seg_nuevo: 119, seg_nuevo_pct: 76, seg_reactivado: 15, seg_reactivado_pct: 10, seg_retenido: 28, seg_retenido_pct: 18, stock_viral: 125, stock_post: 146, stock_bench: 167, stock_delta_pct: -12.6, oos_cierre_viral: 20, oos_post: 20, cov_viral_ap: 72.7, cov_viral_ci: 36.4, cov_post: 36.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   // Lala 270526
   { deal_id: "VIRAL_DEAL_LALA_270526", sync: "72152", name: "Lala 100 Leche Sin Lactosa Low Carb Light 1 L", ordenes: 262, usuarios: 235, unidades: 824, gmv: 37011, aov: 141.26, impresiones: 3253, cr_pct: 8.05, gmv_dlw_pct: 24137.9, gmv_dl4w_pct: 6726.5, seg_nuevo: 244, seg_nuevo_pct: 93, seg_reactivado: 8, seg_reactivado_pct: 3, seg_retenido: 10, seg_retenido_pct: 4, stock_viral: 914, stock_post: 360, stock_bench: 266, stock_delta_pct: 35.3, oos_cierre_viral: 38, oos_post: 32, cov_viral_ap: 50.0, cov_viral_ci: 26.9, cov_post: 39.1, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
-  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "14588", name: "Lala 100 Leche Fresca sin Lactosa Proteína 1 L", ordenes: 146, usuarios: 134, unidades: 431, gmv: 20733, aov: 142.01, impresiones: 4328, cr_pct: 3.37, gmv_dlw_pct: 110.1, gmv_dl4w_pct: 280.5, seg_nuevo: 96, seg_nuevo_pct: 66, seg_reactivado: 29, seg_reactivado_pct: 20, seg_retenido: 21, seg_retenido_pct: 14, stock_viral: 709, stock_post: 576, stock_bench: 806, stock_delta_pct: -28.6, oos_cierre_viral: 56, oos_post: 48, cov_viral_ap: 39.7, cov_viral_ci: 11.1, cov_post: 25.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "14588", name: "Lala 100 Leche Fresca sin Lactosa Proteína 1 L", ordenes: 146, usuarios: 134, unidades: 431, gmv: 20733, aov: 142.01, impresiones: 4328, cr_pct: 3.37, gmv_dlw_pct: 110.1, gmv_dl4w_pct: 280.5, seg_nuevo: 96, seg_nuevo_pct: 66, seg_reactivado: 29, seg_reactivado_pct: 20, seg_retenido: 21, seg_retenido_pct: 14, stock_viral: 709, stock_post: 576, stock_bench: 806, stock_delta_pct: -28.6, oos_cierre_viral: 56, oos_post: 48, cov_viral_ap: 39.7, cov_viral_ci: 11.1, cov_post: 25.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  // Electrolit 280526
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "5898", name: "Electrolit Suero Rehidratante Sabor Lima-Limón 625 mL", ordenes: 287, usuarios: 266, unidades: 518, gmv: 14255, aov: 49.67, impresiones: 7151, cr_pct: 4.01, gmv_dlw_pct: 79.6, gmv_dl4w_pct: 57.2, seg_nuevo: 133, seg_nuevo_pct: 46, seg_reactivado: 61, seg_reactivado_pct: 21, seg_retenido: 93, seg_retenido_pct: 32, stock_viral: 11749, stock_post: 10684, stock_bench: 6502, stock_delta_pct: 64.3, oos_cierre_viral: 37, oos_post: 38, cov_viral_ap: 55.6, cov_viral_ci: 58.9, cov_post: 58.2, canib_ord_post: 1255, canib_ord_bench: 1044.5, canib_ord_delta_pct: 20.2, canib_und_post: 2457, canib_und_bench: 2077, canib_und_delta_pct: 18.3, canib_cli_post: 1282, canib_cli_bench: 1021.25, canib_cli_delta_pct: 25.5 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "9103", name: "Electrolit Suero Rehidratante Sabor Fresa Kiwi 625 mL", ordenes: 337, usuarios: 306, unidades: 557, gmv: 14211, aov: 42.17, impresiones: 14803, cr_pct: 2.28, gmv_dlw_pct: 169.5, gmv_dl4w_pct: 69.7, seg_nuevo: 129, seg_nuevo_pct: 38, seg_reactivado: 105, seg_reactivado_pct: 31, seg_retenido: 103, seg_retenido_pct: 31, stock_viral: 9886, stock_post: 10238, stock_bench: 6361, stock_delta_pct: 60.9, oos_cierre_viral: 39, oos_post: 34, cov_viral_ap: 57.3, cov_viral_ci: 56.2, cov_post: 61.0, canib_ord_post: 1327, canib_ord_bench: 1066.5, canib_ord_delta_pct: 24.4, canib_und_post: 2467, canib_und_bench: 2004.25, canib_und_delta_pct: 23.1, canib_cli_post: 1362, canib_cli_bench: 1058.75, canib_cli_delta_pct: 28.6 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "5896", name: "Electrolit Suero Rehidratante Sabor Mora Azul 625 mL", ordenes: 265, usuarios: 259, unidades: 441, gmv: 11511, aov: 43.44, impresiones: 11920, cr_pct: 2.22, gmv_dlw_pct: 124.2, gmv_dl4w_pct: 43.7, seg_nuevo: 123, seg_nuevo_pct: 46, seg_reactivado: 76, seg_reactivado_pct: 29, seg_retenido: 66, seg_retenido_pct: 25, stock_viral: 9226, stock_post: 9532, stock_bench: 5967, stock_delta_pct: 59.8, oos_cierre_viral: 43, oos_post: 37, cov_viral_ap: 50.0, cov_viral_ci: 52.2, cov_post: 58.2, canib_ord_post: 1125, canib_ord_bench: 1076.25, canib_ord_delta_pct: 4.5, canib_und_post: 2137, canib_und_bench: 2087.25, canib_und_delta_pct: 2.4, canib_cli_post: 1293, canib_cli_bench: 1147.25, canib_cli_delta_pct: 12.7 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "5759", name: "Electrolit Suero Rehidratante Sabor Uva 625 mL", ordenes: 216, usuarios: 184, unidades: 354, gmv: 9680, aov: 44.81, impresiones: 6607, cr_pct: 3.27, gmv_dlw_pct: 49.8, gmv_dl4w_pct: 47.6, seg_nuevo: 86, seg_nuevo_pct: 40, seg_reactivado: 50, seg_reactivado_pct: 23, seg_retenido: 80, seg_retenido_pct: 37, stock_viral: 9827, stock_post: 9106, stock_bench: 5510, stock_delta_pct: 65.3, oos_cierre_viral: 38, oos_post: 37, cov_viral_ap: 55.7, cov_viral_ci: 56.8, cov_post: 58.5, canib_ord_post: 938, canib_ord_bench: 845.75, canib_ord_delta_pct: 10.9, canib_und_post: 1679, canib_und_bench: 1615.25, canib_und_delta_pct: 3.9, canib_cli_post: 936, canib_cli_bench: 825.25, canib_cli_delta_pct: 13.4 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "5495", name: "Electrolit Suero Rehidratante Sabor Fresa 625 mL", ordenes: 124, usuarios: 117, unidades: 173, gmv: 4684, aov: 37.77, impresiones: 3953, cr_pct: 3.14, gmv_dlw_pct: 46.6, gmv_dl4w_pct: 47.2, seg_nuevo: 71, seg_nuevo_pct: 57, seg_reactivado: 24, seg_reactivado_pct: 19, seg_retenido: 29, seg_retenido_pct: 23, stock_viral: 4515, stock_post: 4316, stock_bench: 2987, stock_delta_pct: 44.5, oos_cierre_viral: 32, oos_post: 31, cov_viral_ap: 63.4, cov_viral_ci: 61.0, cov_post: 61.7, canib_ord_post: 445, canib_ord_bench: 462.75, canib_ord_delta_pct: -3.8, canib_und_post: 744, canib_und_bench: 821.5, canib_und_delta_pct: -9.4, canib_cli_post: 465, canib_cli_bench: 476.5, canib_cli_delta_pct: -2.4 }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5176,7 +5206,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Frutas", ordenes: 41, gmv: 1573, pct_sellup: 4.16, order: 5 },
   { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Huevos", ordenes: 25, gmv: 1419, pct_sellup: 3.75, order: 6 },
   { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Chocolates", ordenes: 11, gmv: 1154, pct_sellup: 3.05, order: 7 },
-  { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Galletas", ordenes: 19, gmv: 1058, pct_sellup: 2.80, order: 8 }
+  { deal_id: "VIRAL_DEAL_LALA_270526", subcategoria: "Galletas", ordenes: 19, gmv: 1058, pct_sellup: 2.80, order: 8 },
+  // Electrolit 280526
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Cervezas", ordenes: 102, gmv: 17541, pct_sellup: 9.53, order: 1 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Cigarrillos", ordenes: 60, gmv: 12580, pct_sellup: 6.84, order: 2 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Snacks salados", ordenes: 142, gmv: 10412, pct_sellup: 5.66, order: 3 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Gaseosas", ordenes: 160, gmv: 8603, pct_sellup: 4.68, order: 4 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Agua Natural", ordenes: 164, gmv: 7857, pct_sellup: 4.27, order: 5 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Tequilas", ordenes: 12, gmv: 7062, pct_sellup: 3.84, order: 6 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Frutas", ordenes: 125, gmv: 5892, pct_sellup: 3.20, order: 7 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Galletas", ordenes: 86, gmv: 4989, pct_sellup: 2.71, order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -5985,5 +6024,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_LALA_270526", sync: "12376", name: "Ruffles Papas Fritas Onduladas Sabor Queso 185 g", subcategoria: "Snacks salados", ordenes: 5, pct_deal: 1.40, order: 9 },
   { deal_id: "VIRAL_DEAL_LALA_270526", sync: "6302", name: "E Pura Agua Natural 1500 mL", subcategoria: "Agua Natural", ordenes: 4, pct_deal: 1.12, order: 10 },
   { deal_id: "VIRAL_DEAL_LALA_270526", sync: "82057", name: "Pepino", subcategoria: "Frutas", ordenes: 4, pct_deal: 1.12, order: 11 },
-  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "6744", name: "Coca-Cola Original Refresco Pet 600 mL", subcategoria: "Gaseosas", ordenes: 4, pct_deal: 1.12, order: 12 }
+  { deal_id: "VIRAL_DEAL_LALA_270526", sync: "6744", name: "Coca-Cola Original Refresco Pet 600 mL", subcategoria: "Gaseosas", ordenes: 4, pct_deal: 1.12, order: 12 },
+  // Electrolit 280526
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "81993", name: "Platano Chiapas para hoy", subcategoria: "Frutas", ordenes: 36, pct_deal: 3.85, order: 1 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "8033", name: "Ciel Agua Natural Purificada 10 L", subcategoria: "Agua Natural", ordenes: 32, pct_deal: 3.42, order: 2 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "7750", name: "Electrolit Suero Rehidratante Sabor Naranja-Mandarina 625 mL", subcategoria: "Suero", ordenes: 28, pct_deal: 2.99, order: 3 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "13475", name: "Kinder Bueno Galleta con Relleno Cremoso 43 Und", subcategoria: "Galletas", ordenes: 28, pct_deal: 2.99, order: 4 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "14946", name: "Mallas Limón Con Semilla - 5 piezas", subcategoria: "Frutas", ordenes: 24, pct_deal: 2.57, order: 5 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "13818", name: "Topo Chico Agua Mineral 600 mL", subcategoria: "Agua Natural", ordenes: 23, pct_deal: 2.46, order: 6 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "14693", name: "Aguacate para hoy -3 pzas", subcategoria: "Frutas", ordenes: 23, pct_deal: 2.46, order: 7 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "6743", name: "Electrolit Suero Rehidratante Manzana 625 mL", subcategoria: "Suero", ordenes: 21, pct_deal: 2.25, order: 8 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "4730", name: "Topo Chico Agua Mineral 1500 mL", subcategoria: "Agua Natural Gasificada", ordenes: 21, pct_deal: 2.25, order: 9 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "9151", name: "Epura Agua Purificada Sin Sodio 10 L", subcategoria: "Agua Natural", ordenes: 20, pct_deal: 2.14, order: 10 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "6744", name: "Coca-Cola Original Refresco Pet 600 mL", subcategoria: "Gaseosas", ordenes: 17, pct_deal: 1.82, order: 11 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "15322", name: "Hot Nuts Cacahuates Original 100 g", subcategoria: "Frutos secos y semillas", ordenes: 15, pct_deal: 1.60, order: 12 }
 ];
