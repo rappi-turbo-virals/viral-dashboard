@@ -4293,6 +4293,30 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: 5090, canib_ord_bench: 4495.75, canib_ord_delta_pct: 13.2,
     canib_und_post: 9484, canib_und_bench: 8605.25, canib_und_delta_pct: 10.2,
     canib_cli_post: 5338, canib_cli_bench: 4529, canib_cli_delta_pct: 17.9
+  },
+  // Heineken 290526
+  {
+    deal_id: "VIRAL_DEAL_HEINEKEN_290526",
+    post_days: 3, fase: 1,
+    gmv_activacion: 1237123, gmv_lw: 265010, gmv_dlw_pct: 366.8, gmv_l4w: 265432, gmv_dl4w_pct: 366.1,
+    usuarios_unicos: 3379, usr_lw: 1132, usr_dlw_pct: 198.5, usr_l4w: 1146, usr_dl4w_pct: 194.8,
+    cr_pct: 2.85,
+    aov: 287.97, aov_lw: 193.30, aov_dlw_pct: 49.0, aov_l4w: 187.42, aov_dl4w_pct: 53.6,
+    unidades_total: 8546, und_lw: 1879, und_dlw_pct: 354.8, und_l4w: 1945.5, und_dl4w_pct: 339.3,
+    ordenes_total: 4296, ord_lw: 1371, ord_dlw_pct: 213.3, ord_l4w: 1416.25, ord_dl4w_pct: 203.3,
+    impresiones_total: 118408,
+    so_turbo_mx: 11811904,
+    gmv_categoria: 2233360, gmv_cat_lw: 1248770, gmv_cat_l4w: 1381221,
+    share_deal_cat_pct: 55.39, share_lw_pct: 21.22, share_l4w_pct: 19.22,
+    gmv_basket: 1682428, gmv_sellup: 445305, pct_sellup: 26.47,
+    aov_basket: 391.63, aov_deal_post: 287.97,
+    cross_ordenes: 4296, cross_skus_distintos: 1729,
+    cross_top_producto: "Topo Chico Agua Mineral 1500 mL", cross_top_ordenes: 90, cross_top_pct: 2.09,
+    inv_oos_cierre_viral_avg: 22.2, inv_oos_post_avg: 19.6,
+    inv_cov_viral_ap_avg: 86.1, inv_cov_viral_ci_avg: 54.2, inv_cov_post_avg: 57.6, inv_cov_bench_avg: 78.0,
+    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
+    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
+    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
   }
 ];
 
@@ -4638,7 +4662,13 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "9103", name: "Electrolit Suero Rehidratante Sabor Fresa Kiwi 625 mL", ordenes: 337, usuarios: 306, unidades: 557, gmv: 14211, aov: 42.17, impresiones: 14803, cr_pct: 2.28, gmv_dlw_pct: 169.5, gmv_dl4w_pct: 69.7, seg_nuevo: 129, seg_nuevo_pct: 38, seg_reactivado: 105, seg_reactivado_pct: 31, seg_retenido: 103, seg_retenido_pct: 31, stock_viral: 9886, stock_post: 10238, stock_bench: 6361, stock_delta_pct: 60.9, oos_cierre_viral: 39, oos_post: 34, cov_viral_ap: 57.3, cov_viral_ci: 56.2, cov_post: 61.0, canib_ord_post: 1327, canib_ord_bench: 1066.5, canib_ord_delta_pct: 24.4, canib_und_post: 2467, canib_und_bench: 2004.25, canib_und_delta_pct: 23.1, canib_cli_post: 1362, canib_cli_bench: 1058.75, canib_cli_delta_pct: 28.6 },
   { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "5896", name: "Electrolit Suero Rehidratante Sabor Mora Azul 625 mL", ordenes: 265, usuarios: 259, unidades: 441, gmv: 11511, aov: 43.44, impresiones: 11920, cr_pct: 2.22, gmv_dlw_pct: 124.2, gmv_dl4w_pct: 43.7, seg_nuevo: 123, seg_nuevo_pct: 46, seg_reactivado: 76, seg_reactivado_pct: 29, seg_retenido: 66, seg_retenido_pct: 25, stock_viral: 9226, stock_post: 9532, stock_bench: 5967, stock_delta_pct: 59.8, oos_cierre_viral: 43, oos_post: 37, cov_viral_ap: 50.0, cov_viral_ci: 52.2, cov_post: 58.2, canib_ord_post: 1125, canib_ord_bench: 1076.25, canib_ord_delta_pct: 4.5, canib_und_post: 2137, canib_und_bench: 2087.25, canib_und_delta_pct: 2.4, canib_cli_post: 1293, canib_cli_bench: 1147.25, canib_cli_delta_pct: 12.7 },
   { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "5759", name: "Electrolit Suero Rehidratante Sabor Uva 625 mL", ordenes: 216, usuarios: 184, unidades: 354, gmv: 9680, aov: 44.81, impresiones: 6607, cr_pct: 3.27, gmv_dlw_pct: 49.8, gmv_dl4w_pct: 47.6, seg_nuevo: 86, seg_nuevo_pct: 40, seg_reactivado: 50, seg_reactivado_pct: 23, seg_retenido: 80, seg_retenido_pct: 37, stock_viral: 9827, stock_post: 9106, stock_bench: 5510, stock_delta_pct: 65.3, oos_cierre_viral: 38, oos_post: 37, cov_viral_ap: 55.7, cov_viral_ci: 56.8, cov_post: 58.5, canib_ord_post: 938, canib_ord_bench: 845.75, canib_ord_delta_pct: 10.9, canib_und_post: 1679, canib_und_bench: 1615.25, canib_und_delta_pct: 3.9, canib_cli_post: 936, canib_cli_bench: 825.25, canib_cli_delta_pct: 13.4 },
-  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "5495", name: "Electrolit Suero Rehidratante Sabor Fresa 625 mL", ordenes: 124, usuarios: 117, unidades: 173, gmv: 4684, aov: 37.77, impresiones: 3953, cr_pct: 3.14, gmv_dlw_pct: 46.6, gmv_dl4w_pct: 47.2, seg_nuevo: 71, seg_nuevo_pct: 57, seg_reactivado: 24, seg_reactivado_pct: 19, seg_retenido: 29, seg_retenido_pct: 23, stock_viral: 4515, stock_post: 4316, stock_bench: 2987, stock_delta_pct: 44.5, oos_cierre_viral: 32, oos_post: 31, cov_viral_ap: 63.4, cov_viral_ci: 61.0, cov_post: 61.7, canib_ord_post: 445, canib_ord_bench: 462.75, canib_ord_delta_pct: -3.8, canib_und_post: 744, canib_und_bench: 821.5, canib_und_delta_pct: -9.4, canib_cli_post: 465, canib_cli_bench: 476.5, canib_cli_delta_pct: -2.4 }
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "5495", name: "Electrolit Suero Rehidratante Sabor Fresa 625 mL", ordenes: 124, usuarios: 117, unidades: 173, gmv: 4684, aov: 37.77, impresiones: 3953, cr_pct: 3.14, gmv_dlw_pct: 46.6, gmv_dl4w_pct: 47.2, seg_nuevo: 71, seg_nuevo_pct: 57, seg_reactivado: 24, seg_reactivado_pct: 19, seg_retenido: 29, seg_retenido_pct: 23, stock_viral: 4515, stock_post: 4316, stock_bench: 2987, stock_delta_pct: 44.5, oos_cierre_viral: 32, oos_post: 31, cov_viral_ap: 63.4, cov_viral_ci: 61.0, cov_post: 61.7, canib_ord_post: 445, canib_ord_bench: 462.75, canib_ord_delta_pct: -3.8, canib_und_post: 744, canib_und_bench: 821.5, canib_und_delta_pct: -9.4, canib_cli_post: 465, canib_cli_bench: 476.5, canib_cli_delta_pct: -2.4 },
+  // Heineken 290526
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "8770", name: "Pack Cerveza Amstel Ultra Botella 6 x 355 mL", ordenes: 2408, usuarios: 1976, unidades: 3647, gmv: 388657, aov: 161.40, impresiones: 51084, cr_pct: 4.71, gmv_dlw_pct: 201.5, gmv_dl4w_pct: 187.0, seg_nuevo: 836, seg_nuevo_pct: 38, seg_reactivado: 871, seg_reactivado_pct: 39, seg_retenido: 306, seg_retenido_pct: 23, stock_viral: 8111, stock_post: 5225, stock_bench: 4670, stock_delta_pct: 11.9, oos_cierre_viral: 8, oos_post: 6, cov_viral_ap: 90.8, cov_viral_ci: 86.8, cov_post: 87.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "8524", name: "Pack Cerveza Heineken Original Botella 6 x 355 mL", ordenes: 1199, usuarios: 1025, unidades: 1678, gmv: 223145, aov: 186.11, impresiones: 23611, cr_pct: 5.08, gmv_dlw_pct: 659.3, gmv_dl4w_pct: 520.1, seg_nuevo: 571, seg_nuevo_pct: 53, seg_reactivado: 361, seg_reactivado_pct: 33, seg_retenido: 112, seg_retenido_pct: 15, stock_viral: 2155, stock_post: 820, stock_bench: 1318, stock_delta_pct: -37.8, oos_cierre_viral: 21, oos_post: 12, cov_viral_ap: 88.7, cov_viral_ci: 54.2, cov_post: 67.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "11434", name: "Tecate Light Lata 12pack", ordenes: 910, usuarios: 690, unidades: 1224, gmv: 205929, aov: 226.30, impresiones: 20957, cr_pct: 4.34, gmv_dlw_pct: 403.8, gmv_dl4w_pct: 407.9, seg_nuevo: 409, seg_nuevo_pct: 50, seg_reactivado: 202, seg_reactivado_pct: 30, seg_retenido: 87, seg_retenido_pct: 20, stock_viral: 1540, stock_post: 539, stock_bench: 775, stock_delta_pct: -30.5, oos_cierre_viral: 22, oos_post: 20, cov_viral_ap: 82.5, cov_viral_ci: 57.7, cov_post: 61.9, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "10119", name: "XX Dos Equis Lager Especial Lata 12pack 355 mL", ordenes: 591, usuarios: 487, unidades: 863, gmv: 191014, aov: 323.20, impresiones: 10047, cr_pct: 5.88, gmv_dlw_pct: 308.8, gmv_dl4w_pct: 465.5, seg_nuevo: 291, seg_nuevo_pct: 55, seg_reactivado: 173, seg_reactivado_pct: 35, seg_retenido: 28, seg_retenido_pct: 10, stock_viral: 926, stock_post: 222, stock_bench: 700, stock_delta_pct: -68.3, oos_cierre_viral: 38, oos_post: 38, cov_viral_ap: 85.7, cov_viral_ci: 21.9, cov_post: 21.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "12099", name: "Pack Cerveza Indio Tipo Vienna Oscura Lata 12 x 355 mL", ordenes: 846, usuarios: 666, unidades: 1134, gmv: 228379, aov: 269.95, impresiones: 12709, cr_pct: 6.66, gmv_dlw_pct: 1095.3, gmv_dl4w_pct: 1059.8, seg_nuevo: 433, seg_nuevo_pct: 59, seg_reactivado: 196, seg_reactivado_pct: 26, seg_retenido: 46, seg_retenido_pct: 15, stock_viral: 1532, stock_post: 617, stock_bench: 865, stock_delta_pct: -28.6, oos_cierre_viral: 22, oos_post: 22, cov_viral_ap: 82.9, cov_viral_ci: 50.5, cov_post: 50.5, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5215,7 +5245,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Agua Natural", ordenes: 164, gmv: 7857, pct_sellup: 4.27, order: 5 },
   { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Tequilas", ordenes: 12, gmv: 7062, pct_sellup: 3.84, order: 6 },
   { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Frutas", ordenes: 125, gmv: 5892, pct_sellup: 3.20, order: 7 },
-  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Galletas", ordenes: 86, gmv: 4989, pct_sellup: 2.71, order: 8 }
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", subcategoria: "Galletas", ordenes: 86, gmv: 4989, pct_sellup: 2.71, order: 8 },
+  // Heineken 290526
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Cervezas",     ordenes: 574, gmv: 78428,  pct_sellup: 17.61, order: 1 },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Snacks salados",ordenes: 521, gmv: 44827,  pct_sellup: 10.07, order: 2 },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Gaseosas",      ordenes: 534, gmv: 33972,  pct_sellup: 7.63,  order: 3 },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Cigarrillos",   ordenes: 181, gmv: 23513,  pct_sellup: 5.28,  order: 4 },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Tequilas",      ordenes: 47,  gmv: 19663,  pct_sellup: 4.42,  order: 5 },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Vino tinto",    ordenes: 61,  gmv: 14648,  pct_sellup: 3.29,  order: 6 },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Mezcales",      ordenes: 23,  gmv: 11683,  pct_sellup: 2.62,  order: 7 },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", subcategoria: "Rones",         ordenes: 46,  gmv: 11602,  pct_sellup: 2.61,  order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -6037,5 +6076,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "4730", name: "Topo Chico Agua Mineral 1500 mL", subcategoria: "Agua Natural Gasificada", ordenes: 21, pct_deal: 2.25, order: 9 },
   { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "9151", name: "Epura Agua Purificada Sin Sodio 10 L", subcategoria: "Agua Natural", ordenes: 20, pct_deal: 2.14, order: 10 },
   { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "6744", name: "Coca-Cola Original Refresco Pet 600 mL", subcategoria: "Gaseosas", ordenes: 17, pct_deal: 1.82, order: 11 },
-  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "15322", name: "Hot Nuts Cacahuates Original 100 g", subcategoria: "Frutos secos y semillas", ordenes: 15, pct_deal: 1.60, order: 12 }
+  { deal_id: "VIRAL_DEAL_ELECTROLIT_280526", sync: "15322", name: "Hot Nuts Cacahuates Original 100 g", subcategoria: "Frutos secos y semillas", ordenes: 15, pct_deal: 1.60, order: 12 },
+  // Heineken 290526
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "4730",  name: "Topo Chico Agua Mineral 1500 mL",                subcategoria: "Agua Natural Gasificada",    ordenes: 90, pct_deal: 2.09, order: 1  },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "14156", name: "Hielo Club 5 kg",                                subcategoria: "Hielo",                      ordenes: 88, pct_deal: 2.05, order: 2  },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "14946", name: "Mallas Limón Con Semilla 5 piezas",              subcategoria: "Frutas",                     ordenes: 77, pct_deal: 1.79, order: 3  },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "6529",  name: "Peñafiel Bebida Agua Mineral 2 L",               subcategoria: "Agua Natural",               ordenes: 59, pct_deal: 1.37, order: 4  },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "14375", name: "Limon Sin Semilla Malla",                        subcategoria: "Frutas",                     ordenes: 56, pct_deal: 1.30, order: 5  },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "8462",  name: "Coca-Cola Refresco Original 3 L",                subcategoria: "Gaseosas",                   ordenes: 55, pct_deal: 1.28, order: 6  },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "9713",  name: "Cerveza Heineken Sin Alcohol 250 mL",            subcategoria: "Cervezas",                   ordenes: 48, pct_deal: 1.12, order: 7  },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "5436",  name: "Marlboro Red 20",                                subcategoria: "Cigarrillos",                ordenes: 43, pct_deal: 1.00, order: 8  },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "14693", name: "Aguacate para hoy 3 pzas",                       subcategoria: "Frutas",                     ordenes: 43, pct_deal: 1.00, order: 9  },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "12376", name: "Ruffles Papas Fritas Onduladas Sabor Queso 185 g",subcategoria: "Snacks salados",            ordenes: 39, pct_deal: 0.91, order: 10 },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "13802", name: "Pack Cerveza Bohemia Botella 6 x 355 mL",        subcategoria: "Cervezas",                   ordenes: 38, pct_deal: 0.88, order: 11 },
+  { deal_id: "VIRAL_DEAL_HEINEKEN_290526", sync: "15322", name: "Hot Nuts Cacahuates Original 100 g",             subcategoria: "Frutos secos y semillas",    ordenes: 37, pct_deal: 0.86, order: 12 }
 ];
