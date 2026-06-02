@@ -4365,6 +4365,30 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
     canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
     canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
+  },
+  // Sico 300526
+  {
+    deal_id: "VIRAL_DEAL_SICO_300526",
+    post_days: 3, fase: 1,
+    gmv_activacion: 21776, gmv_lw: 21941, gmv_dlw_pct: -0.8, gmv_l4w: 17771, gmv_dl4w_pct: 22.5,
+    usuarios_unicos: 78, usr_lw: 100, usr_dlw_pct: -22.0, usr_l4w: 77.5, usr_dl4w_pct: 0.6,
+    cr_pct: 2.45,
+    aov: 262.36, aov_lw: 221.63, aov_dlw_pct: 18.4, aov_l4w: 255.70, aov_dl4w_pct: 2.6,
+    unidades_total: 119, und_lw: 119, und_dlw_pct: 0.0, und_l4w: 104.0, und_dl4w_pct: 14.4,
+    ordenes_total: 83, ord_lw: 99, ord_dlw_pct: -16.2, ord_l4w: 69.5, ord_dl4w_pct: 19.4,
+    impresiones_total: 3184,
+    so_turbo_mx: 6031624,
+    gmv_categoria: 41142, gmv_cat_lw: 49565, gmv_cat_l4w: 40643,
+    share_deal_cat_pct: 52.92, share_lw_pct: 44.27, share_l4w_pct: 43.72,
+    gmv_basket: 33917, gmv_sellup: 12142, pct_sellup: 35.8,
+    aov_basket: 408.64, aov_deal_post: 262.36,
+    cross_ordenes: 83, cross_skus_distintos: 133,
+    cross_top_producto: "Sico Gel Lubricante Vaginal 57 g", cross_top_ordenes: 5, cross_top_pct: 6.02,
+    inv_oos_cierre_viral_avg: 12.0, inv_oos_post_avg: 11.6,
+    inv_cov_viral_ap_avg: 77.4, inv_cov_viral_ci_avg: 69.5, inv_cov_post_avg: 69.8, inv_cov_bench_avg: 56.5,
+    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
+    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
+    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
   }
 ];
 
@@ -4724,7 +4748,13 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "91743", name: "Colima Cero Lager Ambar Lata 355 mL", ordenes: 26, usuarios: 26, unidades: 48, gmv: 1727, aov: 66.42, impresiones: 72, cr_pct: 36.11, gmv_dlw_pct: 4739.7, gmv_dl4w_pct: 4710.2, seg_nuevo: 26, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 227, stock_post: 226, stock_bench: 218, stock_delta_pct: 3.5, oos_cierre_viral: 21, oos_post: 19, cov_viral_ap: 75.0, cov_viral_ci: 56.3, cov_post: 57.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   // Electrolife 310526
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "12304", name: "Electrolife Bebida Rehidratante Zero Uva 625 mL", ordenes: 184, usuarios: 173, unidades: 331, gmv: 8140, aov: 44.24, impresiones: null, cr_pct: null, gmv_dlw_pct: -40.1, gmv_dl4w_pct: 6.0, seg_nuevo: 65, seg_nuevo_pct: 36, seg_reactivado: 46, seg_reactivado_pct: 25, seg_retenido: 62, seg_retenido_pct: 39, stock_viral: 4638, stock_post: 4316, stock_bench: 4716, stock_delta_pct: -8.5, oos_cierre_viral: 25, oos_post: 25, cov_viral_ap: 68.8, cov_viral_ci: 68.8, cov_post: 68.8, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
-  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "13072", name: "Electrolife Bebida Rehidratante Zero Fresa Kiwi 625 mL", ordenes: 107, usuarios: 99, unidades: 191, gmv: 4692, aov: 43.85, impresiones: null, cr_pct: null, gmv_dlw_pct: -55.7, gmv_dl4w_pct: -17.7, seg_nuevo: 38, seg_nuevo_pct: 36, seg_reactivado: 38, seg_reactivado_pct: 37, seg_retenido: 23, seg_retenido_pct: 27, stock_viral: 3642, stock_post: 3524, stock_bench: 3857, stock_delta_pct: -8.7, oos_cierre_viral: 56, oos_post: 55, cov_viral_ap: 38.9, cov_viral_ci: 37.8, cov_post: 38.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "13072", name: "Electrolife Bebida Rehidratante Zero Fresa Kiwi 625 mL", ordenes: 107, usuarios: 99, unidades: 191, gmv: 4692, aov: 43.85, impresiones: null, cr_pct: null, gmv_dlw_pct: -55.7, gmv_dl4w_pct: -17.7, seg_nuevo: 38, seg_nuevo_pct: 36, seg_reactivado: 38, seg_reactivado_pct: 37, seg_retenido: 23, seg_retenido_pct: 27, stock_viral: 3642, stock_post: 3524, stock_bench: 3857, stock_delta_pct: -8.7, oos_cierre_viral: 56, oos_post: 55, cov_viral_ap: 38.9, cov_viral_ci: 37.8, cov_post: 38.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  // Sico 300526
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "14101", name: "Sico Condones Climax Mutuo", ordenes: 24, usuarios: 24, unidades: 35, gmv: 3713, aov: 154.71, impresiones: 763, cr_pct: 3.15, gmv_dlw_pct: -15.6, gmv_dl4w_pct: -0.1, seg_nuevo: 13, seg_nuevo_pct: 54, seg_reactivado: 5, seg_reactivado_pct: 21, seg_retenido: 6, seg_retenido_pct: 25, stock_viral: 577, stock_post: 535, stock_bench: 558, stock_delta_pct: -4.0, oos_cierre_viral: 8, oos_post: 8, cov_viral_ap: 87.2, cov_viral_ci: 82.7, cov_post: 83.2, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "12030", name: "Sico Condon Invisible Ultra Delgado", ordenes: 15, usuarios: 14, unidades: 17, gmv: 1940, aov: 129.32, impresiones: 507, cr_pct: 2.96, gmv_dlw_pct: -7.3, gmv_dl4w_pct: -6.2, seg_nuevo: 11, seg_nuevo_pct: 80, seg_reactivado: 2, seg_reactivado_pct: 13, seg_retenido: 1, seg_retenido_pct: 7, stock_viral: 307, stock_post: 283, stock_bench: 249, stock_delta_pct: 13.8, oos_cierre_viral: 20, oos_post: 20, cov_viral_ap: 50.6, cov_viral_ci: 43.7, cov_post: 45.1, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "3860", name: "Lubricante Sico Play Cereza", ordenes: 12, usuarios: 12, unidades: 12, gmv: 1674, aov: 139.46, impresiones: 499, cr_pct: 2.40, gmv_dlw_pct: 44.9, gmv_dl4w_pct: -16.1, seg_nuevo: 12, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 275, stock_post: 264, stock_bench: 177, stock_delta_pct: 48.8, oos_cierre_viral: 17, oos_post: 17, cov_viral_ap: 66.5, cov_viral_ci: 64.1, cov_post: 61.8, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "7560", name: "Sico Condon Invisible Ultra Sense", ordenes: 27, usuarios: 24, unidades: 36, gmv: 10310, aov: 381.85, impresiones: 906, cr_pct: 2.98, gmv_dlw_pct: -26.8, gmv_dl4w_pct: 9.6, seg_nuevo: 20, seg_nuevo_pct: 78, seg_reactivado: 1, seg_reactivado_pct: 4, seg_retenido: 3, seg_retenido_pct: 19, stock_viral: 338, stock_post: 311, stock_bench: 281, stock_delta_pct: 10.6, oos_cierre_viral: 8, oos_post: 8, cov_viral_ap: 95.7, cov_viral_ci: 78.7, cov_post: 78.7, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "10439", name: "Sico Condones Safety", ordenes: 14, usuarios: 14, unidades: 19, gmv: 4139, aov: 295.65, impresiones: 509, cr_pct: 2.75, gmv_dlw_pct: 1844.7, gmv_dl4w_pct: 612.0, seg_nuevo: 11, seg_nuevo_pct: 79, seg_reactivado: 3, seg_reactivado_pct: 21, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 332, stock_post: 323, stock_bench: 203, stock_delta_pct: 59.0, oos_cierre_viral: 7, oos_post: 5, cov_viral_ap: 87.0, cov_viral_ci: 78.4, cov_post: 80.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5328,7 +5358,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Cigarrillos",   ordenes: 19, gmv: 3451,  pct_sellup: 6.03,  order: 5 },
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Frutas",        ordenes: 45, gmv: 2662,  pct_sellup: 4.66,  order: 6 },
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Snacks salados",ordenes: 34, gmv: 2421,  pct_sellup: 4.23,  order: 7 },
-  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Deportes",      ordenes: 2,  gmv: 2079,  pct_sellup: 3.64,  order: 8 }
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Deportes",      ordenes: 2,  gmv: 2079,  pct_sellup: 3.64,  order: 8 },
+  // Sico 300526
+  { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Cervezas",          ordenes: 11, gmv: 1378, pct_sellup: 11.35, order: 1 },
+  { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Preservativos",     ordenes: 7,  gmv: 1237, pct_sellup: 10.19, order: 2 },
+  { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Whiskys",           ordenes: 1,  gmv: 810,  pct_sellup: 6.67,  order: 3 },
+  { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Gaseosas",          ordenes: 18, gmv: 807,  pct_sellup: 6.65,  order: 4 },
+  { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Vodkas",            ordenes: 1,  gmv: 763,  pct_sellup: 6.28,  order: 5 },
+  { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Lubricantes",       ordenes: 6,  gmv: 627,  pct_sellup: 5.16,  order: 6 },
+  { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Antialérgico Oral", ordenes: 1,  gmv: 477,  pct_sellup: 3.92,  order: 7 },
+  { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Cigarrillos",       ordenes: 3,  gmv: 475,  pct_sellup: 3.91,  order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -6177,6 +6216,19 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "13692", name: "Pack Cerveza Clara Modelo Especial 6 x 355 mL",              subcategoria: "Cervezas",                ordenes: 4, pct_deal: 2.29, order: 10 },
   { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "14156", name: "Hielo Club 5 kg",                                            subcategoria: "Hielo",                   ordenes: 4, pct_deal: 2.29, order: 11 },
   { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "4939",  name: "Cerveza Corona Extra Latón 710 mL",                          subcategoria: "Cervezas",                ordenes: 4, pct_deal: 2.29, order: 12 },
+  // Sico 300526
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "6974",  name: "Sico Gel Lubricante Vaginal 57 g",                subcategoria: "Lubricantes",          ordenes: 5, pct_deal: 6.02, order: 1  },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "13630", name: "Sabritas Crujientes Jalapeño 160 g",              subcategoria: "Snacks salados",       ordenes: 2, pct_deal: 2.41, order: 2  },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "81993", name: "Platano Chiapas para hoy",                        subcategoria: "Frutas",               ordenes: 2, pct_deal: 2.41, order: 3  },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "7441",  name: "Coca-Cola Original Refresco 1 L",                 subcategoria: "Gaseosas",             ordenes: 2, pct_deal: 2.41, order: 4  },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "9103",  name: "Electrolit Suero Rehidratante Sabor Fresa Kiwi 625 mL", subcategoria: "Suero",         ordenes: 2, pct_deal: 2.41, order: 5  },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "9687",  name: "Pétalo Servitoalla Multicorte Doble Hoja",        subcategoria: "Toallas de cocina",    ordenes: 2, pct_deal: 2.41, order: 6  },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "7996",  name: "Coca-Cola Refresco Original Lata Lean 355 mL",    subcategoria: "Gaseosas",             ordenes: 2, pct_deal: 2.41, order: 7  },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "5896",  name: "Electrolit Suero Rehidratante Sabor Mora Azul 625 mL", subcategoria: "Suero",          ordenes: 2, pct_deal: 2.41, order: 8  },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "13475", name: "Kinder Bueno Galleta con Relleno Cremoso 43 Und", subcategoria: "Galletas",             ordenes: 2, pct_deal: 2.41, order: 9  },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "14402", name: "Fud Queso Tipo Manchego en Rebanadas 190 g",      subcategoria: "Quesos semiduros",     ordenes: 2, pct_deal: 2.41, order: 10 },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "10121", name: "Sprite Refresco Sabor Lima Limón 3 L",            subcategoria: "Gaseosas",             ordenes: 2, pct_deal: 2.41, order: 11 },
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "13798", name: "Squirt Refresco Sabor Toronja 2500 mL",           subcategoria: "Gaseosas",             ordenes: 2, pct_deal: 2.41, order: 12 },
   // Electrolife 310526
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "74953", name: "Electrolife Bebida Rehidratante Zero con Sabor a Ponche Frutas 625 mL", subcategoria: "Suero",         ordenes: 37, pct_deal: 14.23, order: 1  },
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "9103",  name: "Electrolit Suero Rehidratante Sabor Fresa Kiwi 625 mL",                subcategoria: "Suero",         ordenes: 21, pct_deal: 8.08,  order: 2  },
