@@ -4341,6 +4341,30 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
     canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
     canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
+  },
+  // Electrolife 310526
+  {
+    deal_id: "VIRAL_DEAL_ELECTROLIFE_310526",
+    post_days: 2, fase: 1,
+    gmv_activacion: 12832, gmv_lw: 24177, gmv_dlw_pct: -46.9, gmv_l4w: 13379, gmv_dl4w_pct: -4.1,
+    usuarios_unicos: 240, usr_lw: 515, usr_dlw_pct: -53.4, usr_l4w: 291.0, usr_dl4w_pct: -17.5,
+    cr_pct: null,
+    aov: 49.35, aov_lw: 51.01, aov_dlw_pct: -3.3, aov_l4w: 47.61, aov_dl4w_pct: 3.7,
+    unidades_total: 522, und_lw: 982, und_dlw_pct: -46.8, und_l4w: 541.0, und_dl4w_pct: -3.5,
+    ordenes_total: 260, ord_lw: 474, ord_dlw_pct: -45.1, ord_l4w: 281.0, ord_dl4w_pct: -7.5,
+    impresiones_total: null,
+    so_turbo_mx: 4359616,
+    gmv_categoria: 107946, gmv_cat_lw: 123248, gmv_cat_l4w: 94024,
+    share_deal_cat_pct: 11.89, share_lw_pct: 19.62, share_l4w_pct: 14.23,
+    gmv_basket: 70017, gmv_sellup: 57185, pct_sellup: 81.67,
+    aov_basket: 269.30, aov_deal_post: 49.35,
+    cross_ordenes: 260, cross_skus_distintos: 486,
+    cross_top_producto: "Electrolife Bebida Rehidratante Zero con Sabor a Ponche Frutas 625 mL", cross_top_ordenes: 37, cross_top_pct: 14.23,
+    inv_oos_cierre_viral_avg: 40.5, inv_oos_post_avg: 40.0,
+    inv_cov_viral_ap_avg: 53.9, inv_cov_viral_ci_avg: 53.3, inv_cov_post_avg: 53.6, inv_cov_bench_avg: 46.4,
+    canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null,
+    canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null,
+    canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null
   }
 ];
 
@@ -4697,7 +4721,10 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "13477", name: "Cerveza Cervecería de Colima Piedra Lisa Lata 355 mL", ordenes: 129, usuarios: 115, unidades: 382, gmv: 17169, aov: 133.09, impresiones: 190, cr_pct: 67.89, gmv_dlw_pct: 349.9, gmv_dl4w_pct: 390.5, seg_nuevo: 88, seg_nuevo_pct: 72, seg_reactivado: 12, seg_reactivado_pct: 9, seg_retenido: 15, seg_retenido_pct: 19, stock_viral: 2139, stock_post: 1741, stock_bench: 1704, stock_delta_pct: 2.2, oos_cierre_viral: 48, oos_post: 49, cov_viral_ap: 52.9, cov_viral_ci: 43.5, cov_post: 43.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "13816", name: "Cerveza Cervecería de Colima Colimita Lata 355 mL", ordenes: 59, usuarios: 59, unidades: 133, gmv: 5726, aov: 97.05, impresiones: 84, cr_pct: 70.24, gmv_dlw_pct: 399.7, gmv_dl4w_pct: 608.1, seg_nuevo: 48, seg_nuevo_pct: 81, seg_reactivado: 6, seg_reactivado_pct: 10, seg_retenido: 5, seg_retenido_pct: 9, stock_viral: 624, stock_post: 557, stock_bench: 507, stock_delta_pct: 9.7, oos_cierre_viral: 60, oos_post: 60, cov_viral_ap: 51.8, cov_viral_ci: 27.7, cov_post: 27.6, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
   { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "91744", name: "Colima Cero Session IPA Lata 355 mL", ordenes: 26, usuarios: 26, unidades: 43, gmv: 1534, aov: 58.99, impresiones: 60, cr_pct: 43.33, gmv_dlw_pct: 964.8, gmv_dl4w_pct: 1602.7, seg_nuevo: 24, seg_nuevo_pct: 92, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 2, seg_retenido_pct: 8, stock_viral: 226, stock_post: 216, stock_bench: 215, stock_delta_pct: 0.3, oos_cierre_viral: 28, oos_post: 28, cov_viral_ap: 66.7, cov_viral_ci: 41.7, cov_post: 41.7, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
-  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "91743", name: "Colima Cero Lager Ambar Lata 355 mL", ordenes: 26, usuarios: 26, unidades: 48, gmv: 1727, aov: 66.42, impresiones: 72, cr_pct: 36.11, gmv_dlw_pct: 4739.7, gmv_dl4w_pct: 4710.2, seg_nuevo: 26, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 227, stock_post: 226, stock_bench: 218, stock_delta_pct: 3.5, oos_cierre_viral: 21, oos_post: 19, cov_viral_ap: 75.0, cov_viral_ci: 56.3, cov_post: 57.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "91743", name: "Colima Cero Lager Ambar Lata 355 mL", ordenes: 26, usuarios: 26, unidades: 48, gmv: 1727, aov: 66.42, impresiones: 72, cr_pct: 36.11, gmv_dlw_pct: 4739.7, gmv_dl4w_pct: 4710.2, seg_nuevo: 26, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 227, stock_post: 226, stock_bench: 218, stock_delta_pct: 3.5, oos_cierre_viral: 21, oos_post: 19, cov_viral_ap: 75.0, cov_viral_ci: 56.3, cov_post: 57.3, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  // Electrolife 310526
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "12304", name: "Electrolife Bebida Rehidratante Zero Uva 625 mL", ordenes: 184, usuarios: 173, unidades: 331, gmv: 8140, aov: 44.24, impresiones: null, cr_pct: null, gmv_dlw_pct: -40.1, gmv_dl4w_pct: 6.0, seg_nuevo: 65, seg_nuevo_pct: 36, seg_reactivado: 46, seg_reactivado_pct: 25, seg_retenido: 62, seg_retenido_pct: 39, stock_viral: 4638, stock_post: 4316, stock_bench: 4716, stock_delta_pct: -8.5, oos_cierre_viral: 25, oos_post: 25, cov_viral_ap: 68.8, cov_viral_ci: 68.8, cov_post: 68.8, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "13072", name: "Electrolife Bebida Rehidratante Zero Fresa Kiwi 625 mL", ordenes: 107, usuarios: 99, unidades: 191, gmv: 4692, aov: 43.85, impresiones: null, cr_pct: null, gmv_dlw_pct: -55.7, gmv_dl4w_pct: -17.7, seg_nuevo: 38, seg_nuevo_pct: 36, seg_reactivado: 38, seg_reactivado_pct: 37, seg_retenido: 23, seg_retenido_pct: 27, stock_viral: 3642, stock_post: 3524, stock_bench: 3857, stock_delta_pct: -8.7, oos_cierre_viral: 56, oos_post: 55, cov_viral_ap: 38.9, cov_viral_ci: 37.8, cov_post: 38.4, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5292,7 +5319,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Frutas",        ordenes: 25, gmv: 1336,  pct_sellup: 4.36,  order: 5 },
   { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Agua Natural",  ordenes: 19, gmv: 1173,  pct_sellup: 3.83,  order: 6 },
   { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Tequilas",      ordenes: 3,  gmv: 1132,  pct_sellup: 3.69,  order: 7 },
-  { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Suero",         ordenes: 12, gmv: 774,   pct_sellup: 2.52,  order: 8 }
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", subcategoria: "Suero",         ordenes: 12, gmv: 774,   pct_sellup: 2.52,  order: 8 },
+  // Electrolife 310526
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Suero",         ordenes: 91, gmv: 5300,  pct_sellup: 9.27,  order: 1 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Cervezas",      ordenes: 23, gmv: 4328,  pct_sellup: 7.57,  order: 2 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Gaseosas",      ordenes: 60, gmv: 3785,  pct_sellup: 6.62,  order: 3 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Vino tinto",    ordenes: 9,  gmv: 3763,  pct_sellup: 6.58,  order: 4 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Cigarrillos",   ordenes: 19, gmv: 3451,  pct_sellup: 6.03,  order: 5 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Frutas",        ordenes: 45, gmv: 2662,  pct_sellup: 4.66,  order: 6 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Snacks salados",ordenes: 34, gmv: 2421,  pct_sellup: 4.23,  order: 7 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", subcategoria: "Deportes",      ordenes: 2,  gmv: 2079,  pct_sellup: 3.64,  order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -6140,5 +6176,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "81993", name: "Platano Chiapas para hoy",                                   subcategoria: "Frutas",                  ordenes: 5, pct_deal: 2.86, order: 9  },
   { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "13692", name: "Pack Cerveza Clara Modelo Especial 6 x 355 mL",              subcategoria: "Cervezas",                ordenes: 4, pct_deal: 2.29, order: 10 },
   { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "14156", name: "Hielo Club 5 kg",                                            subcategoria: "Hielo",                   ordenes: 4, pct_deal: 2.29, order: 11 },
-  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "4939",  name: "Cerveza Corona Extra Latón 710 mL",                          subcategoria: "Cervezas",                ordenes: 4, pct_deal: 2.29, order: 12 }
+  { deal_id: "VIRAL_DEAL_COLIMA_310526", sync: "4939",  name: "Cerveza Corona Extra Latón 710 mL",                          subcategoria: "Cervezas",                ordenes: 4, pct_deal: 2.29, order: 12 },
+  // Electrolife 310526
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "74953", name: "Electrolife Bebida Rehidratante Zero con Sabor a Ponche Frutas 625 mL", subcategoria: "Suero",         ordenes: 37, pct_deal: 14.23, order: 1  },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "9103",  name: "Electrolit Suero Rehidratante Sabor Fresa Kiwi 625 mL",                subcategoria: "Suero",         ordenes: 21, pct_deal: 8.08,  order: 2  },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "5896",  name: "Electrolit Suero Rehidratante Sabor Mora Azul 625 mL",                 subcategoria: "Suero",         ordenes: 18, pct_deal: 6.92,  order: 3  },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "5898",  name: "Electrolit Suero Rehidratante Sabor Lima-Limón 625 mL",                subcategoria: "Suero",         ordenes: 16, pct_deal: 6.15,  order: 4  },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "81993", name: "Platano Chiapas para hoy",                                             subcategoria: "Frutas",        ordenes: 12, pct_deal: 4.62,  order: 5  },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "7750",  name: "Electrolit Suero Rehidratante Sabor Naranja-Mandarina 625 mL",         subcategoria: "Suero",         ordenes: 11, pct_deal: 4.23,  order: 6  },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "13818", name: "Topo Chico Agua Mineral 600 mL",                                       subcategoria: "Agua Natural",  ordenes: 10, pct_deal: 3.85,  order: 7  },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "8033",  name: "Ciel Agua Natural Purificada 10 L",                                    subcategoria: "Agua Natural",  ordenes: 9,  pct_deal: 3.46,  order: 8  },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "5759",  name: "Electrolit Suero Rehidratante Sabor Uva 625 mL",                       subcategoria: "Suero",         ordenes: 8,  pct_deal: 3.08,  order: 9  },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "5495",  name: "Electrolit Suero Rehidratante Sabor Fresa 625 mL",                     subcategoria: "Suero",         ordenes: 8,  pct_deal: 3.08,  order: 10 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "14693", name: "Aguacate para hoy 3 pzas",                                             subcategoria: "Frutas",        ordenes: 8,  pct_deal: 3.08,  order: 11 },
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "6149",  name: "Coca-Cola Refresco Sin Azúcar 600 mL",                                 subcategoria: "Gaseosas",      ordenes: 7,  pct_deal: 2.69,  order: 12 }
 ];
