@@ -2245,7 +2245,7 @@ const PREVIRAL_DEALS = [
     business_unit: "Drinks",
     descuento_pct: 60,
     incrementalidad: 6,
-    tipo_viral: "multi-día",
+    tipo_viral: "on-hold",
     ciudades: "Nacional",
     fecha_planeacion: "2026-05-14",
     fecha_ejecucion: "2026-06-05",
