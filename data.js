@@ -725,30 +725,6 @@ const PREVIRAL_DEALS = [
     categoria_display: "Lubricantes, Preservativos"
   },
   {
-    deal_id: "VIRAL_DEAL_SICO_180626",
-    maker_name: "Reckitt Benckiser Health",
-    maker_aux: "Sico",
-    business_unit: "Pharma",
-    descuento_pct: 60,
-    incrementalidad: 4,
-    tipo_viral: "on-hold",
-    ciudades: "CDMX",
-    fecha_planeacion: "2026-04-14",
-    fecha_ejecucion: "2026-06-18",
-    fecha_fin: null,
-    usd_mxn: 17.40,
-    fecha_tasa: "2026-05-05",
-    budget_maker_mxn: 50000,
-    budget_growth_mxn: 15000,
-    budget_total_mxn: 65000,
-    budget_maker_usd: 2874.26,
-    budget_growth_usd: 862.28,
-    budget_total_usd: 3736.53,
-    financiamiento_maker: "ADS",
-    pct_growth_vs_maker: 30,
-    categoria_display: "Lubricantes, Preservativos"
-  },
-  {
     deal_id: "VIRAL_DEAL_SICO_270626",
     maker_name: "Reckitt Benckiser Health",
     maker_aux: "Sico",
@@ -2462,12 +2438,6 @@ const PREVIRAL_SKU_DETAIL = [
   { deal_id: "VIRAL_DEAL_SICO_110626", sync: "7560", ean: "7501685171120", pid: "2109994473", name: "Sico Condon Invisible Ultra Sense", subcategoria: "Preservativos", h_units: 7.9, h_orders: 6.6, avg_price: 295.95, ex_incr_units: 32, ex_incr_orders: 26, ex_budget_mxn: 5682, ex_budget_usd: 326.55, real_units: 125, final_budget_mxn: 22196, final_budget_usd: 1275.63, sku_order: 4 },
   { deal_id: "VIRAL_DEAL_SICO_110626", sync: "10439", ean: "7501058367136", pid: "2109997081", name: "Sico Condones Safety", subcategoria: "Preservativos", h_units: 2.3, h_orders: 2.1, avg_price: 259.17, ex_incr_units: 9, ex_incr_orders: 8, ex_budget_mxn: 1400, ex_budget_usd: 80.46, real_units: 40, final_budget_mxn: 6220, final_budget_usd: 357.47, sku_order: 5 },
 
-  // Sico 13-jun
-  { deal_id: "VIRAL_DEAL_SICO_180626", sync: "14101", ean: "7501058799685", pid: "1563416195", name: "Sico Condones Climax Mutuo", subcategoria: "Preservativos", h_units: 15.0, h_orders: 12.0, avg_price: 100.91, ex_incr_units: 60, ex_incr_orders: 48, ex_budget_mxn: 3633, ex_budget_usd: 208.79, real_units: 344, final_budget_mxn: 20828, final_budget_usd: 1197.01, sku_order: 1 },
-  { deal_id: "VIRAL_DEAL_SICO_180626", sync: "12030", ean: "7501685171113", pid: "2109995241", name: "Sico Condon Invisible Ultra Delgado", subcategoria: "Preservativos", h_units: 12.7, h_orders: 10.6, avg_price: 116.90, ex_incr_units: 51, ex_incr_orders: 42, ex_budget_mxn: 3577, ex_budget_usd: 205.57, real_units: 253, final_budget_mxn: 17745, final_budget_usd: 1019.83, sku_order: 2 },
-  { deal_id: "VIRAL_DEAL_SICO_180626", sync: "3860", ean: "7501058793232", pid: "2113443136", name: "Lubricante Sico Play Cereza", subcategoria: "Lubricantes", h_units: 8.7, h_orders: 7.9, avg_price: 152.95, ex_incr_units: 35, ex_incr_orders: 32, ex_budget_mxn: 3212, ex_budget_usd: 184.60, real_units: 133, final_budget_mxn: 12205, final_budget_usd: 701.44, sku_order: 3 },
-  { deal_id: "VIRAL_DEAL_SICO_180626", sync: "7560", ean: "7501685171120", pid: "2109994473", name: "Sico Condon Invisible Ultra Sense", subcategoria: "Preservativos", h_units: 7.9, h_orders: 6.6, avg_price: 295.95, ex_incr_units: 32, ex_incr_orders: 26, ex_budget_mxn: 5682, ex_budget_usd: 326.55, real_units: 63, final_budget_mxn: 11187, final_budget_usd: 643.05, sku_order: 4 },
-  { deal_id: "VIRAL_DEAL_SICO_180626", sync: "10439", ean: "7501058367136", pid: "2109997081", name: "Sico Condones Safety", subcategoria: "Preservativos", h_units: 2.3, h_orders: 2.1, avg_price: 259.17, ex_incr_units: 9, ex_incr_orders: 8, ex_budget_mxn: 1400, ex_budget_usd: 80.46, real_units: 20, final_budget_mxn: 3110, final_budget_usd: 178.74, sku_order: 5 },
   // Sico 27-jun
   { deal_id: "VIRAL_DEAL_SICO_270626", sync: "14101", ean: "7501058799685", pid: "1563416195", name: "Sico Condones Climax Mutuo", subcategoria: "Preservativos", h_units: 15.0, h_orders: 12.0, avg_price: 100.91, ex_incr_units: 60, ex_incr_orders: 48, ex_budget_mxn: 3633, ex_budget_usd: 208.79, real_units: 344, final_budget_mxn: 20828, final_budget_usd: 1197.01, sku_order: 1 },
   { deal_id: "VIRAL_DEAL_SICO_270626", sync: "12030", ean: "7501685171113", pid: "2109995241", name: "Sico Condon Invisible Ultra Delgado", subcategoria: "Preservativos", h_units: 12.7, h_orders: 10.6, avg_price: 116.90, ex_incr_units: 51, ex_incr_orders: 42, ex_budget_mxn: 3577, ex_budget_usd: 205.57, real_units: 253, final_budget_mxn: 17745, final_budget_usd: 1019.83, sku_order: 2 },
