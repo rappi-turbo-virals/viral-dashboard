@@ -2285,6 +2285,30 @@ const PREVIRAL_DEALS = [
     financiamiento_maker: "ADS",
     pct_growth_vs_maker: 30,
     categoria_display: "Tequilas, Mezcales"
+  },
+  {
+    deal_id: "VIRAL_DEAL_LALA_180626",
+    maker_name: "Grupo Lala",
+    maker_aux: "Lala",
+    business_unit: "Foods",
+    descuento_pct: 60,
+    incrementalidad: 11,
+    tipo_viral: "1 día",
+    ciudades: "Nacional",
+    fecha_planeacion: "2026-06-09",
+    fecha_ejecucion: "2026-06-18",
+    fecha_fin: null,
+    usd_mxn: 17.4428,
+    fecha_tasa: "2026-06-09",
+    budget_maker_mxn: 35000,
+    budget_growth_mxn: 10500,
+    budget_total_mxn: 45500,
+    budget_maker_usd: 2006.56,
+    budget_growth_usd: 601.97,
+    budget_total_usd: 2608.53,
+    financiamiento_maker: "ADS",
+    pct_growth_vs_maker: 30,
+    categoria_display: "Leche natural, Otras cremas"
   }
 
 
@@ -2761,7 +2785,10 @@ const PREVIRAL_SKU_DETAIL = [
   { deal_id: "VIRAL_DEAL_CUERVO_270626", sync: "8293", ean: "7501035014848", pid: "2109993618", name: "Maestro Dobel Tequila Diamante Reposado 700 mL", subcategoria: "Tequilas", h_units: 53.7, h_orders: 40.6, avg_price: 692.43, ex_incr_units: 161, ex_incr_orders: 122, ex_budget_mxn: 33444, ex_budget_usd: 1924.28, real_units: 144, final_budget_mxn: 29913, final_budget_usd: 1721.12, sku_order: 1 },
   { deal_id: "VIRAL_DEAL_CUERVO_270626", sync: "79635", ean: "7506351811393", pid: "2114989267", name: "Mezcal 400 Conejos Joven Espadin 700 mL", subcategoria: "Mezcales", h_units: 28.1, h_orders: 25.7, avg_price: 470.24, ex_incr_units: 84, ex_incr_orders: 77, ex_budget_mxn: 11850, ex_budget_usd: 681.82, real_units: 111, final_budget_mxn: 15659, final_budget_usd: 900.98, sku_order: 2 },
   { deal_id: "VIRAL_DEAL_CUERVO_270626", sync: "13825", ean: "7501048810307", pid: "2109996196", name: "Tequila Plata Gran Centenario 700 mL", subcategoria: "Tequilas", h_units: 21.9, h_orders: 19.9, avg_price: 355.35, ex_incr_units: 66, ex_incr_orders: 60, ex_budget_mxn: 7036, ex_budget_usd: 404.83, real_units: 115, final_budget_mxn: 12260, final_budget_usd: 705.41, sku_order: 3 },
-  { deal_id: "VIRAL_DEAL_CUERVO_270626", sync: "5644", ean: "7501035013483", pid: "2109994058", name: "Tequila 1800 Cristalino 700 mL", subcategoria: "Tequilas", h_units: 12.7, h_orders: 11.1, avg_price: 799.63, ex_incr_units: 38, ex_incr_orders: 33, ex_budget_mxn: 9116, ex_budget_usd: 524.51, real_units: 30, final_budget_mxn: 7197, final_budget_usd: 414.10, sku_order: 4 }
+  { deal_id: "VIRAL_DEAL_CUERVO_270626", sync: "5644", ean: "7501035013483", pid: "2109994058", name: "Tequila 1800 Cristalino 700 mL", subcategoria: "Tequilas", h_units: 12.7, h_orders: 11.1, avg_price: 799.63, ex_incr_units: 38, ex_incr_orders: 33, ex_budget_mxn: 9116, ex_budget_usd: 524.51, real_units: 30, final_budget_mxn: 7197, final_budget_usd: 414.10, sku_order: 4 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "72152", ean: "7501020550955", pid: "2113441843", name: "Lala 100 Leche Sin Lactosa Low Carb Light 1 L", subcategoria: "Leche natural", h_units: 38.9, h_orders: 19.4, avg_price: 43.98, ex_incr_units: 428, ex_incr_orders: 213, ex_budget_mxn: 11294, ex_budget_usd: 647.52, real_units: 892, final_budget_mxn: 23538, final_budget_usd: 1349.44, sku_order: 1 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "12265", ean: "7501020515299", pid: "2112057168", name: "Media Crema Lala 250ml (245g) Car - Lala - 250 g", subcategoria: "Otras cremas", h_units: 25.4, h_orders: 14.8, avg_price: 16.61, ex_incr_units: 279, ex_incr_orders: 163, ex_budget_mxn: 2781, ex_budget_usd: 159.45, real_units: 1541, final_budget_mxn: 15358, final_budget_usd: 880.48, sku_order: 2 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "78151", ean: "7501020567366", pid: "2114990842", name: "Lala Leche Entera Deslactosada Brick 1 L", subcategoria: "Leche natural", h_units: 10.9, h_orders: 6.4, avg_price: 36.08, ex_incr_units: 120, ex_incr_orders: 70, ex_budget_mxn: 2598, ex_budget_usd: 148.94, real_units: 305, final_budget_mxn: 6603, final_budget_usd: 378.55, sku_order: 3 }
 
 
 
