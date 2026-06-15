@@ -4411,6 +4411,30 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: 110, canib_ord_bench: 128.00, canib_ord_delta_pct: -14.1,
     canib_und_post: 150, canib_und_bench: 168.75, canib_und_delta_pct: -11.1,
     canib_cli_post: 132, canib_cli_bench: 143.25, canib_cli_delta_pct: -7.9
+  },
+  // Pepsico 110626
+  {
+    deal_id: "VIRAL_DEAL_PEPSICO_110626",
+    post_days: 4, fase: 2,
+    gmv_activacion: 184584, gmv_lw: 19078, gmv_dlw_pct: 867.5, gmv_l4w: 22761, gmv_dl4w_pct: 711.0,
+    usuarios_unicos: 1458, usr_lw: 295, usr_dlw_pct: 394.2, usr_l4w: 336, usr_dl4w_pct: 334.3,
+    cr_pct: 2.62,
+    aov: 108.64, aov_lw: 57.29, aov_dlw_pct: 89.6, aov_l4w: 59.01, aov_dl4w_pct: 84.1,
+    unidades_total: 3708, und_lw: 385, und_dlw_pct: 863.1, und_l4w: 454, und_dl4w_pct: 716.3,
+    ordenes_total: 1699, ord_lw: 333, ord_dlw_pct: 410.2, ord_l4w: 386, ord_dl4w_pct: 340.4,
+    impresiones_total: 55706,
+    so_turbo_mx: 7363446,
+    gmv_categoria: 942162, gmv_cat_lw: 190497, gmv_cat_l4w: 203828,
+    share_deal_cat_pct: 19.59, share_lw_pct: 10.01, share_l4w_pct: 11.17,
+    gmv_basket: 559639, gmv_sellup: 375055, pct_sellup: 67.02,
+    aov_basket: 329.39, aov_deal_post: 108.64,
+    cross_ordenes: 1699, cross_skus_distintos: 1280,
+    cross_top_producto: "Hot Nuts Cacahuates Original 100 g", cross_top_ordenes: 310, cross_top_pct: 18.25,
+    inv_oos_cierre_viral_avg: 63.0, inv_oos_post_avg: 62.0,
+    inv_cov_viral_ap_avg: 46.0, inv_cov_viral_ci_avg: 33.1, inv_cov_post_avg: 35.0, inv_cov_bench_avg: 44.3,
+    canib_ord_post: 1281, canib_ord_bench: 1955.5, canib_ord_delta_pct: -34.5,
+    canib_und_post: 2071, canib_und_bench: 2809, canib_und_delta_pct: -26.3,
+    canib_cli_post: 1378, canib_cli_bench: 1893, canib_cli_delta_pct: -27.2
   }
 ];
 
@@ -4776,7 +4800,12 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_SICO_300526", sync: "12030", name: "Sico Condon Invisible Ultra Delgado", ordenes: 15, usuarios: 14, unidades: 17, gmv: 1940, aov: 129.32, impresiones: 507, cr_pct: 2.96, gmv_dlw_pct: -7.3, gmv_dl4w_pct: -6.2, seg_nuevo: 11, seg_nuevo_pct: 80, seg_reactivado: 2, seg_reactivado_pct: 13, seg_retenido: 1, seg_retenido_pct: 7, stock_viral: 307, stock_post: 283, stock_bench: 249, stock_delta_pct: 13.8, oos_cierre_viral: 20, oos_post: 20, cov_viral_ap: 50.6, cov_viral_ci: 43.7, cov_post: 45.1, canib_ord_post: 24, canib_ord_bench: 26.75, canib_ord_delta_pct: -10.3, canib_und_post: 31, canib_und_bench: 33.50, canib_und_delta_pct: -7.5, canib_cli_post: 29, canib_cli_bench: 30.50, canib_cli_delta_pct: -4.9 },
   { deal_id: "VIRAL_DEAL_SICO_300526", sync: "3860", name: "Lubricante Sico Play Cereza", ordenes: 12, usuarios: 12, unidades: 12, gmv: 1674, aov: 139.46, impresiones: 499, cr_pct: 2.40, gmv_dlw_pct: 44.9, gmv_dl4w_pct: -16.1, seg_nuevo: 12, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 275, stock_post: 264, stock_bench: 177, stock_delta_pct: 48.8, oos_cierre_viral: 17, oos_post: 17, cov_viral_ap: 66.5, cov_viral_ci: 64.1, cov_post: 61.8, canib_ord_post: 15, canib_ord_bench: 16.50, canib_ord_delta_pct: -9.1, canib_und_post: 20, canib_und_bench: 21.00, canib_und_delta_pct: -4.8, canib_cli_post: 18, canib_cli_bench: 20.50, canib_cli_delta_pct: -12.2 },
   { deal_id: "VIRAL_DEAL_SICO_300526", sync: "7560", name: "Sico Condon Invisible Ultra Sense", ordenes: 27, usuarios: 24, unidades: 36, gmv: 10310, aov: 381.85, impresiones: 906, cr_pct: 2.98, gmv_dlw_pct: -26.8, gmv_dl4w_pct: 9.6, seg_nuevo: 20, seg_nuevo_pct: 78, seg_reactivado: 1, seg_reactivado_pct: 4, seg_retenido: 3, seg_retenido_pct: 19, stock_viral: 338, stock_post: 311, stock_bench: 281, stock_delta_pct: 10.6, oos_cierre_viral: 8, oos_post: 8, cov_viral_ap: 95.7, cov_viral_ci: 78.7, cov_post: 78.7, canib_ord_post: 24, canib_ord_bench: 35.75, canib_ord_delta_pct: -32.9, canib_und_post: 30, canib_und_bench: 45.25, canib_und_delta_pct: -33.7, canib_cli_post: 24, canib_cli_bench: 37.25, canib_cli_delta_pct: -35.6 },
-  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "10439", name: "Sico Condones Safety", ordenes: 14, usuarios: 14, unidades: 19, gmv: 4139, aov: 295.65, impresiones: 509, cr_pct: 2.75, gmv_dlw_pct: 1844.7, gmv_dl4w_pct: 612.0, seg_nuevo: 11, seg_nuevo_pct: 79, seg_reactivado: 3, seg_reactivado_pct: 21, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 332, stock_post: 323, stock_bench: 203, stock_delta_pct: 59.0, oos_cierre_viral: 7, oos_post: 5, cov_viral_ap: 87.0, cov_viral_ci: 78.4, cov_post: 80.0, canib_ord_post: 16, canib_ord_bench: 7.25, canib_ord_delta_pct: 120.7, canib_und_post: 23, canib_und_bench: 10.25, canib_und_delta_pct: 124.4, canib_cli_post: 22, canib_cli_bench: 8.00, canib_cli_delta_pct: 175.0 }
+  { deal_id: "VIRAL_DEAL_SICO_300526", sync: "10439", name: "Sico Condones Safety", ordenes: 14, usuarios: 14, unidades: 19, gmv: 4139, aov: 295.65, impresiones: 509, cr_pct: 2.75, gmv_dlw_pct: 1844.7, gmv_dl4w_pct: 612.0, seg_nuevo: 11, seg_nuevo_pct: 79, seg_reactivado: 3, seg_reactivado_pct: 21, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 332, stock_post: 323, stock_bench: 203, stock_delta_pct: 59.0, oos_cierre_viral: 7, oos_post: 5, cov_viral_ap: 87.0, cov_viral_ci: 78.4, cov_post: 80.0, canib_ord_post: 16, canib_ord_bench: 7.25, canib_ord_delta_pct: 120.7, canib_und_post: 23, canib_und_bench: 10.25, canib_und_delta_pct: 124.4, canib_cli_post: 22, canib_cli_bench: 8.00, canib_cli_delta_pct: 175.0 },
+  // Pepsico 110626
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "13683", name: "Ruffles Sabritas Papa Fritas Onduladas de Queso 120 g", subcategoria: "Snacks salados", ordenes: 796, usuarios: 694, unidades: 1398, gmv: 63004, aov: 79.15, impresiones: 17491, cr_pct: 4.55, gmv_dlw_pct: 783.5, gmv_dl4w_pct: 793.6, seg_nuevo: 463, seg_nuevo_pct: 58, seg_reactivado: 212, seg_reactivado_pct: 27, seg_retenido: 121, seg_retenido_pct: 15, stock_viral: 6428, stock_post: 9544, stock_bench: 5249, stock_delta_pct: 81.8, oos_cierre_viral: 60, oos_post: 65, cov_viral_ap: 45.3, cov_viral_ci: 36.8, cov_post: 33.3, canib_ord_post: 379, canib_ord_bench: 650.0, canib_ord_delta_pct: -41.7, canib_und_post: 568, canib_und_bench: 984.0, canib_und_delta_pct: -42.3, canib_cli_post: 400, canib_cli_bench: 614.0, canib_cli_delta_pct: -34.9 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "11947", name: "Sabritas - Papa Sal 160g", subcategoria: "Snacks salados", ordenes: 612, usuarios: 538, unidades: 976, gmv: 63894, aov: 104.40, impresiones: 17114, cr_pct: 3.58, gmv_dlw_pct: 1240.1, gmv_dl4w_pct: 833.9, seg_nuevo: 458, seg_nuevo_pct: 75, seg_reactivado: 85, seg_reactivado_pct: 14, seg_retenido: 69, seg_retenido_pct: 11, stock_viral: 4499, stock_post: 4851, stock_bench: 5394, stock_delta_pct: -10.1, oos_cierre_viral: 61, oos_post: 74, cov_viral_ap: 54.7, cov_viral_ci: 35.8, cov_post: 26.8, canib_ord_post: 184, canib_ord_bench: 498.0, canib_ord_delta_pct: -63.1, canib_und_post: 325, canib_und_bench: 700.0, canib_und_delta_pct: -53.6, canib_cli_post: 202, canib_cli_bench: 500.0, canib_cli_delta_pct: -59.6 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "5860", name: "Sabritas Papas Clásicas Receta Crujiente 170 g", subcategoria: "Snacks salados", ordenes: 525, usuarios: 461, unidades: 797, gmv: 51713, aov: 98.50, impresiones: 15567, cr_pct: 3.37, gmv_dlw_pct: 686.3, gmv_dl4w_pct: 520.6, seg_nuevo: 347, seg_nuevo_pct: 66, seg_reactivado: 108, seg_reactivado_pct: 21, seg_retenido: 70, seg_retenido_pct: 13, stock_viral: 7772, stock_post: 6277, stock_bench: 4238, stock_delta_pct: 48.1, oos_cierre_viral: 66, oos_post: 59, cov_viral_ap: 47.4, cov_viral_ci: 32.0, cov_post: 39.3, canib_ord_post: 562, canib_ord_bench: 661.0, canib_ord_delta_pct: -15.0, canib_und_post: 917, canib_und_bench: 871.0, canib_und_delta_pct: 5.3, canib_cli_post: 615, canib_cli_bench: 643.0, canib_cli_delta_pct: -4.4 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "6327", name: "Rockaleta - Paleta Enchilada con centro de chicle 24 g", subcategoria: "Gomitas y caramelos", ordenes: 203, usuarios: 187, unidades: 537, gmv: 5973, aov: 29.42, impresiones: 5534, cr_pct: 3.67, gmv_dlw_pct: 892.6, gmv_dl4w_pct: 1015.3, seg_nuevo: 149, seg_nuevo_pct: 74, seg_reactivado: 19, seg_reactivado_pct: 9, seg_retenido: 35, seg_retenido_pct: 17, stock_viral: 7370, stock_post: 6533, stock_bench: 4367, stock_delta_pct: 49.6, oos_cierre_viral: 65, oos_post: 51, cov_viral_ap: 36.7, cov_viral_ci: 27.8, cov_post: 40.7, canib_ord_post: 156, canib_ord_bench: 146.0, canib_ord_delta_pct: 6.7, canib_und_post: 261, canib_und_bench: 253.0, canib_und_delta_pct: 3.1, canib_cli_post: 161, canib_cli_bench: 136.0, canib_cli_delta_pct: 18.4 }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5389,7 +5418,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Vodkas",            ordenes: 1,  gmv: 763,  pct_sellup: 6.28,  order: 5 },
   { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Lubricantes",       ordenes: 6,  gmv: 627,  pct_sellup: 5.16,  order: 6 },
   { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Antialérgico Oral", ordenes: 1,  gmv: 477,  pct_sellup: 3.92,  order: 7 },
-  { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Cigarrillos",       ordenes: 3,  gmv: 475,  pct_sellup: 3.91,  order: 8 }
+  { deal_id: "VIRAL_DEAL_SICO_300526", subcategoria: "Cigarrillos",       ordenes: 3,  gmv: 475,  pct_sellup: 3.91,  order: 8 },
+  // Pepsico 110626
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Snacks salados",          ordenes: 1143, gmv: 147681, pct_sellup: 39.38, order: 1 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Cervezas",                ordenes: 313,  gmv: 44772,  pct_sellup: 11.94, order: 2 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Gaseosas",                ordenes: 599,  gmv: 37593,  pct_sellup: 10.02, order: 3 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Frutos secos y semillas", ordenes: 384,  gmv: 19731,  pct_sellup: 5.26,  order: 4 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Tequilas",                ordenes: 19,   gmv: 11253,  pct_sellup: 3.00,  order: 5 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Frutas",                  ordenes: 132,  gmv: 6552,   pct_sellup: 1.75,  order: 6 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Agua Natural",            ordenes: 110,  gmv: 5543,   pct_sellup: 1.48,  order: 7 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Galletas",                ordenes: 99,   gmv: 4548,   pct_sellup: 1.21,  order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -6263,5 +6301,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "5759",  name: "Electrolit Suero Rehidratante Sabor Uva 625 mL",                       subcategoria: "Suero",         ordenes: 8,  pct_deal: 3.08,  order: 9  },
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "5495",  name: "Electrolit Suero Rehidratante Sabor Fresa 625 mL",                     subcategoria: "Suero",         ordenes: 8,  pct_deal: 3.08,  order: 10 },
   { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "14693", name: "Aguacate para hoy 3 pzas",                                             subcategoria: "Frutas",        ordenes: 8,  pct_deal: 3.08,  order: 11 },
-  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "6149",  name: "Coca-Cola Refresco Sin Azúcar 600 mL",                                 subcategoria: "Gaseosas",      ordenes: 7,  pct_deal: 2.69,  order: 12 }
+  { deal_id: "VIRAL_DEAL_ELECTROLIFE_310526", sync: "6149",  name: "Coca-Cola Refresco Sin Azúcar 600 mL",                                 subcategoria: "Gaseosas",      ordenes: 7,  pct_deal: 2.69,  order: 12 },
+  // Pepsico 110626
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "15322", name: "Hot Nuts Cacahuates Original 100 g",          subcategoria: "Frutos secos y semillas", ordenes: 310, pct_deal: 18.25, order: 1  },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "74142", name: "Takis Fuego 94 g",                            subcategoria: "Snacks salados",          ordenes: 216, pct_deal: 12.71, order: 2  },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "74154", name: "Chips Toque Maestro Parmesano 140 g",         subcategoria: "Snacks salados",          ordenes: 192, pct_deal: 11.30, order: 3  },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "13630", name: "Sabritas Crujientes Jalapeño 160 g",          subcategoria: "Snacks salados",          ordenes: 166, pct_deal: 9.77,  order: 4  },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "11782", name: "Chips Fuego 55 g",                            subcategoria: "Snacks salados",          ordenes: 157, pct_deal: 9.24,  order: 5  },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "8462",  name: "Coca-Cola Refresco Original 3 L",             subcategoria: "Gaseosas",                ordenes: 151, pct_deal: 8.89,  order: 6  },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "10929", name: "Doritos Nacho 223 g",                         subcategoria: "Snacks salados",          ordenes: 114, pct_deal: 6.71,  order: 7  },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "11020", name: "Chip's Jalapeño 55 g",                        subcategoria: "Snacks salados",          ordenes: 101, pct_deal: 5.94,  order: 8  },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "81265", name: "Chips Sal 55 g",                              subcategoria: "Snacks salados",          ordenes: 92,  pct_deal: 5.41,  order: 9  },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "6744",  name: "Coca-Cola Original Refresco Pet 600 mL",      subcategoria: "Gaseosas",                ordenes: 89,  pct_deal: 5.24,  order: 10 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "9476",  name: "Paketaxo Botana Surtida Quexo 208 g",         subcategoria: "Snacks salados",          ordenes: 85,  pct_deal: 5.00,  order: 11 },
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "5851",  name: "Papas Adobadas 45 g",                         subcategoria: "Snacks salados",          ordenes: 84,  pct_deal: 4.94,  order: 12 }
 ];
