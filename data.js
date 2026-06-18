@@ -4433,6 +4433,26 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: 1281, canib_ord_bench: 1955.5, canib_ord_delta_pct: -34.5,
     canib_und_post: 2071, canib_und_bench: 2809, canib_und_delta_pct: -26.3,
     canib_cli_post: 1378, canib_cli_bench: 1893, canib_cli_delta_pct: -27.2
+  },
+  // Barcel Jun 14
+  {
+    deal_id: "VIRAL_DEAL_BARCEL_140626",
+    post_days: 4, fase: 2,
+    gmv_activacion: 17432, gmv_lw: 7546, gmv_dlw_pct: 131.0, gmv_l4w: 8314, gmv_dl4w_pct: 109.7,
+    usuarios_unicos: 465, usr_lw: 240, usr_dlw_pct: 93.8, usr_l4w: 256, usr_dl4w_pct: 81.8,
+    cr_pct: 2.43, aov: 31.81, aov_lw: 27.84, aov_dlw_pct: 14.3, aov_l4w: 28.28, aov_dl4w_pct: 12.5,
+    unidades_total: 725, und_lw: 300, und_dlw_pct: 141.7, und_l4w: 338, und_dl4w_pct: 114.3,
+    ordenes_total: 548, ord_lw: 271, ord_dlw_pct: 102.2, ord_l4w: 294, ord_dl4w_pct: 86.4,
+    impresiones_total: 19118,
+    so_turbo_mx: 22500063,
+    gmv_categoria: 352399, gmv_cat_lw: 292977, gmv_cat_l4w: 314587,
+    share_deal_cat_pct: 4.95, share_lw_pct: 2.58, share_l4w_pct: 2.64,
+    gmv_basket: 128307, gmv_sellup: 110874, pct_sellup: 86.41, aov_basket: 234.14, aov_deal_post: 31.81,
+    cross_ordenes: 548, cross_skus_distintos: 848, cross_top_producto: "Doritos - Nacho 146g", cross_top_ordenes: 36, cross_top_pct: 6.57,
+    inv_oos_cierre_viral_avg: 22.5, inv_oos_post_avg: 20.8, inv_cov_viral_ap_avg: 73.9, inv_cov_viral_ci_avg: 73.9, inv_cov_post_avg: 75.5, inv_cov_bench_avg: 70.1,
+    canib_ord_post: 976, canib_ord_bench: 1233.25, canib_ord_delta_pct: -20.9,
+    canib_und_post: 1586, canib_und_bench: 1989.5, canib_und_delta_pct: -20.3,
+    canib_cli_post: 1066, canib_cli_bench: 1245.25, canib_cli_delta_pct: -14.4
   }
 ];
 
@@ -4803,7 +4823,10 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "13683", name: "Ruffles Sabritas Papa Fritas Onduladas de Queso 120 g", subcategoria: "Snacks salados", ordenes: 796, usuarios: 694, unidades: 1398, gmv: 63004, aov: 79.15, impresiones: 17491, cr_pct: 4.55, gmv_dlw_pct: 783.5, gmv_dl4w_pct: 793.6, seg_nuevo: 463, seg_nuevo_pct: 58, seg_reactivado: 212, seg_reactivado_pct: 27, seg_retenido: 121, seg_retenido_pct: 15, stock_viral: 6428, stock_post: 9544, stock_bench: 5249, stock_delta_pct: 81.8, oos_cierre_viral: 60, oos_post: 65, cov_viral_ap: 45.3, cov_viral_ci: 36.8, cov_post: 33.3, canib_ord_post: 379, canib_ord_bench: 650.0, canib_ord_delta_pct: -41.7, canib_und_post: 568, canib_und_bench: 984.0, canib_und_delta_pct: -42.3, canib_cli_post: 400, canib_cli_bench: 614.0, canib_cli_delta_pct: -34.9 },
   { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "11947", name: "Sabritas - Papa Sal 160g", subcategoria: "Snacks salados", ordenes: 612, usuarios: 538, unidades: 976, gmv: 63894, aov: 104.40, impresiones: 17114, cr_pct: 3.58, gmv_dlw_pct: 1240.1, gmv_dl4w_pct: 833.9, seg_nuevo: 458, seg_nuevo_pct: 75, seg_reactivado: 85, seg_reactivado_pct: 14, seg_retenido: 69, seg_retenido_pct: 11, stock_viral: 4499, stock_post: 4851, stock_bench: 5394, stock_delta_pct: -10.1, oos_cierre_viral: 61, oos_post: 74, cov_viral_ap: 54.7, cov_viral_ci: 35.8, cov_post: 26.8, canib_ord_post: 184, canib_ord_bench: 498.0, canib_ord_delta_pct: -63.1, canib_und_post: 325, canib_und_bench: 700.0, canib_und_delta_pct: -53.6, canib_cli_post: 202, canib_cli_bench: 500.0, canib_cli_delta_pct: -59.6 },
   { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "5860", name: "Sabritas Papas Clásicas Receta Crujiente 170 g", subcategoria: "Snacks salados", ordenes: 525, usuarios: 461, unidades: 797, gmv: 51713, aov: 98.50, impresiones: 15567, cr_pct: 3.37, gmv_dlw_pct: 686.3, gmv_dl4w_pct: 520.6, seg_nuevo: 347, seg_nuevo_pct: 66, seg_reactivado: 108, seg_reactivado_pct: 21, seg_retenido: 70, seg_retenido_pct: 13, stock_viral: 7772, stock_post: 6277, stock_bench: 4238, stock_delta_pct: 48.1, oos_cierre_viral: 66, oos_post: 59, cov_viral_ap: 47.4, cov_viral_ci: 32.0, cov_post: 39.3, canib_ord_post: 562, canib_ord_bench: 661.0, canib_ord_delta_pct: -15.0, canib_und_post: 917, canib_und_bench: 871.0, canib_und_delta_pct: 5.3, canib_cli_post: 615, canib_cli_bench: 643.0, canib_cli_delta_pct: -4.4 },
-  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "6327", name: "Rockaleta - Paleta Enchilada con centro de chicle 24 g", subcategoria: "Gomitas y caramelos", ordenes: 203, usuarios: 187, unidades: 537, gmv: 5973, aov: 29.42, impresiones: 5534, cr_pct: 3.67, gmv_dlw_pct: 892.6, gmv_dl4w_pct: 1015.3, seg_nuevo: 149, seg_nuevo_pct: 74, seg_reactivado: 19, seg_reactivado_pct: 9, seg_retenido: 35, seg_retenido_pct: 17, stock_viral: 7370, stock_post: 6533, stock_bench: 4367, stock_delta_pct: 49.6, oos_cierre_viral: 65, oos_post: 51, cov_viral_ap: 36.7, cov_viral_ci: 27.8, cov_post: 40.7, canib_ord_post: 156, canib_ord_bench: 146.0, canib_ord_delta_pct: 6.7, canib_und_post: 261, canib_und_bench: 253.0, canib_und_delta_pct: 3.1, canib_cli_post: 161, canib_cli_bench: 136.0, canib_cli_delta_pct: 18.4 }
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "6327", name: "Rockaleta - Paleta Enchilada con centro de chicle 24 g", subcategoria: "Gomitas y caramelos", ordenes: 203, usuarios: 187, unidades: 537, gmv: 5973, aov: 29.42, impresiones: 5534, cr_pct: 3.67, gmv_dlw_pct: 892.6, gmv_dl4w_pct: 1015.3, seg_nuevo: 149, seg_nuevo_pct: 74, seg_reactivado: 19, seg_reactivado_pct: 9, seg_retenido: 35, seg_retenido_pct: 17, stock_viral: 7370, stock_post: 6533, stock_bench: 4367, stock_delta_pct: 49.6, oos_cierre_viral: 65, oos_post: 51, cov_viral_ap: 36.7, cov_viral_ci: 27.8, cov_post: 40.7, canib_ord_post: 156, canib_ord_bench: 146.0, canib_ord_delta_pct: 6.7, canib_und_post: 261, canib_und_bench: 253.0, canib_und_delta_pct: 3.1, canib_cli_post: 161, canib_cli_bench: 136.0, canib_cli_delta_pct: 18.4 },
+  // Barcel Jun 14
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "15322", name: "Hot Nuts Cacahuates Original 100 g", ordenes: 319, usuarios: 264, unidades: 384, gmv: 10931, aov: 34.27, impresiones: 13281, cr_pct: 2.40, gmv_dlw_pct: 104.3, gmv_dl4w_pct: 71.4, seg_nuevo: 142, seg_nuevo_pct: 44, seg_reactivado: 89, seg_reactivado_pct: 28, seg_retenido: 88, seg_retenido_pct: 28, stock_viral: 20582, stock_post: 19837, stock_bench: 13331, stock_delta_pct: 48.8, oos_cierre_viral: 42, oos_post: 36.8, cov_viral_ap: 54.8, cov_viral_ci: 54.8, cov_post: 60.5, canib_ord_post: 625, canib_ord_bench: 950.0, canib_ord_delta_pct: -34.2, canib_und_post: 1030, canib_und_bench: 1510.5, canib_und_delta_pct: -31.8, canib_cli_post: 667, canib_cli_bench: 957.25, canib_cli_delta_pct: -30.3 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "9546", name: "Chips Fuego Limon 56 gr Barcel", ordenes: 247, usuarios: 218, unidades: 341, gmv: 6502, aov: 26.32, impresiones: 5837, cr_pct: 4.23, gmv_dlw_pct: 196.1, gmv_dl4w_pct: 235.8, seg_nuevo: 177, seg_nuevo_pct: 72, seg_reactivado: 10, seg_reactivado_pct: 4, seg_retenido: 60, seg_retenido_pct: 24, stock_viral: 7994, stock_post: 7839, stock_bench: 2608, stock_delta_pct: 200.6, oos_cierre_viral: 3, oos_post: 4.8, cov_viral_ap: 92.9, cov_viral_ci: 92.9, cov_post: 90.5, canib_ord_post: 351, canib_ord_bench: 283.25, canib_ord_delta_pct: 23.9, canib_und_post: 556, canib_und_bench: 479.0, canib_und_delta_pct: 16.1, canib_cli_post: 399, canib_cli_bench: 288.0, canib_cli_delta_pct: 38.5 }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5425,7 +5448,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Tequilas",                ordenes: 19,   gmv: 11253,  pct_sellup: 3.00,  order: 5 },
   { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Frutas",                  ordenes: 132,  gmv: 6552,   pct_sellup: 1.75,  order: 6 },
   { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Agua Natural",            ordenes: 110,  gmv: 5543,   pct_sellup: 1.48,  order: 7 },
-  { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Galletas",                ordenes: 99,   gmv: 4548,   pct_sellup: 1.21,  order: 8 }
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", subcategoria: "Galletas",                ordenes: 99,   gmv: 4548,   pct_sellup: 1.21,  order: 8 },
+  // Barcel Jun 14
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Snacks salados",    ordenes: 283, gmv: 24960, pct_sellup: 22.51, order: 1 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Cervezas",          ordenes: 89,  gmv: 10671, pct_sellup: 9.62,  order: 2 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Gaseosas",          ordenes: 152, gmv: 6641,  pct_sellup: 5.99,  order: 3 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Galletas",          ordenes: 79,  gmv: 3797,  pct_sellup: 3.42,  order: 4 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Frutas",            ordenes: 78,  gmv: 3002,  pct_sellup: 2.71,  order: 5 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Chocolates",        ordenes: 56,  gmv: 2660,  pct_sellup: 2.40,  order: 6 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Cigarrillos",       ordenes: 13,  gmv: 2651,  pct_sellup: 2.39,  order: 7 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Agua Natural",      ordenes: 59,  gmv: 2600,  pct_sellup: 2.34,  order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -6312,5 +6344,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "81265", name: "Chips Sal 55 g",                              subcategoria: "Snacks salados",          ordenes: 92,  pct_deal: 5.41,  order: 9  },
   { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "6744",  name: "Coca-Cola Original Refresco Pet 600 mL",      subcategoria: "Gaseosas",                ordenes: 89,  pct_deal: 5.24,  order: 10 },
   { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "9476",  name: "Paketaxo Botana Surtida Quexo 208 g",         subcategoria: "Snacks salados",          ordenes: 85,  pct_deal: 5.00,  order: 11 },
-  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "5851",  name: "Papas Adobadas 45 g",                         subcategoria: "Snacks salados",          ordenes: 84,  pct_deal: 4.94,  order: 12 }
+  { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "5851",  name: "Papas Adobadas 45 g",                         subcategoria: "Snacks salados",          ordenes: 84,  pct_deal: 4.94,  order: 12 },
+  // Barcel Jun 14
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "15327", name: "Doritos - Nacho 146g",                              subcategoria: "Snacks salados",         ordenes: 36, pct_deal: 6.57, order: 1  },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "12376", name: "Ruffles Papas Fritas Onduladas Sabor Queso 185 g",  subcategoria: "Snacks salados",         ordenes: 34, pct_deal: 6.20, order: 2  },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "6407",  name: "Maruchan Sopa Instantánea Camarón Con Habanero 64 g", subcategoria: "Sopas y cremas",      ordenes: 32, pct_deal: 5.84, order: 3  },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "10929", name: "Doritos Nacho 223Gr - Sabritas - 223 g",            subcategoria: "Snacks salados",         ordenes: 30, pct_deal: 5.47, order: 4  },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "11014", name: "Chips Sal Papas Fritas Saladas 60 g",               subcategoria: "Snacks salados",         ordenes: 28, pct_deal: 5.11, order: 5  },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "13475", name: "Kinder Bueno Galleta con Relleno Cremoso 43 Und",   subcategoria: "Galletas",               ordenes: 27, pct_deal: 4.93, order: 6  },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "14946", name: "Mallas Limón Con Semilla 5 piezas",                 subcategoria: "Frutas",                 ordenes: 27, pct_deal: 4.93, order: 7  },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "74142", name: "Takis Fuego 94g - Barcel",                          subcategoria: "Snacks salados",         ordenes: 26, pct_deal: 4.74, order: 8  },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "5630",  name: "Maruchan Sopa Instantanea Camarón Con Chile 64 g",  subcategoria: "Sopas y cremas",         ordenes: 25, pct_deal: 4.56, order: 9  },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "6744",  name: "Coca-Cola Original Refresco Pet 600 mL",            subcategoria: "Gaseosas",               ordenes: 24, pct_deal: 4.38, order: 10 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "11982", name: "Runners Barcel Frituras De Maiz Sabor Salsa 80 g",  subcategoria: "Snacks salados",         ordenes: 23, pct_deal: 4.20, order: 11 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "11020", name: "Chip's Botana Jalapeño 60 g",                       subcategoria: "Snacks salados",         ordenes: 21, pct_deal: 3.83, order: 12 }
 ];
