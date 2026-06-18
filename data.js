@@ -1324,7 +1324,7 @@ const PREVIRAL_DEALS = [
     budget_total_usd: 3783.47,
     financiamiento_maker: "ADS",
     pct_growth_vs_maker: 30,
-    categoria_display: "Pochoclos, Snacks salados"
+    categoria_display: "Frutos secos y semillas, Snacks salados"
   },
   {
     deal_id: "VIRAL_DEAL_BARCEL_200626",
@@ -2745,10 +2745,8 @@ const PREVIRAL_SKU_DETAIL = [
   { deal_id: "VIRAL_DEAL_HOLANDA_160426", sync: "6579", ean: "7506306415775", pid: "2115881876", name: "Magnum Paleta Helada Almendras 90 mL", subcategoria: "Helados", h_units: 163.0, h_orders: 89.8, avg_price: 47.96, ex_incr_units: 1304, ex_incr_orders: 718, ex_budget_mxn: 31270, ex_budget_usd: 1814.27, real_units: 821, final_budget_mxn: 19688, final_budget_usd: 1142.05, sku_order: 2 },
   { deal_id: "VIRAL_DEAL_HOLANDA_160426", sync: "8944", ean: "7501130935512", pid: "2115850207", name: "Solero Paleta Sabor Limón Citrus", subcategoria: "Helados", h_units: 72.4, h_orders: 36.0, avg_price: 23.98, ex_incr_units: 579, ex_incr_orders: 288, ex_budget_mxn: 6942, ex_budget_usd: 402.67, real_units: 729, final_budget_mxn: 8741, final_budget_usd: 506.99, sku_order: 3 },
   // Barcel Jun
-  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "10585", ean: "757528001865", pid: "2109995881", name: "Chips Papas Fritas Fuego 55 g", subcategoria: "Snacks salados", h_units: 99.9, h_orders: 89.6, avg_price: 24.50, ex_incr_units: 599, ex_incr_orders: 538, ex_budget_mxn: 7338, ex_budget_usd: 427.13, real_units: 2529, final_budget_mxn: 30980, final_budget_usd: 1803.26, sku_order: 1 },
-  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "9892", ean: "757528019761", pid: "2109996686", name: "Chips Papas Fritas Jalapeño 100 G", subcategoria: "Snacks salados", h_units: 63.8, h_orders: 60.6, avg_price: 39.20, ex_incr_units: 383, ex_incr_orders: 364, ex_budget_mxn: 7507, ex_budget_usd: 436.96, real_units: 1010, final_budget_mxn: 19796, final_budget_usd: 1152.27, sku_order: 2 },
-  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "10606", ean: "7501030459927", pid: "2115038941", name: "Golden Nuts Enchilados 100 g", subcategoria: "Snacks salados", h_units: 29.7, h_orders: 26.5, avg_price: 25.31, ex_incr_units: 178, ex_incr_orders: 159, ex_budget_mxn: 2253, ex_budget_usd: 131.14, real_units: 727, final_budget_mxn: 9200, final_budget_usd: 535.51, sku_order: 3 },
-  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "74146", ean: "7500810011980", pid: "2114127634", name: "Pop Karameladas 240g", subcategoria: "Pochoclos", h_units: 16.1, h_orders: 15.1, avg_price: 64.37, ex_incr_units: 97, ex_incr_orders: 91, ex_budget_mxn: 3122, ex_budget_usd: 181.72, real_units: 156, final_budget_mxn: 5021, final_budget_usd: 292.26, sku_order: 4 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "15322", ean: "7501030459958", pid: "2109996384", name: "Hot Nuts Cacahuates Original 100 g", subcategoria: "Frutos secos y semillas", h_units: 269.5, h_orders: 224.0, avg_price: 28.08, ex_incr_units: 1617, ex_incr_orders: 1344, ex_budget_mxn: 22703, ex_budget_usd: 1320.90, real_units: 3378, final_budget_mxn: 47427, final_budget_usd: 2759.43, sku_order: 1 },
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "9546", ean: "7503030199681", pid: "2109997594", name: "Chips Fuego Limon 56 gr Barcel", subcategoria: "Snacks salados", h_units: 99.9, h_orders: 74.6, avg_price: 17.48, ex_incr_units: 599, ex_incr_orders: 448, ex_budget_mxn: 5235, ex_budget_usd: 304.71, real_units: 2010, final_budget_mxn: 17567, final_budget_usd: 1022.53, sku_order: 2 },
   // Barcel Jun 20
   { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "10585", ean: "757528001865", pid: "2109995881", name: "Chips Papas Fritas Fuego 55 g", subcategoria: "Snacks salados", h_units: 99.9, h_orders: 89.6, avg_price: 24.50, ex_incr_units: 599, ex_incr_orders: 538, ex_budget_mxn: 7338, ex_budget_usd: 427.13, real_units: 2529, final_budget_mxn: 30980, final_budget_usd: 1803.26, sku_order: 1 },
   { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "9892", ean: "757528019761", pid: "2109996686", name: "Chips Papas Fritas Jalapeño 100 G", subcategoria: "Snacks salados", h_units: 63.8, h_orders: 60.6, avg_price: 39.20, ex_incr_units: 383, ex_incr_orders: 364, ex_budget_mxn: 7507, ex_budget_usd: 436.96, real_units: 1010, final_budget_mxn: 19796, final_budget_usd: 1152.27, sku_order: 2 },
