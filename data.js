@@ -2309,9 +2309,32 @@ const PREVIRAL_DEALS = [
     financiamiento_maker: "ADS",
     pct_growth_vs_maker: 30,
     categoria_display: "Leche natural, Otras cremas"
+  },
+  // Sriveda Sattva Jun 22
+  {
+    deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626",
+    maker_name: "Sriveda Sattva",
+    maker_aux: "Sriveda Sattva",
+    business_unit: "Pharma",
+    descuento_pct: 55,
+    incrementalidad: 4,
+    tipo_viral: "1 día",
+    ciudades: "CDMX, GDL, MTY",
+    fecha_planeacion: "2026-06-18",
+    fecha_ejecucion: "2026-06-22",
+    fecha_fin: null,
+    usd_mxn: 17.20,
+    fecha_tasa: "2026-06-18",
+    budget_maker_mxn: 25000,
+    budget_growth_mxn: 7500,
+    budget_total_mxn: 32500,
+    budget_maker_usd: 1453.49,
+    budget_growth_usd: 436.05,
+    budget_total_usd: 1889.53,
+    financiamiento_maker: "OC",
+    pct_growth_vs_maker: 30,
+    categoria_display: "Crema dental"
   }
-
-
 
 
 
@@ -2781,9 +2804,12 @@ const PREVIRAL_SKU_DETAIL = [
   { deal_id: "VIRAL_DEAL_LALA_180626", sync: "78151", ean: "7501020567366", pid: "2114990842", name: "Lala Leche Entera Deslactosada Brick 1 L", subcategoria: "Leche natural", h_units: 10.9, h_orders: 6.4, avg_price: 36.08, ex_incr_units: 120, ex_incr_orders: 70, ex_budget_mxn: 2598, ex_budget_usd: 148.94, real_units: 305, final_budget_mxn: 6603, final_budget_usd: 378.55, sku_order: 3 },
   { deal_id: "VIRAL_DEAL_LALA_240626", sync: "72152", ean: "7501020550955", pid: "2113441843", name: "Lala 100 Leche Sin Lactosa Low Carb Light 1 L", subcategoria: "Leche natural", h_units: 38.9, h_orders: 19.4, avg_price: 43.98, ex_incr_units: 428, ex_incr_orders: 213, ex_budget_mxn: 11294, ex_budget_usd: 647.52, real_units: 892, final_budget_mxn: 23538, final_budget_usd: 1349.44, sku_order: 1 },
   { deal_id: "VIRAL_DEAL_LALA_240626", sync: "12265", ean: "7501020515299", pid: "2112057168", name: "Media Crema Lala 250ml (245g) Car - Lala - 250 g", subcategoria: "Otras cremas", h_units: 25.4, h_orders: 14.8, avg_price: 16.61, ex_incr_units: 279, ex_incr_orders: 163, ex_budget_mxn: 2781, ex_budget_usd: 159.45, real_units: 1541, final_budget_mxn: 15358, final_budget_usd: 880.48, sku_order: 2 },
-  { deal_id: "VIRAL_DEAL_LALA_240626", sync: "78151", ean: "7501020567366", pid: "2114990842", name: "Lala Leche Entera Deslactosada Brick 1 L", subcategoria: "Leche natural", h_units: 10.9, h_orders: 6.4, avg_price: 36.08, ex_incr_units: 120, ex_incr_orders: 70, ex_budget_mxn: 2598, ex_budget_usd: 148.94, real_units: 305, final_budget_mxn: 6603, final_budget_usd: 378.55, sku_order: 3 }
-
-
+  { deal_id: "VIRAL_DEAL_LALA_240626", sync: "78151", ean: "7501020567366", pid: "2114990842", name: "Lala Leche Entera Deslactosada Brick 1 L", subcategoria: "Leche natural", h_units: 10.9, h_orders: 6.4, avg_price: 36.08, ex_incr_units: 120, ex_incr_orders: 70, ex_budget_mxn: 2598, ex_budget_usd: 148.94, real_units: 305, final_budget_mxn: 6603, final_budget_usd: 378.55, sku_order: 3 },
+  // Sriveda Sattva Jun 22
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "83473", ean: "8906038786416", pid: "2115490943", name: "Sudanta Pasta Dental Ayurvedica en Gel Libre De Flúor 100 g", subcategoria: "Crema dental", h_units: 1.2, h_orders: 1.1, avg_price: 117.49, ex_incr_units: 5, ex_incr_orders: 4, ex_budget_mxn: 323, ex_budget_usd: 18.78, real_units: 210, final_budget_mxn: 13570, final_budget_usd: 788.95, sku_order: 1 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "83475", ean: "8906038782043", pid: "2115490934", name: "Sudanta-Pasta Dental Ayurvédica Libre De Fluor 100 g", subcategoria: "Crema dental", h_units: 1.1, h_orders: 1.0, avg_price: 111.14, ex_incr_units: 4, ex_incr_orders: 4, ex_budget_mxn: 245, ex_budget_usd: 14.24, real_units: 177, final_budget_mxn: 10819, final_budget_usd: 629.01, sku_order: 2 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "83478", ean: "8906038781848", pid: "2115490930", name: "Ssri Sri Agua de Rosas", subcategoria: "Crema dental", h_units: 0.4, h_orders: 0.2, avg_price: 73.48, ex_incr_units: 2, ex_incr_orders: 1, ex_budget_mxn: 81, ex_budget_usd: 4.71, real_units: 134, final_budget_mxn: 5415, final_budget_usd: 314.83, sku_order: 3 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "83477", ean: "8906038786201", pid: "2115490940", name: "Sri Sri Gel de Limpieza Facial Con Aloe Vera", subcategoria: "Crema dental", h_units: 0.2, h_orders: 0.2, avg_price: 193.81, ex_incr_units: 1, ex_incr_orders: 1, ex_budget_mxn: 107, ex_budget_usd: 6.22, real_units: 25, final_budget_mxn: 2665, final_budget_usd: 154.94, sku_order: 4 }
 
 
 
