@@ -2359,6 +2359,31 @@ const PREVIRAL_DEALS = [
     financiamiento_maker: "OC",
     pct_growth_vs_maker: 30,
     categoria_display: "Crema dental"
+  },
+  // Motion Jun 26
+  {
+    deal_id: "VIRAL_DEAL_MOTION_260626",
+    maker_name: "Hombreave S.A. De C.V.",
+    maker_aux: "Motion",
+    business_unit: "Pharma",
+    descuento_pct: 25,
+    incrementalidad: 15,
+    tipo_viral: "1 día",
+    ciudades: "CDMX, GDL, MTY",
+    fecha_planeacion: "2026-06-23",
+    fecha_ejecucion: "2026-06-26",
+    fecha_fin: null,
+    usd_mxn: 17.33,
+    fecha_tasa: "2026-06-23",
+    budget_maker_mxn: 40000,
+    budget_growth_mxn: 0,
+    budget_total_mxn: 40000,
+    budget_maker_usd: 2308.62,
+    budget_growth_usd: 0.00,
+    budget_total_usd: 2308.62,
+    financiamiento_maker: "OC",
+    pct_growth_vs_maker: 0,
+    categoria_display: "Nutrición deportiva"
   }
 
 
@@ -2839,7 +2864,9 @@ const PREVIRAL_SKU_DETAIL = [
   { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83473", ean: "8906038786416", pid: "2115490943", name: "Sudanta Pasta Dental Ayurvedica en Gel Libre De Flúor 100 g", subcategoria: "Crema dental", h_units: 1.2, h_orders: 1.1, avg_price: 117.49, ex_incr_units: 5, ex_incr_orders: 4, ex_budget_mxn: 323, ex_budget_usd: 18.78, real_units: 210, final_budget_mxn: 13570, final_budget_usd: 788.95, sku_order: 1 },
   { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83475", ean: "8906038782043", pid: "2115490934", name: "Sudanta-Pasta Dental Ayurvédica Libre De Fluor 100 g", subcategoria: "Crema dental", h_units: 1.1, h_orders: 1.0, avg_price: 111.14, ex_incr_units: 4, ex_incr_orders: 4, ex_budget_mxn: 245, ex_budget_usd: 14.24, real_units: 177, final_budget_mxn: 10819, final_budget_usd: 629.01, sku_order: 2 },
   { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83478", ean: "8906038781848", pid: "2115490930", name: "Ssri Sri Agua de Rosas", subcategoria: "Crema dental", h_units: 0.4, h_orders: 0.2, avg_price: 73.48, ex_incr_units: 2, ex_incr_orders: 1, ex_budget_mxn: 81, ex_budget_usd: 4.71, real_units: 134, final_budget_mxn: 5415, final_budget_usd: 314.83, sku_order: 3 },
-  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83477", ean: "8906038786201", pid: "2115490940", name: "Sri Sri Gel de Limpieza Facial Con Aloe Vera", subcategoria: "Crema dental", h_units: 0.2, h_orders: 0.2, avg_price: 193.81, ex_incr_units: 1, ex_incr_orders: 1, ex_budget_mxn: 107, ex_budget_usd: 6.22, real_units: 25, final_budget_mxn: 2665, final_budget_usd: 154.94, sku_order: 4 }
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83477", ean: "8906038786201", pid: "2115490940", name: "Sri Sri Gel de Limpieza Facial Con Aloe Vera", subcategoria: "Crema dental", h_units: 0.2, h_orders: 0.2, avg_price: 193.81, ex_incr_units: 1, ex_incr_orders: 1, ex_budget_mxn: 107, ex_budget_usd: 6.22, real_units: 25, final_budget_mxn: 2665, final_budget_usd: 154.94, sku_order: 4 },
+  // Motion Jun 26
+  { deal_id: "VIRAL_DEAL_MOTION_260626", sync: "91939", ean: "7503036090500", pid: "2115881312", name: "Birdman Creatina 450 g + Shaker Negro", subcategoria: "Nutrición deportiva", h_units: 49.6, h_orders: 41.0, avg_price: 400.59, ex_incr_units: 744, ex_incr_orders: 615, ex_budget_mxn: 74510, ex_budget_usd: 4300.37, real_units: 399, final_budget_mxn: 39959, final_budget_usd: 2306.25, sku_order: 1 }
 
 
 
