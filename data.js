@@ -4509,6 +4509,30 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: 976, canib_ord_bench: 1233.25, canib_ord_delta_pct: -20.9,
     canib_und_post: 1586, canib_und_bench: 1989.5, canib_und_delta_pct: -20.3,
     canib_cli_post: 1066, canib_cli_bench: 1245.25, canib_cli_delta_pct: -14.4
+  },
+  // Lala 180626
+  {
+    deal_id: "VIRAL_DEAL_LALA_180626",
+    post_days: 4, fase: 2,
+    gmv_activacion: 28340, gmv_lw: 1433, gmv_dlw_pct: 1878.1, gmv_l4w: 1972, gmv_dl4w_pct: 1337.0,
+    usuarios_unicos: 175, usr_lw: 24, usr_dlw_pct: 629.2, usr_l4w: 32.25, usr_dl4w_pct: 442.6,
+    cr_pct: 1.41,
+    aov: 127.66, aov_lw: 43.41, aov_dlw_pct: 194.1, aov_l4w: 54.03, aov_dl4w_pct: 136.3,
+    unidades_total: 941, und_lw: 50, und_dlw_pct: 1782.0, und_l4w: 61, und_dl4w_pct: 1442.6,
+    ordenes_total: 222, ord_lw: 33, ord_dlw_pct: 572.7, ord_l4w: 36.5, ord_dl4w_pct: 508.2,
+    impresiones_total: 12386,
+    so_turbo_mx: 6580309, gmv_categoria: 108692, gmv_cat_lw: 99145, gmv_cat_l4w: 106497,
+    share_deal_cat_pct: 26.07, share_lw_pct: 1.45, share_l4w_pct: 1.85,
+    gmv_basket: 92446, gmv_sellup: 64106, pct_sellup: 69.34,
+    aov_basket: 416.42, aov_deal_post: 127.66,
+    cross_ordenes: 222, cross_skus_distintos: 567,
+    cross_top_producto: "Sponch - Marinela - 225 g", cross_top_ordenes: 22, cross_top_pct: 9.91,
+    inv_oos_cierre_viral_avg: 22.0, inv_oos_post_avg: 21.0,
+    inv_cov_viral_ap_avg: 61.0, inv_cov_viral_ci_avg: 40.2,
+    inv_cov_post_avg: 44.1, inv_cov_bench_avg: 60.7,
+    canib_ord_post: 134, canib_ord_bench: 166.25, canib_ord_delta_pct: -19.4,
+    canib_und_post: 229, canib_und_bench: 318.5, canib_und_delta_pct: -28.1,
+    canib_cli_post: 132, canib_cli_bench: 158.25, canib_cli_delta_pct: -16.6
   }
 ];
 
@@ -4882,7 +4906,11 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_PEPSICO_110626", sync: "6327", name: "Rockaleta - Paleta Enchilada con centro de chicle 24 g", subcategoria: "Gomitas y caramelos", ordenes: 203, usuarios: 187, unidades: 537, gmv: 5973, aov: 29.42, impresiones: 5534, cr_pct: 3.67, gmv_dlw_pct: 892.6, gmv_dl4w_pct: 1015.3, seg_nuevo: 149, seg_nuevo_pct: 74, seg_reactivado: 19, seg_reactivado_pct: 9, seg_retenido: 35, seg_retenido_pct: 17, stock_viral: 7370, stock_post: 6533, stock_bench: 4367, stock_delta_pct: 49.6, oos_cierre_viral: 65, oos_post: 51, cov_viral_ap: 36.7, cov_viral_ci: 27.8, cov_post: 40.7, canib_ord_post: 156, canib_ord_bench: 146.0, canib_ord_delta_pct: 6.7, canib_und_post: 261, canib_und_bench: 253.0, canib_und_delta_pct: 3.1, canib_cli_post: 161, canib_cli_bench: 136.0, canib_cli_delta_pct: 18.4 },
   // Barcel Jun 14
   { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "15322", name: "Hot Nuts Cacahuates Original 100 g", ordenes: 319, usuarios: 264, unidades: 384, gmv: 10931, aov: 34.27, impresiones: 13281, cr_pct: 2.40, gmv_dlw_pct: 104.3, gmv_dl4w_pct: 71.4, seg_nuevo: 142, seg_nuevo_pct: 44, seg_reactivado: 89, seg_reactivado_pct: 28, seg_retenido: 88, seg_retenido_pct: 28, stock_viral: 20582, stock_post: 19837, stock_bench: 13331, stock_delta_pct: 48.8, oos_cierre_viral: 42, oos_post: 36.8, cov_viral_ap: 54.8, cov_viral_ci: 54.8, cov_post: 60.5, canib_ord_post: 625, canib_ord_bench: 950.0, canib_ord_delta_pct: -34.2, canib_und_post: 1030, canib_und_bench: 1510.5, canib_und_delta_pct: -31.8, canib_cli_post: 667, canib_cli_bench: 957.25, canib_cli_delta_pct: -30.3 },
-  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "9546", name: "Chips Fuego Limon 56 gr Barcel", ordenes: 247, usuarios: 218, unidades: 341, gmv: 6502, aov: 26.32, impresiones: 5837, cr_pct: 4.23, gmv_dlw_pct: 196.1, gmv_dl4w_pct: 235.8, seg_nuevo: 177, seg_nuevo_pct: 72, seg_reactivado: 10, seg_reactivado_pct: 4, seg_retenido: 60, seg_retenido_pct: 24, stock_viral: 7994, stock_post: 7839, stock_bench: 2608, stock_delta_pct: 200.6, oos_cierre_viral: 3, oos_post: 4.8, cov_viral_ap: 92.9, cov_viral_ci: 92.9, cov_post: 90.5, canib_ord_post: 351, canib_ord_bench: 283.25, canib_ord_delta_pct: 23.9, canib_und_post: 556, canib_und_bench: 479.0, canib_und_delta_pct: 16.1, canib_cli_post: 399, canib_cli_bench: 288.0, canib_cli_delta_pct: 38.5 }
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "9546", name: "Chips Fuego Limon 56 gr Barcel", ordenes: 247, usuarios: 218, unidades: 341, gmv: 6502, aov: 26.32, impresiones: 5837, cr_pct: 4.23, gmv_dlw_pct: 196.1, gmv_dl4w_pct: 235.8, seg_nuevo: 177, seg_nuevo_pct: 72, seg_reactivado: 10, seg_reactivado_pct: 4, seg_retenido: 60, seg_retenido_pct: 24, stock_viral: 7994, stock_post: 7839, stock_bench: 2608, stock_delta_pct: 200.6, oos_cierre_viral: 3, oos_post: 4.8, cov_viral_ap: 92.9, cov_viral_ci: 92.9, cov_post: 90.5, canib_ord_post: 351, canib_ord_bench: 283.25, canib_ord_delta_pct: 23.9, canib_und_post: 556, canib_und_bench: 479.0, canib_und_delta_pct: 16.1, canib_cli_post: 399, canib_cli_bench: 288.0, canib_cli_delta_pct: 38.5 },
+  // Lala 180626
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "72152", name: "Lala 100 Leche Sin Lactosa Low Carb Light 1 L", ordenes: 66, usuarios: 65, unidades: 274, gmv: 11956, aov: 181.15, impresiones: 809, cr_pct: 8.16, gmv_dlw_pct: 3391.7, gmv_dl4w_pct: 1035.2, seg_nuevo: 56, seg_nuevo_pct: 85, seg_reactivado: 5, seg_reactivado_pct: 8, seg_retenido: 5, seg_retenido_pct: 7, stock_viral: 398, stock_post: 298, stock_bench: 480, stock_delta_pct: -38.0, oos_cierre_viral: 47, oos_post: 46, cov_viral_ap: 22.6, cov_viral_ci: 11.3, cov_post: 13.7, canib_ord_post: 32, canib_ord_bench: 69.25, canib_ord_delta_pct: -53.8, canib_und_post: 51, canib_und_bench: 134, canib_und_delta_pct: -61.9, canib_cli_post: 35, canib_cli_bench: 70.75, canib_cli_delta_pct: -50.5 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "78151", name: "Lala Leche Entera Deslactosada Brick 1 L", ordenes: 64, usuarios: 60, unidades: 225, gmv: 8718, aov: 136.21, impresiones: 1281, cr_pct: 5.00, gmv_dlw_pct: 1323.3, gmv_dl4w_pct: 1706.6, seg_nuevo: 60, seg_nuevo_pct: 94, seg_reactivado: 1, seg_reactivado_pct: 2, seg_retenido: 3, seg_retenido_pct: 4, stock_viral: 307, stock_post: 203, stock_bench: 249, stock_delta_pct: -18.5, oos_cierre_viral: 13, oos_post: 11, cov_viral_ap: 78.9, cov_viral_ci: 31.6, cov_post: 40.8, canib_ord_post: 38, canib_ord_bench: 32.25, canib_ord_delta_pct: 17.8, canib_und_post: 72, canib_und_bench: 60.75, canib_und_delta_pct: 18.5, canib_cli_post: 41, canib_cli_bench: 32.50, canib_cli_delta_pct: 26.2 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "12265", name: "Media Crema Lala 250ml (245g) Car - Lala - 250 g", ordenes: 115, usuarios: 74, unidades: 442, gmv: 7666, aov: 66.66, impresiones: 10296, cr_pct: 1.12, gmv_dlw_pct: 1504.7, gmv_dl4w_pct: 1656.5, seg_nuevo: 62, seg_nuevo_pct: 54, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 53, seg_retenido_pct: 46, stock_viral: 1699, stock_post: 1375, stock_bench: 1229, stock_delta_pct: 11.9, oos_cierre_viral: 6, oos_post: 6, cov_viral_ap: 81.5, cov_viral_ci: 77.8, cov_post: 77.8, canib_ord_post: 64, canib_ord_bench: 64.75, canib_ord_delta_pct: -1.2, canib_und_post: 106, canib_und_bench: 123.75, canib_und_delta_pct: -14.3, canib_cli_post: 56, canib_cli_bench: 55.00, canib_cli_delta_pct: 1.8 }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5513,7 +5541,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Frutas",            ordenes: 78,  gmv: 3002,  pct_sellup: 2.71,  order: 5 },
   { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Chocolates",        ordenes: 56,  gmv: 2660,  pct_sellup: 2.40,  order: 6 },
   { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Cigarrillos",       ordenes: 13,  gmv: 2651,  pct_sellup: 2.39,  order: 7 },
-  { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Agua Natural",      ordenes: 59,  gmv: 2600,  pct_sellup: 2.34,  order: 8 }
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", subcategoria: "Agua Natural",      ordenes: 59,  gmv: 2600,  pct_sellup: 2.34,  order: 8 },
+  // Lala 180626
+  { deal_id: "VIRAL_DEAL_LALA_180626", subcategoria: "Galletas",                  ordenes: 53, gmv: 6307,  pct_sellup: 9.84,  order: 1 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", subcategoria: "Snacks salados",            ordenes: 54, gmv: 5099,  pct_sellup: 7.95,  order: 2 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", subcategoria: "Frutas",                    ordenes: 41, gmv: 2299,  pct_sellup: 3.59,  order: 3 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", subcategoria: "Panaderia salada",          ordenes: 25, gmv: 1948,  pct_sellup: 3.04,  order: 4 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", subcategoria: "Gaseosas",                  ordenes: 37, gmv: 1786,  pct_sellup: 2.79,  order: 5 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", subcategoria: "Cereales",                  ordenes: 19, gmv: 1755,  pct_sellup: 2.74,  order: 6 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", subcategoria: "Cervezas",                  ordenes: 12, gmv: 1640,  pct_sellup: 2.56,  order: 7 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", subcategoria: "Frutos secos y semillas",   ordenes: 38, gmv: 1636,  pct_sellup: 2.55,  order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -6413,5 +6450,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "5630",  name: "Maruchan Sopa Instantanea Camarón Con Chile 64 g",  subcategoria: "Sopas y cremas",         ordenes: 25, pct_deal: 4.56, order: 9  },
   { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "6744",  name: "Coca-Cola Original Refresco Pet 600 mL",            subcategoria: "Gaseosas",               ordenes: 24, pct_deal: 4.38, order: 10 },
   { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "11982", name: "Runners Barcel Frituras De Maiz Sabor Salsa 80 g",  subcategoria: "Snacks salados",         ordenes: 23, pct_deal: 4.20, order: 11 },
-  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "11020", name: "Chip's Botana Jalapeño 60 g",                       subcategoria: "Snacks salados",         ordenes: 21, pct_deal: 3.83, order: 12 }
+  { deal_id: "VIRAL_DEAL_BARCEL_140626", sync: "11020", name: "Chip's Botana Jalapeño 60 g",                       subcategoria: "Snacks salados",         ordenes: 21, pct_deal: 3.83, order: 12 },
+  // Lala 180626
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "73022",  name: "Sponch - Marinela - 225 g",                                                                          subcategoria: "Galletas",               ordenes: 22, pct_deal: 9.91,  order: 1  },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "15322",  name: "Hot Nuts Cacahuates Original 100 g",                                                                  subcategoria: "Frutos secos y semillas", ordenes: 21, pct_deal: 9.46,  order: 2  },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "82367",  name: "Marinela-Canelitas Galletas Sabor Canela 240 g",                                                      subcategoria: "Galletas",               ordenes: 14, pct_deal: 6.31,  order: 3  },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "9063",   name: "Cacahuates Barcel Golden Nuts Salados 100 G - Barcel - 105 g",                                        subcategoria: "Snacks salados",         ordenes: 14, pct_deal: 6.31,  order: 4  },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "11014",  name: "Chips - Chips Sal Papas Fritas Saladas  - ' ' - 60 g",                                                subcategoria: "Snacks salados",         ordenes: 14, pct_deal: 6.31,  order: 5  },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "75039",  name: "Galletas Marinela Barritas Fresa 268g contiene 4 paquetes - Marinela - 1 Und - Marinela - 268 g",     subcategoria: "Barras de cereal y granola", ordenes: 13, pct_deal: 5.86, order: 6 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "5388",   name: "Arroz super extra - Schettino  - Bolsa 900 g",                                                        subcategoria: "Arroz",                  ordenes: 11, pct_deal: 4.95,  order: 7  },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "14989",  name: "Principe - Galletas Relleno Sabor Chocolate - ' ' - 252 g",                                           subcategoria: "Galletas",               ordenes: 11, pct_deal: 4.95,  order: 8  },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "85422",  name: "DGari Polvo para Preparar Gelatina con Agua Sabor Jerez 120 g",                                       subcategoria: "Aperitivos",             ordenes: 11, pct_deal: 4.95,  order: 9  },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "12663",  name: "Griller'S - Carne Para Hamburguesa Sirloin - ' ' - 904 g",                                            subcategoria: "Res",                    ordenes: 10, pct_deal: 4.50,  order: 10 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "74848",  name: "Barilla - Sopa De Codo - No.2 - Barilla - 200 g",                                                     subcategoria: "Pastas",                 ordenes: 10, pct_deal: 4.50,  order: 11 },
+  { deal_id: "VIRAL_DEAL_LALA_180626", sync: "81993",  name: "Platano Chiapas para hoy",                                                                            subcategoria: "Frutas",                 ordenes: 9,  pct_deal: 4.05,  order: 12 }
 ];
