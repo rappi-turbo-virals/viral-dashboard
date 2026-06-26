@@ -4584,6 +4584,36 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: 455, canib_ord_bench: 579.75, canib_ord_delta_pct: -21.5,
     canib_und_post: 656, canib_und_bench: 780.75, canib_und_delta_pct: -16.0,
     canib_cli_post: 475, canib_cli_bench: 610.0, canib_cli_delta_pct: -22.1
+  },
+  // Sriveda Sattva Jun 22
+  {
+    deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626",
+    post_days: 4,
+    fase: 2,
+    gmv_activacion: 507,
+    gmv_lw: 104, gmv_dlw_pct: 385.6,
+    gmv_l4w: 144, gmv_dl4w_pct: 252.6,
+    usuarios_unicos: 4,
+    usr_lw: 1, usr_dlw_pct: 300.0,
+    usr_l4w: 1.33, usr_dl4w_pct: 200.8,
+    cr_pct: 0.84,
+    aov: 126.83, aov_lw: 104.47, aov_dlw_pct: 21.4, aov_l4w: 108.17, aov_dl4w_pct: 17.3,
+    unidades_total: 5, und_lw: 1, und_dlw_pct: 400.0, und_l4w: 3.0, und_dl4w_pct: 66.7,
+    ordenes_total: 4, ord_lw: 1, ord_dlw_pct: 300.0, ord_l4w: 1.33, ord_dl4w_pct: 200.8,
+    impresiones_total: 477,
+    so_turbo_mx: 3254394, gmv_categoria: 8848,
+    gmv_cat_lw: 9795, gmv_cat_l4w: 28908,
+    share_deal_cat_pct: 5.73, share_lw_pct: 0, share_l4w_pct: 0,
+    gmv_basket: 1252, gmv_sellup: 745, pct_sellup: 59.49,
+    aov_basket: 313.06, aov_deal_post: 126.83,
+    cross_ordenes: 4, cross_skus_distintos: 16,
+    cross_top_producto: "Gorra de Algodón", cross_top_ordenes: 1, cross_top_pct: 25.0,
+    inv_oos_cierre_viral_avg: 8.3, inv_oos_post_avg: 8.0,
+    inv_cov_viral_ap_avg: 80.8, inv_cov_viral_ci_avg: 80.8,
+    inv_cov_post_avg: 81.5, inv_cov_bench_avg: 80.7,
+    canib_ord_post: 2, canib_ord_bench: 1.75, canib_ord_delta_pct: 14.3,
+    canib_und_post: 2, canib_und_bench: 4, canib_und_delta_pct: -50.0,
+    canib_cli_post: 2, canib_cli_bench: 3.0, canib_cli_delta_pct: -33.3
   }
 ];
 
@@ -4966,7 +4996,12 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "10585", name: "Chips Papas Fritas Fuego 55 g", ordenes: 69, usuarios: 61, unidades: 83, gmv: 2034, aov: 29.47, impresiones: 1975, cr_pct: 3.49, gmv_dlw_pct: -17.1, gmv_dl4w_pct: -17.1, seg_nuevo: 36, seg_nuevo_pct: 52, seg_reactivado: 12, seg_reactivado_pct: 17, seg_retenido: 21, seg_retenido_pct: 30, stock_viral: 3434, stock_post: 3144, stock_bench: 3834, stock_delta_pct: -18.0, oos_cierre_viral: 45, oos_post: 45.5, cov_viral_ap: 36.6, cov_viral_ci: 36.6, cov_post: 36.1, canib_ord_post: 225, canib_ord_bench: 258.75, canib_ord_delta_pct: -13.0, canib_und_post: 352, canib_und_bench: 353.25, canib_und_delta_pct: -0.4, canib_cli_post: 254, canib_cli_bench: 274.50, canib_cli_delta_pct: -7.5 },
   { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "9892",  name: "Chips Papas Fritas Jalapeño 100 g", ordenes: 34, usuarios: 29, unidades: 35, gmv: 1435, aov: 42.19, impresiones: 2319, cr_pct: 1.47, gmv_dlw_pct: -43.9, gmv_dl4w_pct: -66.0, seg_nuevo: 19, seg_nuevo_pct: 56, seg_reactivado: 5, seg_reactivado_pct: 15, seg_retenido: 10, seg_retenido_pct: 29, stock_viral: 1177, stock_post: 1080, stock_bench: 1539, stock_delta_pct: -29.8, oos_cierre_viral: 44, oos_post: 45.0, cov_viral_ap: 40.5, cov_viral_ci: 40.5, cov_post: 39.7, canib_ord_post: 136, canib_ord_bench: 227.75, canib_ord_delta_pct: -40.3, canib_und_post: 177, canib_und_bench: 300.75, canib_und_delta_pct: -41.1, canib_cli_post: 140, canib_cli_bench: 244.50, canib_cli_delta_pct: -42.7 },
   { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "10606", name: "Golden Nuts Enchilados 100 g", ordenes: 14, usuarios: 12, unidades: 16, gmv: 402, aov: 28.74, impresiones: 1435, cr_pct: 0.98, gmv_dlw_pct: -45.5, gmv_dl4w_pct: -41.7, seg_nuevo: 5, seg_nuevo_pct: 36, seg_reactivado: 6, seg_reactivado_pct: 43, seg_retenido: 3, seg_retenido_pct: 21, stock_viral: 4516, stock_post: 4763, stock_bench: 2302, stock_delta_pct: 106.9, oos_cierre_viral: 30, oos_post: 21.8, cov_viral_ap: 57.1, cov_viral_ci: 57.1, cov_post: 65.0, canib_ord_post: 89, canib_ord_bench: 77.75, canib_ord_delta_pct: 14.5, canib_und_post: 122, canib_und_bench: 108.25, canib_und_delta_pct: 12.7, canib_cli_post: 76, canib_cli_bench: 77.00, canib_cli_delta_pct: -1.3 },
-  { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "74146", name: "Pop Karameladas 240 g", ordenes: 1, usuarios: 1, unidades: 1, gmv: 63, aov: 62.90, impresiones: 69, cr_pct: 1.45, gmv_dlw_pct: -83.7, gmv_dl4w_pct: -87.4, seg_nuevo: 1, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 934, stock_post: 932, stock_bench: 878, stock_delta_pct: 6.2, oos_cierre_viral: 66, oos_post: 66.3, cov_viral_ap: 12.0, cov_viral_ci: 12.0, cov_post: 12.0, canib_ord_post: 5, canib_ord_bench: 15.50, canib_ord_delta_pct: -67.7, canib_und_post: 5, canib_und_bench: 18.5, canib_und_delta_pct: -73.0, canib_cli_post: 5, canib_cli_bench: 14.00, canib_cli_delta_pct: -64.3 }
+  { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "74146", name: "Pop Karameladas 240 g", ordenes: 1, usuarios: 1, unidades: 1, gmv: 63, aov: 62.90, impresiones: 69, cr_pct: 1.45, gmv_dlw_pct: -83.7, gmv_dl4w_pct: -87.4, seg_nuevo: 1, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 934, stock_post: 932, stock_bench: 878, stock_delta_pct: 6.2, oos_cierre_viral: 66, oos_post: 66.3, cov_viral_ap: 12.0, cov_viral_ci: 12.0, cov_post: 12.0, canib_ord_post: 5, canib_ord_bench: 15.50, canib_ord_delta_pct: -67.7, canib_und_post: 5, canib_und_bench: 18.5, canib_und_delta_pct: -73.0, canib_cli_post: 5, canib_cli_bench: 14.00, canib_cli_delta_pct: -64.3 },
+  // Sriveda Sattva Jun 22
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "83475", name: "Sudanta-Pasta Dental Ayurvédica Libre De Fluor 100 g", ordenes: 3, usuarios: 3, unidades: 3, gmv: 276, aov: 91.95, impresiones: 139, cr_pct: 2.16, gmv_dlw_pct: 164.0, gmv_dl4w_pct: 164.1, seg_nuevo: 3, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 191, stock_post: 184, stock_bench: 203, stock_delta_pct: -9.2, oos_cierre_viral: 9, oos_post: 9, cov_viral_ap: 80.4, cov_viral_ci: 80.4, cov_post: 80.8, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "83473", name: "Sudanta Pasta Dental Ayurvedica en Gel Libre De Flúor 100 g", ordenes: 2, usuarios: 2, unidades: 2, gmv: 231, aov: 115.73, impresiones: 108, cr_pct: 1.85, gmv_dlw_pct: null, gmv_dl4w_pct: 4.0, seg_nuevo: 0, seg_nuevo_pct: 0, seg_reactivado: 2, seg_reactivado_pct: 100, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 176, stock_post: 154, stock_bench: 69, stock_delta_pct: 124.6, oos_cierre_viral: 23, oos_post: 22, cov_viral_ap: 45.2, cov_viral_ci: 45.2, cov_post: 47.5, canib_ord_post: 2, canib_ord_bench: 1.75, canib_ord_delta_pct: 14.3, canib_und_post: 2, canib_und_bench: 4, canib_und_delta_pct: -50.0, canib_cli_post: 2, canib_cli_bench: 3.0, canib_cli_delta_pct: -33.3 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "83477", name: "Sri Sri Gel de Limpieza Facial Con Aloe Vera", ordenes: 0, usuarios: 0, unidades: 0, gmv: 0, aov: null, impresiones: 200, cr_pct: 0, gmv_dlw_pct: null, gmv_dl4w_pct: null, seg_nuevo: 0, seg_nuevo_pct: 0, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 414, stock_post: 410, stock_bench: 423, stock_delta_pct: -3.2, oos_cierre_viral: 0, oos_post: 0, cov_viral_ap: 100.0, cov_viral_ci: 100.0, cov_post: 100.0, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "83478", name: "Ssri Sri Agua de Rosas", ordenes: 0, usuarios: 0, unidades: 0, gmv: 0, aov: null, impresiones: 30, cr_pct: 0, gmv_dlw_pct: null, gmv_dl4w_pct: null, seg_nuevo: 0, seg_nuevo_pct: 0, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 409, stock_post: 402, stock_bench: 419, stock_delta_pct: -4.2, oos_cierre_viral: 1, oos_post: 1, cov_viral_ap: 97.4, cov_viral_ci: 97.4, cov_post: 97.5, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5615,7 +5650,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_BARCEL_200626", subcategoria: "Helados",                 ordenes: 10, gmv: 754,   pct_sellup: 3.27,  order: 5 },
   { deal_id: "VIRAL_DEAL_BARCEL_200626", subcategoria: "Gomitas y caramelos",     ordenes: 13, gmv: 686,   pct_sellup: 2.98,  order: 6 },
   { deal_id: "VIRAL_DEAL_BARCEL_200626", subcategoria: "Galletas",                ordenes: 14, gmv: 664,   pct_sellup: 2.88,  order: 7 },
-  { deal_id: "VIRAL_DEAL_BARCEL_200626", subcategoria: "Frutas",                  ordenes: 17, gmv: 652,   pct_sellup: 2.83,  order: 8 }
+  { deal_id: "VIRAL_DEAL_BARCEL_200626", subcategoria: "Frutas",                  ordenes: 17, gmv: 652,   pct_sellup: 2.83,  order: 8 },
+  // Sriveda Sattva Jun 22
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", subcategoria: "Jabones y exfoliantes corporales", ordenes: 1, gmv: 146,  pct_sellup: 19.60, order: 1 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", subcategoria: "Gorros, Gorras y Sombreros",       ordenes: 1, gmv: 107,  pct_sellup: 14.34, order: 2 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", subcategoria: "Energizantes",                     ordenes: 1, gmv: 72,   pct_sellup: 9.67,  order: 3 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", subcategoria: "Shampoo",                          ordenes: 1, gmv: 70,   pct_sellup: 9.43,  order: 4 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", subcategoria: "Agua Natural",                     ordenes: 1, gmv: 45,   pct_sellup: 6.00,  order: 5 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", subcategoria: "Toallitas humedas",                ordenes: 1, gmv: 40,   pct_sellup: 5.31,  order: 6 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", subcategoria: "Sin subcategoría",                 ordenes: 1, gmv: 39,   pct_sellup: 5.21,  order: 7 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", subcategoria: "Yogurt",                           ordenes: 1, gmv: 33,   pct_sellup: 4.46,  order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -6541,5 +6585,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "74143", name: "Takis Fajita 94 g",                                             subcategoria: "Snacks salados",          ordenes: 5,  pct_deal: 4.42,  order: 9  },
   { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "7324",  name: "Act II Palomita de Maíz Sabor Natural 80 g",                   subcategoria: "Pochoclos",               ordenes: 4,  pct_deal: 3.54,  order: 10 },
   { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "81266", name: "Chips Jalapeño 55 g",                                           subcategoria: "Snacks salados",          ordenes: 4,  pct_deal: 3.54,  order: 11 },
-  { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "81265", name: "Chips Sal 55 g",                                                subcategoria: "Snacks salados",          ordenes: 4,  pct_deal: 3.54,  order: 12 }
+  { deal_id: "VIRAL_DEAL_BARCEL_200626", sync: "81265", name: "Chips Sal 55 g",                                                subcategoria: "Snacks salados",          ordenes: 4,  pct_deal: 3.54,  order: 12 },
+  // Sriveda Sattva Jun 22
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "90330", name: "Gorra de Algodón",                                                    subcategoria: "Gorros, Gorras y Sombreros",       ordenes: 1, pct_deal: 25.0, order: 1  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "5495",  name: "Electrolit Suero Rehidratante Sabor Fresa 625 mL",                     subcategoria: "Suero",                            ordenes: 1, pct_deal: 25.0, order: 2  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "4953",  name: "Santa Maria Agua Natural de Manantial 1.5 L",                          subcategoria: "Agua Natural",                     ordenes: 1, pct_deal: 25.0, order: 3  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "11705", name: "Herbal Essences Shampoo Suavidad Rosa Mosqueta 400 mL",                 subcategoria: "Shampoo",                          ordenes: 1, pct_deal: 25.0, order: 4  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "74101", name: "Saba - Jabon Intimo V-Natural - Saba - 200 ml",                        subcategoria: "Jabones y exfoliantes corporales", ordenes: 1, pct_deal: 25.0, order: 5  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "86150", name: "Azucena Veladora Blanca en Vaso de Cruz",                              subcategoria: "Velas",                            ordenes: 1, pct_deal: 25.0, order: 6  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "78276", name: "TOALLITAS HUMEDAS HUGGIES ECO PROTECT 100% DE ORIGEN NATURAL 80 mL",  subcategoria: "Toallitas humedas",                ordenes: 1, pct_deal: 25.0, order: 7  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "81447", name: "Jabón Líquido Dove Deeply Nourish 400 ML",                             subcategoria: "Jabones y exfoliantes corporales", ordenes: 1, pct_deal: 25.0, order: 8  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "76119", name: "Jaloma Tónico Facial Agua de Rosas 250 mL",                            subcategoria: "",                                 ordenes: 1, pct_deal: 25.0, order: 9  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "12647", name: "Bebida Energética Monster Zero Ultra 473 mL",                          subcategoria: "Energizantes",                     ordenes: 1, pct_deal: 25.0, order: 10 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "14559", name: "Salmas Tostaditas 90 g",                                               subcategoria: "Tortillas, tostadas y totopos",    ordenes: 1, pct_deal: 25.0, order: 11 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_220626", sync: "79011", name: "Regio Toallas de Papel 2 en 1 1 Und",                                  subcategoria: "Toallas de cocina",                ordenes: 1, pct_deal: 25.0, order: 12 }
 ];
