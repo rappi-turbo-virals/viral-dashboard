@@ -4633,6 +4633,32 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: 242, canib_ord_bench: 202.25, canib_ord_delta_pct: 19.7,
     canib_und_post: 474, canib_und_bench: 515, canib_und_delta_pct: -8.0,
     canib_cli_post: 197, canib_cli_bench: 194.75, canib_cli_delta_pct: 1.2
+  },
+  // Motion Jun 26
+  {
+    deal_id: "VIRAL_DEAL_MOTION_260626",
+    post_days: 4, fase: 2,
+    gmv_activacion: 3346.41,
+    gmv_lw: null, gmv_dlw_pct: null,
+    gmv_l4w: null, gmv_dl4w_pct: null,
+    usuarios_unicos: 6,
+    usr_lw: null, usr_dlw_pct: null,
+    usr_l4w: null, usr_dl4w_pct: null,
+    cr_pct: 0.15,
+    aov: 557.74, aov_lw: null, aov_dlw_pct: null, aov_l4w: null, aov_dl4w_pct: null,
+    unidades_total: 6, und_lw: null, und_dlw_pct: null, und_l4w: null, und_dl4w_pct: null,
+    ordenes_total: 6, ord_lw: null, ord_dlw_pct: null, ord_l4w: null, ord_dl4w_pct: null,
+    impresiones_total: 3932,
+    so_turbo_mx: 4978827, gmv_categoria: 8286.52, gmv_cat_lw: 1015.34, gmv_cat_l4w: 3353.59,
+    share_deal_cat_pct: 40.38, share_lw_pct: 100.0, share_l4w_pct: 100.0,
+    gmv_basket: 3440.21, gmv_sellup: 93.80, pct_sellup: 2.73, aov_basket: 573.37, aov_deal_post: 557.74,
+    cross_ordenes: 6, cross_skus_distintos: 2,
+    cross_top_producto: "Epura Agua Purificada Sin Sodio 10 L", cross_top_ordenes: 1, cross_top_pct: 16.67,
+    inv_oos_cierre_viral_avg: 0, inv_oos_post_avg: 0,
+    inv_cov_viral_ap_avg: 74.5, inv_cov_viral_ci_avg: 74.5, inv_cov_post_avg: 75.2, inv_cov_bench_avg: 15.1,
+    canib_ord_post: 2, canib_ord_bench: 0.25, canib_ord_delta_pct: 700.0,
+    canib_und_post: 3, canib_und_bench: 0.25, canib_und_delta_pct: 1100.0,
+    canib_cli_post: 3, canib_cli_bench: 0.25, canib_cli_delta_pct: 1100.0
   }
 ];
 
@@ -5024,7 +5050,9 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   // Lala Jun 24
   { deal_id: "VIRAL_DEAL_LALA_240626", sync: "78151", name: "Lala Leche Entera Deslactosada Brick 1 L", ordenes: 55, usuarios: 51, unidades: 244, gmv: 8693, aov: 158.05, impresiones: 618, cr_pct: 8.25, gmv_dlw_pct: 505.8, gmv_dl4w_pct: 1135.4, seg_nuevo: 46, seg_nuevo_pct: 84, seg_reactivado: 3, seg_reactivado_pct: 5, seg_retenido: 6, seg_retenido_pct: 11, stock_viral: 268, stock_post: 153, stock_bench: 257, stock_delta_pct: -40.5, oos_cierre_viral: 68.4, oos_post: 51.3, cov_viral_ap: 31.7, cov_viral_ci: 16.0, cov_post: 22.8, canib_ord_post: 23, canib_ord_bench: 45.5, canib_ord_delta_pct: -49.5, canib_und_post: 60, canib_und_bench: 120.5, canib_und_delta_pct: -50.2, canib_cli_post: 21, canib_cli_bench: 47.25, canib_cli_delta_pct: -55.6 },
   { deal_id: "VIRAL_DEAL_LALA_240626", sync: "72152", name: "Lala 100 Leche Sin Lactosa Low Carb Light 1 L", ordenes: 49, usuarios: 46, unidades: 150, gmv: 6984, aov: 142.53, impresiones: 532, cr_pct: 8.65, gmv_dlw_pct: 782.5, gmv_dl4w_pct: -29.1, seg_nuevo: 36, seg_nuevo_pct: 73, seg_reactivado: 4, seg_reactivado_pct: 8, seg_retenido: 9, seg_retenido_pct: 18, stock_viral: 297, stock_post: 279, stock_bench: 205, stock_delta_pct: 35.8, oos_cierre_viral: 90.7, oos_post: 76.7, cov_viral_ap: 24.1, cov_viral_ci: 20.2, cov_post: 30.0, canib_ord_post: 62, canib_ord_bench: 69.0, canib_ord_delta_pct: -10.1, canib_und_post: 127, canib_und_bench: 166, canib_und_delta_pct: -23.5, canib_cli_post: 55, canib_cli_bench: 71.5, canib_cli_delta_pct: -23.1 },
-  { deal_id: "VIRAL_DEAL_LALA_240626", sync: "12265", name: "Media Crema Lala 250ml (245g) Car", ordenes: 55, usuarios: 49, unidades: 134, gmv: 2629, aov: 47.79, impresiones: 5112, cr_pct: 0.96, gmv_dlw_pct: 78.2, gmv_dl4w_pct: 261.8, seg_nuevo: 38, seg_nuevo_pct: 69, seg_reactivado: 1, seg_reactivado_pct: 2, seg_retenido: 16, seg_retenido_pct: 29, stock_viral: 1449, stock_post: 1327, stock_bench: 1345, stock_delta_pct: -1.3, oos_cierre_viral: 8.3, oos_post: 5.2, cov_viral_ap: 55.8, cov_viral_ci: 55.8, cov_post: 58.0, canib_ord_post: 157, canib_ord_bench: 87.75, canib_ord_delta_pct: 78.9, canib_und_post: 287, canib_und_bench: 228.5, canib_und_delta_pct: 25.6, canib_cli_post: 121, canib_cli_bench: 76.0, canib_cli_delta_pct: 59.2 }
+  { deal_id: "VIRAL_DEAL_LALA_240626", sync: "12265", name: "Media Crema Lala 250ml (245g) Car", ordenes: 55, usuarios: 49, unidades: 134, gmv: 2629, aov: 47.79, impresiones: 5112, cr_pct: 0.96, gmv_dlw_pct: 78.2, gmv_dl4w_pct: 261.8, seg_nuevo: 38, seg_nuevo_pct: 69, seg_reactivado: 1, seg_reactivado_pct: 2, seg_retenido: 16, seg_retenido_pct: 29, stock_viral: 1449, stock_post: 1327, stock_bench: 1345, stock_delta_pct: -1.3, oos_cierre_viral: 8.3, oos_post: 5.2, cov_viral_ap: 55.8, cov_viral_ci: 55.8, cov_post: 58.0, canib_ord_post: 157, canib_ord_bench: 87.75, canib_ord_delta_pct: 78.9, canib_und_post: 287, canib_und_bench: 228.5, canib_und_delta_pct: 25.6, canib_cli_post: 121, canib_cli_bench: 76.0, canib_cli_delta_pct: 59.2 },
+  // Motion Jun 26
+  { deal_id: "VIRAL_DEAL_MOTION_260626", sync: "91939", name: "Birdman Creatina 450 g + Shaker Negro", ordenes: 6, usuarios: 6, unidades: 6, gmv: 3346.41, aov: 557.74, impresiones: 3932, cr_pct: 0.15, gmv_dlw_pct: null, gmv_dl4w_pct: null, seg_nuevo: 5, seg_nuevo_pct: 83, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 1, seg_retenido_pct: 17, stock_viral: 684, stock_post: 693, stock_bench: 111, stock_delta_pct: 524.3, oos_cierre_viral: 0, oos_post: 0, cov_viral_ap: 74.5, cov_viral_ci: 74.5, cov_post: 75.2, canib_ord_post: 2, canib_ord_bench: 0.25, canib_ord_delta_pct: 700.0, canib_und_post: 3, canib_und_bench: 0.25, canib_und_delta_pct: 1100.0, canib_cli_post: 3, canib_cli_bench: 0.25, canib_cli_delta_pct: 1100.0 }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5691,7 +5719,10 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_LALA_240626", subcategoria: "Leche natural",  ordenes: 13, gmv: 1228, pct_sellup: 4.46,  order: 5 },
   { deal_id: "VIRAL_DEAL_LALA_240626", subcategoria: "Rones",          ordenes: 3,  gmv: 915,  pct_sellup: 3.32,  order: 6 },
   { deal_id: "VIRAL_DEAL_LALA_240626", subcategoria: "Huevos",         ordenes: 13, gmv: 728,  pct_sellup: 2.64,  order: 7 },
-  { deal_id: "VIRAL_DEAL_LALA_240626", subcategoria: "Agua Natural",   ordenes: 17, gmv: 707,  pct_sellup: 2.57,  order: 8 }
+  { deal_id: "VIRAL_DEAL_LALA_240626", subcategoria: "Agua Natural",   ordenes: 17, gmv: 707,  pct_sellup: 2.57,  order: 8 },
+  // Motion Jun 26
+  { deal_id: "VIRAL_DEAL_MOTION_260626", subcategoria: "Agua Natural", ordenes: 1, gmv: 51,  pct_sellup: 54.26, order: 1 },
+  { deal_id: "VIRAL_DEAL_MOTION_260626", subcategoria: "Frutas",       ordenes: 1, gmv: 43,  pct_sellup: 45.74, order: 2 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -6643,5 +6674,8 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_LALA_240626", sync: "9458",  name: "Chip's Botana Sal 170 g",                      subcategoria: "Snacks salados",          ordenes: 7,  pct_deal: 4.86, order: 9  },
   { deal_id: "VIRAL_DEAL_LALA_240626", sync: "14079", name: "Barcel Takis 80 g",                            subcategoria: "Snacks salados",          ordenes: 7,  pct_deal: 4.86, order: 10 },
   { deal_id: "VIRAL_DEAL_LALA_240626", sync: "8033",  name: "Ciel Agua Natural Purificada 10 L",            subcategoria: "Agua Natural",            ordenes: 7,  pct_deal: 4.86, order: 11 },
-  { deal_id: "VIRAL_DEAL_LALA_240626", sync: "7164",  name: "Coca-Cola Refresco Sin Azúcar Chubby 355 mL", subcategoria: "Gaseosas",                ordenes: 7,  pct_deal: 4.86, order: 12 }
+  { deal_id: "VIRAL_DEAL_LALA_240626", sync: "7164",  name: "Coca-Cola Refresco Sin Azúcar Chubby 355 mL", subcategoria: "Gaseosas",                ordenes: 7,  pct_deal: 4.86, order: 12 },
+  // Motion Jun 26
+  { deal_id: "VIRAL_DEAL_MOTION_260626", sync: "9151",  name: "Epura Agua Purificada Sin Sodio 10 L", subcategoria: "Agua Natural", ordenes: 1, pct_deal: 16.67, order: 1 },
+  { deal_id: "VIRAL_DEAL_MOTION_260626", sync: "14693", name: "Aguacate para hoy -3 pzas",            subcategoria: "Frutas",       ordenes: 1, pct_deal: 16.67, order: 2 }
 ];
