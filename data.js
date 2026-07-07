@@ -4659,6 +4659,36 @@ const POSTMORTEM_DEALS = [
     canib_ord_post: 2, canib_ord_bench: 0.25, canib_ord_delta_pct: 700.0,
     canib_und_post: 3, canib_und_bench: 0.25, canib_und_delta_pct: 1100.0,
     canib_cli_post: 3, canib_cli_bench: 0.25, canib_cli_delta_pct: 1100.0
+  },
+  // Sriveda Sattva Jun 29
+  {
+    deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626",
+    post_days: 4,
+    fase: 2,
+    gmv_activacion: 1074,
+    gmv_lw: 507, gmv_dlw_pct: 111.7,
+    gmv_l4w: 239, gmv_dl4w_pct: 349.8,
+    usuarios_unicos: 6,
+    usr_lw: 5, usr_dlw_pct: 20.0,
+    usr_l4w: 3.67, usr_dl4w_pct: 63.5,
+    cr_pct: 0.45,
+    aov: 153.41, aov_lw: 126.83, aov_dlw_pct: 21.0, aov_l4w: 119.38, aov_dl4w_pct: 28.5,
+    unidades_total: 13, und_lw: 5, und_dlw_pct: 160.0, und_l4w: 3.67, und_dl4w_pct: 254.2,
+    ordenes_total: 7, ord_lw: 4, ord_dlw_pct: 75.0, ord_l4w: 2.00, ord_dl4w_pct: 250.0,
+    impresiones_total: 1327,
+    so_turbo_mx: 3823369, gmv_categoria: 10985,
+    gmv_cat_lw: 8848, gmv_cat_l4w: 9027,
+    share_deal_cat_pct: 9.77, share_lw_pct: 5.73, share_l4w_pct: 2.65,
+    gmv_basket: 4242, gmv_sellup: 3169, pct_sellup: 74.69,
+    aov_basket: 606.06, aov_deal_post: 153.41,
+    cross_ordenes: 7, cross_skus_distintos: 37,
+    cross_top_producto: "Bimbo Pan Multigrano Cero Cero 610 g", cross_top_ordenes: 2, cross_top_pct: 28.57,
+    inv_oos_cierre_viral_avg: 8.5, inv_oos_post_avg: 7.8,
+    inv_cov_viral_ap_avg: 84.6, inv_cov_viral_ci_avg: 83.5,
+    inv_cov_post_avg: 84.5, inv_cov_bench_avg: 80.9,
+    canib_ord_post: 9, canib_ord_bench: 3.75, canib_ord_delta_pct: 140.0,
+    canib_und_post: 10, canib_und_bench: 5.25, canib_und_delta_pct: 90.5,
+    canib_cli_post: 11, canib_cli_bench: 4.25, canib_cli_delta_pct: 158.8
   }
 ];
 
@@ -5052,7 +5082,12 @@ const POSTMORTEM_SKU_PERFORMANCE = [
   { deal_id: "VIRAL_DEAL_LALA_240626", sync: "72152", name: "Lala 100 Leche Sin Lactosa Low Carb Light 1 L", ordenes: 49, usuarios: 46, unidades: 150, gmv: 6984, aov: 142.53, impresiones: 532, cr_pct: 8.65, gmv_dlw_pct: 782.5, gmv_dl4w_pct: -29.1, seg_nuevo: 36, seg_nuevo_pct: 73, seg_reactivado: 4, seg_reactivado_pct: 8, seg_retenido: 9, seg_retenido_pct: 18, stock_viral: 297, stock_post: 279, stock_bench: 205, stock_delta_pct: 35.8, oos_cierre_viral: 90.7, oos_post: 76.7, cov_viral_ap: 24.1, cov_viral_ci: 20.2, cov_post: 30.0, canib_ord_post: 62, canib_ord_bench: 69.0, canib_ord_delta_pct: -10.1, canib_und_post: 127, canib_und_bench: 166, canib_und_delta_pct: -23.5, canib_cli_post: 55, canib_cli_bench: 71.5, canib_cli_delta_pct: -23.1 },
   { deal_id: "VIRAL_DEAL_LALA_240626", sync: "12265", name: "Media Crema Lala 250ml (245g) Car", ordenes: 55, usuarios: 49, unidades: 134, gmv: 2629, aov: 47.79, impresiones: 5112, cr_pct: 0.96, gmv_dlw_pct: 78.2, gmv_dl4w_pct: 261.8, seg_nuevo: 38, seg_nuevo_pct: 69, seg_reactivado: 1, seg_reactivado_pct: 2, seg_retenido: 16, seg_retenido_pct: 29, stock_viral: 1449, stock_post: 1327, stock_bench: 1345, stock_delta_pct: -1.3, oos_cierre_viral: 8.3, oos_post: 5.2, cov_viral_ap: 55.8, cov_viral_ci: 55.8, cov_post: 58.0, canib_ord_post: 157, canib_ord_bench: 87.75, canib_ord_delta_pct: 78.9, canib_und_post: 287, canib_und_bench: 228.5, canib_und_delta_pct: 25.6, canib_cli_post: 121, canib_cli_bench: 76.0, canib_cli_delta_pct: 59.2 },
   // Motion Jun 26
-  { deal_id: "VIRAL_DEAL_MOTION_260626", sync: "91939", name: "Birdman Creatina 450 g + Shaker Negro", ordenes: 6, usuarios: 6, unidades: 6, gmv: 3346.41, aov: 557.74, impresiones: 3932, cr_pct: 0.15, gmv_dlw_pct: null, gmv_dl4w_pct: null, seg_nuevo: 5, seg_nuevo_pct: 83, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 1, seg_retenido_pct: 17, stock_viral: 684, stock_post: 693, stock_bench: 111, stock_delta_pct: 524.3, oos_cierre_viral: 0, oos_post: 0, cov_viral_ap: 74.5, cov_viral_ci: 74.5, cov_post: 75.2, canib_ord_post: 2, canib_ord_bench: 0.25, canib_ord_delta_pct: 700.0, canib_und_post: 3, canib_und_bench: 0.25, canib_und_delta_pct: 1100.0, canib_cli_post: 3, canib_cli_bench: 0.25, canib_cli_delta_pct: 1100.0 }
+  { deal_id: "VIRAL_DEAL_MOTION_260626", sync: "91939", name: "Birdman Creatina 450 g + Shaker Negro", ordenes: 6, usuarios: 6, unidades: 6, gmv: 3346.41, aov: 557.74, impresiones: 3932, cr_pct: 0.15, gmv_dlw_pct: null, gmv_dl4w_pct: null, seg_nuevo: 5, seg_nuevo_pct: 83, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 1, seg_retenido_pct: 17, stock_viral: 684, stock_post: 693, stock_bench: 111, stock_delta_pct: 524.3, oos_cierre_viral: 0, oos_post: 0, cov_viral_ap: 74.5, cov_viral_ci: 74.5, cov_post: 75.2, canib_ord_post: 2, canib_ord_bench: 0.25, canib_ord_delta_pct: 700.0, canib_und_post: 3, canib_und_bench: 0.25, canib_und_delta_pct: 1100.0, canib_cli_post: 3, canib_cli_bench: 0.25, canib_cli_delta_pct: 1100.0 },
+  // Sriveda Sattva Jun 29
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83475", name: "Sudanta-Pasta Dental Ayurvédica Libre De Fluor 100 g", ordenes: 4, usuarios: 4, unidades: 6, gmv: 497, aov: 124.20, impresiones: 356, cr_pct: 1.12, gmv_dlw_pct: 80.1, gmv_dl4w_pct: 207.4, seg_nuevo: 4, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 184, stock_post: 177, stock_bench: 198, stock_delta_pct: -10.7, oos_cierre_viral: 11, oos_post: 10.5, cov_viral_ap: 79.6, cov_viral_ci: 77.6, cov_post: 78.1, canib_ord_post: 1, canib_ord_bench: 2.00, canib_ord_delta_pct: -50.0, canib_und_post: 1, canib_und_bench: 2.25, canib_und_delta_pct: -55.6, canib_cli_post: 1, canib_cli_bench: 1.75, canib_cli_delta_pct: -42.9 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83473", name: "Sudanta Pasta Dental Ayurvedica en Gel Libre De Flúor 100 g", ordenes: 3, usuarios: 2, unidades: 3, gmv: 288, aov: 96.11, impresiones: 338, cr_pct: 0.89, gmv_dlw_pct: 24.6, gmv_dl4w_pct: 24.6, seg_nuevo: 3, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 157, stock_post: 146, stock_bench: 90, stock_delta_pct: 61.5, oos_cierre_viral: 21, oos_post: 19.8, cov_viral_ap: 61.1, cov_viral_ci: 61.1, cov_post: 63.2, canib_ord_post: 7, canib_ord_bench: 1.50, canib_ord_delta_pct: 366.7, canib_und_post: 7, canib_und_bench: 2.5, canib_und_delta_pct: 180.0, canib_cli_post: 8, canib_cli_bench: 2.00, canib_cli_delta_pct: 300.0 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83478", name: "Ssri Sri Agua de Rosas", ordenes: 3, usuarios: 3, unidades: 3, gmv: 193, aov: 64.38, impresiones: 212, cr_pct: 1.42, gmv_dlw_pct: null, gmv_dl4w_pct: null, seg_nuevo: 3, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 402, stock_post: 400, stock_bench: 413, stock_delta_pct: -3.4, oos_cierre_viral: 1, oos_post: 0.5, cov_viral_ap: 100.0, cov_viral_ci: 97.7, cov_post: 98.3, canib_ord_post: 1, canib_ord_bench: 0.25, canib_ord_delta_pct: 300.0, canib_und_post: 2, canib_und_bench: 0.5, canib_und_delta_pct: 300.0, canib_cli_post: 2, canib_cli_bench: 0.50, canib_cli_delta_pct: 300.0 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83477", name: "Sri Sri Gel de Limpieza Facial Con Aloe Vera", ordenes: 1, usuarios: 1, unidades: 1, gmv: 96, aov: 95.60, impresiones: 421, cr_pct: 0.24, gmv_dlw_pct: null, gmv_dl4w_pct: null, seg_nuevo: 1, seg_nuevo_pct: 100, seg_reactivado: 0, seg_reactivado_pct: 0, seg_retenido: 0, seg_retenido_pct: 0, stock_viral: 406, stock_post: 406, stock_bench: 417, stock_delta_pct: -2.8, oos_cierre_viral: 1, oos_post: 0.5, cov_viral_ap: 97.6, cov_viral_ci: 97.6, cov_post: 98.2, canib_ord_post: null, canib_ord_bench: null, canib_ord_delta_pct: null, canib_und_post: null, canib_und_bench: null, canib_und_delta_pct: null, canib_cli_post: null, canib_cli_bench: null, canib_cli_delta_pct: null }
 ];
 
 const POSTMORTEM_SELLUP_CATS = [
@@ -5722,7 +5757,16 @@ const POSTMORTEM_SELLUP_CATS = [
   { deal_id: "VIRAL_DEAL_LALA_240626", subcategoria: "Agua Natural",   ordenes: 17, gmv: 707,  pct_sellup: 2.57,  order: 8 },
   // Motion Jun 26
   { deal_id: "VIRAL_DEAL_MOTION_260626", subcategoria: "Agua Natural", ordenes: 1, gmv: 51,  pct_sellup: 54.26, order: 1 },
-  { deal_id: "VIRAL_DEAL_MOTION_260626", subcategoria: "Frutas",       ordenes: 1, gmv: 43,  pct_sellup: 45.74, order: 2 }
+  { deal_id: "VIRAL_DEAL_MOTION_260626", subcategoria: "Frutas",       ordenes: 1, gmv: 43,  pct_sellup: 45.74, order: 2 },
+  // Sriveda Sattva Jun 29
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", subcategoria: "Crema, loción y gel",             ordenes: 1, gmv: 547, pct_sellup: 17.27, order: 1 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", subcategoria: "Otras aguas",                     ordenes: 1, gmv: 208, pct_sellup: 6.55,  order: 2 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", subcategoria: "Fragancias ropa",                 ordenes: 1, gmv: 181, pct_sellup: 5.71,  order: 3 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", subcategoria: "Frutas",                          ordenes: 1, gmv: 172, pct_sellup: 5.42,  order: 4 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", subcategoria: "Embutidos",                       ordenes: 1, gmv: 166, pct_sellup: 5.23,  order: 5 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", subcategoria: "Panaderia salada",                ordenes: 2, gmv: 155, pct_sellup: 4.89,  order: 6 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", subcategoria: "Limpiadores multiusos",           ordenes: 1, gmv: 153, pct_sellup: 4.82,  order: 7 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", subcategoria: "Pinzas, brochas y perfiladores",  ordenes: 1, gmv: 147, pct_sellup: 4.65,  order: 8 }
 ];
 
 const POSTMORTEM_CROSSBASKET = [
@@ -6677,5 +6721,18 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_LALA_240626", sync: "7164",  name: "Coca-Cola Refresco Sin Azúcar Chubby 355 mL", subcategoria: "Gaseosas",                ordenes: 7,  pct_deal: 4.86, order: 12 },
   // Motion Jun 26
   { deal_id: "VIRAL_DEAL_MOTION_260626", sync: "9151",  name: "Epura Agua Purificada Sin Sodio 10 L", subcategoria: "Agua Natural", ordenes: 1, pct_deal: 16.67, order: 1 },
-  { deal_id: "VIRAL_DEAL_MOTION_260626", sync: "14693", name: "Aguacate para hoy -3 pzas",            subcategoria: "Frutas",       ordenes: 1, pct_deal: 16.67, order: 2 }
+  { deal_id: "VIRAL_DEAL_MOTION_260626", sync: "14693", name: "Aguacate para hoy -3 pzas",            subcategoria: "Frutas",       ordenes: 1, pct_deal: 16.67, order: 2 },
+  // Sriveda Sattva Jun 29
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "9992",  name: "Bimbo Pan Multigrano Cero Cero 610 g",                             subcategoria: "Panaderia salada",           ordenes: 2, pct_deal: 28.57, order: 1  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "6386",  name: "Cloralex Toallitas Desinfectantes 84 Und",                         subcategoria: "Toallitas",                  ordenes: 1, pct_deal: 14.29, order: 2  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83531", name: "White Rain Cotton Pads Round 100 Und",                             subcategoria: "Otros Maquillaje Para Ojos", ordenes: 1, pct_deal: 14.29, order: 3  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83112", name: "Tony Moly Parches de Hidrogel Para Ojeras I'm Lemon 21 g",         subcategoria: "Otros cuidados faciales",    ordenes: 1, pct_deal: 14.29, order: 4  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "81217", name: "Felix Agua Mineral Con Jugo de Frambuesa Jalisco 355 mL",          subcategoria: "Otras aguas",                ordenes: 1, pct_deal: 14.29, order: 5  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "72088", name: "Edigar Vaso para Muestra Copro con Tapa Rosca 1 Und",              subcategoria: "Vajilla desechable",         ordenes: 1, pct_deal: 14.29, order: 6  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83486", name: "VELO Bolsa de Nicotina Watermelon Ice (6 mg) 17 g",                subcategoria: "Pouches",                    ordenes: 1, pct_deal: 14.29, order: 7  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "1775",  name: "Lactacyd Shampoo Intimo de Uso Diario Floral 200 mL",              subcategoria: "Shampoo",                    ordenes: 1, pct_deal: 14.29, order: 8  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "14090", name: "Plátano Chiapas 3 piezas",                                         subcategoria: "Frutas",                     ordenes: 1, pct_deal: 14.29, order: 9  },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "87233", name: "Fabuloso Limpiador Líquido Multiusos Frescura Activa",             subcategoria: "Limpiadores multiusos",      ordenes: 1, pct_deal: 14.29, order: 10 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "73570", name: "Nair Tiras Depilatorias Para Cara 36 Und",                         subcategoria: "Cremas, ceras y bandas",     ordenes: 1, pct_deal: 14.29, order: 11 },
+  { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "13274", name: "San Rafael Salchicha de Pavo 500 g",                               subcategoria: "Embutidos",                  ordenes: 1, pct_deal: 14.29, order: 12 }
 ];
