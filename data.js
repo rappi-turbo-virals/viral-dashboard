@@ -2384,6 +2384,30 @@ const PREVIRAL_DEALS = [
     financiamiento_maker: "OC",
     pct_growth_vs_maker: 0,
     categoria_display: "Nutrición deportiva"
+  },
+  {
+    deal_id: "VIRAL_DEAL_GENOMMALAB_190726",
+    maker_name: "Genomma Lab",
+    maker_aux: "Genomma Lab",
+    business_unit: "Pharma",
+    descuento_pct: 50,
+    incrementalidad: 3,
+    tipo_viral: "multi-día",
+    ciudades: "Nacional",
+    fecha_planeacion: "2026-07-10",
+    fecha_ejecucion: "2026-07-19",
+    fecha_fin: "2026-07-20",
+    usd_mxn: 17.54,
+    fecha_tasa: "2026-07-10",
+    budget_maker_mxn: 130000,
+    budget_growth_mxn: 0,
+    budget_total_mxn: 130000,
+    budget_maker_usd: 7411.63,
+    budget_growth_usd: 0.00,
+    budget_total_usd: 7411.63,
+    financiamiento_maker: "ADS",
+    pct_growth_vs_maker: 0,
+    categoria_display: "Isotónicos"
   }
 
 
@@ -2866,7 +2890,12 @@ const PREVIRAL_SKU_DETAIL = [
   { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83478", ean: "8906038781848", pid: "2115490930", name: "Ssri Sri Agua de Rosas", subcategoria: "Crema dental", h_units: 0.4, h_orders: 0.2, avg_price: 73.48, ex_incr_units: 2, ex_incr_orders: 1, ex_budget_mxn: 81, ex_budget_usd: 4.71, real_units: 134, final_budget_mxn: 5415, final_budget_usd: 314.83, sku_order: 3 },
   { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "83477", ean: "8906038786201", pid: "2115490940", name: "Sri Sri Gel de Limpieza Facial Con Aloe Vera", subcategoria: "Crema dental", h_units: 0.2, h_orders: 0.2, avg_price: 193.81, ex_incr_units: 1, ex_incr_orders: 1, ex_budget_mxn: 107, ex_budget_usd: 6.22, real_units: 25, final_budget_mxn: 2665, final_budget_usd: 154.94, sku_order: 4 },
   // Motion Jun 26
-  { deal_id: "VIRAL_DEAL_MOTION_260626", sync: "91939", ean: "7503036090500", pid: "2115881312", name: "Birdman Creatina 450 g + Shaker Negro", subcategoria: "Nutrición deportiva", h_units: 49.6, h_orders: 41.0, avg_price: 400.59, ex_incr_units: 744, ex_incr_orders: 615, ex_budget_mxn: 74510, ex_budget_usd: 4300.37, real_units: 399, final_budget_mxn: 39959, final_budget_usd: 2306.25, sku_order: 1 }
+  { deal_id: "VIRAL_DEAL_MOTION_260626", sync: "91939", ean: "7503036090500", pid: "2115881312", name: "Birdman Creatina 450 g + Shaker Negro", subcategoria: "Nutrición deportiva", h_units: 49.6, h_orders: 41.0, avg_price: 400.59, ex_incr_units: 744, ex_incr_orders: 615, ex_budget_mxn: 74510, ex_budget_usd: 4300.37, real_units: 399, final_budget_mxn: 39959, final_budget_usd: 2306.25, sku_order: 1 },
+  // Genomma Lab Jul 26
+  { deal_id: "VIRAL_DEAL_GENOMMALAB_190726", sync: "8235", ean: "650240032325", pid: "2112686391", name: "Suerox Bebida Hidratante Con Electrolitos Lima Limón 630 mL", subcategoria: "Isotónicos", h_units: 59.8, h_orders: 34.2, avg_price: 24.74, ex_incr_units: 179, ex_incr_orders: 103, ex_budget_mxn: 2214, ex_budget_usd: 126.23, real_units: 3151, final_budget_mxn: 38978, final_budget_usd: 2222.23, sku_order: 1 },
+  { deal_id: "VIRAL_DEAL_GENOMMALAB_190726", sync: "8258", ean: "650240032264", pid: "1563123646", name: "Suerox Bebida Hidratante Fresa Kiwi 630 mL", subcategoria: "Isotónicos", h_units: 50.6, h_orders: 30.0, avg_price: 24.65, ex_incr_units: 152, ex_incr_orders: 90, ex_budget_mxn: 1873, ex_budget_usd: 106.78, real_units: 2686, final_budget_mxn: 33105, final_budget_usd: 1887.40, sku_order: 2 },
+  { deal_id: "VIRAL_DEAL_GENOMMALAB_190726", sync: "9004", ean: "650240032295", pid: "1563123620", name: "Suerox Bebida Hidratante Mora Azul Con Hierbabuena 630 mL", subcategoria: "Isotónicos", h_units: 49.9, h_orders: 27.7, avg_price: 24.08, ex_incr_units: 150, ex_incr_orders: 83, ex_budget_mxn: 1806, ex_budget_usd: 102.96, real_units: 2712, final_budget_mxn: 32652, final_budget_usd: 1861.57, sku_order: 3 },
+  { deal_id: "VIRAL_DEAL_GENOMMALAB_190726", sync: "9027", ean: "650240032271", pid: "2113432799", name: "Suerox Bebida Hidratante 8 Iones Uva 630 mL", subcategoria: "Isotónicos", h_units: 38.7, h_orders: 22.4, avg_price: 24.01, ex_incr_units: 116, ex_incr_orders: 67, ex_budget_mxn: 1393, ex_budget_usd: 79.42, real_units: 2104, final_budget_mxn: 25259, final_budget_usd: 1440.08, sku_order: 4 }
 
 
 
