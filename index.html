@@ -596,6 +596,12 @@
       border-left: 3px solid #C62828;
     }
 
+    .calendar-event.comms-plan {
+      background: #F3E5F5;
+      color: #7B1FA2;
+      border-left: 3px solid #7B1FA2;
+    }
+
     .calendar-legend {
       display: flex;
       gap: 20px;
@@ -621,6 +627,7 @@
     .cal-dot-past { background: #E3F2FD; border-left: 3px solid #1565C0; }
     .cal-dot-forecast { background: #FFF8E1; border-left: 3px solid #F9A825; }
     .cal-dot-onhold { background: #FFEBEE; border-left: 3px solid #C62828; }
+    .cal-dot-comms { background: #F3E5F5; border-left: 3px solid #7B1FA2; }
 
     /* Calendar expand panel */
     #cal-expand-detail {
@@ -792,6 +799,17 @@
       font-weight: 700;
     }
 
+    .cal-comms-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 16px;
+      border-radius: 20px;
+      background: #F3E5F5;
+      color: #7B1FA2;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
     /* Catalogo */
     .catalogo-filters {
       display: flex;
@@ -913,6 +931,7 @@
         <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-past"></div>Pasado</div>
         <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-forecast"></div>Forecast</div>
         <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-onhold"></div>Cancelado</div>
+        <div class="calendar-legend-item"><div class="calendar-legend-dot cal-dot-comms"></div>Plan de Comunicación</div>
       </div>
       <div class="calendar-nav">
         <select id="filter-canal" class="cal-filter-select">
@@ -1024,6 +1043,7 @@
     function getSkuDetail(id) { return PREVIRAL_SKU_DETAIL.filter(d => d.deal_id === id); }
     function getSkuPerf(id) { return POSTMORTEM_SKU_PERFORMANCE.filter(d => d.deal_id === id); }
     function getSellupCats(id) { return POSTMORTEM_SELLUP_CATS.filter(d => d.deal_id === id); }
+    function getCommsPlan(id) { return COMMS_PLANS.find(c => c.comm_id === id); }
     function getCrossBasket(id) { return POSTMORTEM_CROSSBASKET.filter(d => d.deal_id === id); }
 
     // ============================================================
@@ -1498,6 +1518,12 @@
         return true;
       });
 
+      // Planes de Comunicación — solo se filtran por BU (no tienen financiamiento_maker)
+      const filteredComms = COMMS_PLANS.filter(c => {
+        if (filterBU && c.business_unit !== filterBU) return false;
+        return true;
+      });
+
       // KPIs for current calendar month
       const monthDeals = filteredDeals.filter(d => {
         if (!d.fecha_ejecucion) return false;
@@ -1574,9 +1600,16 @@
         while (current <= endDate) {
           const dateStr = current.toISOString().slice(0, 10);
           if (!events[dateStr]) events[dateStr] = [];
-          events[dateStr].push({ deal: d, type });
+          events[dateStr].push({ deal: d, type, kind: 'viral' });
           current.setDate(current.getDate() + 1);
         }
+      });
+
+      // Planes de Comunicación — evento de un solo día, sin rango
+      filteredComms.forEach(c => {
+        if (!c.fecha) return;
+        if (!events[c.fecha]) events[c.fecha] = [];
+        events[c.fecha].push({ comm: c, type: 'comms-plan', kind: 'comms' });
       });
 
       // Calendar grid
@@ -1615,7 +1648,11 @@
         let eventsHtml = '';
         if (events[dateStr]) {
           events[dateStr].forEach(ev => {
-            eventsHtml += `<div class="calendar-event ${ev.type}" data-deal="${ev.deal.deal_id}" title="${ev.deal.maker_aux}">${ev.deal.maker_aux}</div>`;
+            if (ev.kind === 'comms') {
+              eventsHtml += `<div class="calendar-event comms-plan" data-comm="${ev.comm.comm_id}" data-type="comms" title="${ev.comm.maker_aux} · ${ev.comm.mensaje}">${ev.comm.maker_aux}</div>`;
+            } else {
+              eventsHtml += `<div class="calendar-event ${ev.type}" data-deal="${ev.deal.deal_id}" data-type="viral" title="${ev.deal.maker_aux}">${ev.deal.maker_aux}</div>`;
+            }
           });
         }
 
@@ -1637,7 +1674,11 @@
       document.querySelectorAll('#calendar-grid .calendar-event').forEach(el => {
         el.addEventListener('click', (e) => {
           e.stopPropagation();
-          expandCalendarDeal(el.dataset.deal);
+          if (el.dataset.type === 'comms') {
+            expandCommsPlan(el.dataset.comm);
+          } else {
+            expandCalendarDeal(el.dataset.deal);
+          }
         });
       });
     }
@@ -1830,6 +1871,33 @@
       container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
       // Close button
+      document.getElementById('cal-expand-close').addEventListener('click', () => {
+        container.innerHTML = '';
+      });
+    }
+
+    function expandCommsPlan(commId) {
+      const plan = getCommsPlan(commId);
+      if (!plan) return;
+      const container = document.getElementById('cal-expand-detail');
+
+      container.innerHTML = `
+        <div class="cal-expand-panel" style="border-top-color:#7B1FA2;">
+          <div class="cal-expand-header">
+            <div>
+              <h3>${plan.maker_name}</h3>
+              <div class="meta">
+                <span class="badge badge-gray">${plan.business_unit}</span>
+                <span>Fecha: ${plan.fecha}</span>
+              </div>
+            </div>
+            <button class="cal-expand-close" id="cal-expand-close">&times;</button>
+          </div>
+          <div class="cal-comms-badge">${plan.mensaje}</div>
+        </div>
+      `;
+
+      container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       document.getElementById('cal-expand-close').addEventListener('click', () => {
         container.innerHTML = '';
       });

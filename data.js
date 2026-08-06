@@ -6765,3 +6765,14 @@ const POSTMORTEM_CROSSBASKET = [
   { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "73570", name: "Nair Tiras Depilatorias Para Cara 36 Und",                         subcategoria: "Cremas, ceras y bandas",     ordenes: 1, pct_deal: 14.29, order: 11 },
   { deal_id: "VIRAL_DEAL_SRIVEDASATTVA_290626", sync: "13274", name: "San Rafael Salchicha de Pavo 500 g",                               subcategoria: "Embutidos",                  ordenes: 1, pct_deal: 14.29, order: 12 }
 ];
+
+// ============================================================
+// PLANES DE COMUNICACIÓN — eventos ligeros, sin budget/SKUs.
+// Actualizar este archivo cuando se registre un nuevo plan de comunicación.
+// Schema: comm_id (COMMS_PLAN_{MAKER}_{DDMMYY}), maker_name (nombre completo),
+// maker_aux (nombre corto, texto de la pastilla), business_unit (WOW|Drinks|Foods|Pharma),
+// fecha (YYYY-MM-DD, un solo día), mensaje (texto del evento).
+// ============================================================
+
+const COMMS_PLANS = [
+];
