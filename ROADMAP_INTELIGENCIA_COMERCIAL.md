@@ -391,14 +391,65 @@ Para implementar la propuesta completa, se necesitaría eventualmente:
 
 ---
 
-## CÓMO RETOMAR
+## ESTADO ACTUAL DEL DASHBOARD (actualizado 13 mayo 2026)
 
-1. Abrir este archivo (`ROADMAP_INTELIGENCIA_COMERCIAL.md`)
-2. Elegir el elemento a implementar de la tabla de priorización
-3. Seguir la especificación detallada de la fase correspondiente
-4. Hacer commit de respaldo antes de cada cambio
-5. Verificar en browser después de cada deploy
-6. Revertir con `git revert <hash>` si algo no funciona
+### Ya implementado
+- Tendencias tab con 3 charts ejecutivos (GMV mensual por BU stacked, Contribución doughnut, Canal OC vs ADS)
+- Home KPI cards reactivas al mes del calendario con lógica MTD
+- Filtros de vertical/BU funcionan correctamente en cards y calendario
+- Footer fijo, menús desplegables ordenados, ortografía corregida, headers de tabla claros
+- Formato adaptativo de GMV ($Xk < 1M, $X.XXM >= 1M)
+- Chart.js CDN ya integrado
+
+### Último commit
+`b788982` — "Fix: filtros vertical/BU ahora afectan correctamente las KPI cards del Home"
+
+---
+
+## PROXIMA SESION — ENFOQUE
+
+**Mañana nos enfocamos en las mejoras de UI de Fase 1, en este orden:**
+
+1. **KPIs de Eficiencia** (sección 1.1) — Agregar ROI, CPO, CPNU e Incrementalidad real a la vista Detalle/Postmortem. Todos los datos ya existen, es cálculo JS puro.
+
+2. **Alertas Pre-Ejecución** (sección 1.3) — Cards de riesgo en vista Pre-Viral: OOS risk, concentración de budget, bajo histórico, track record del maker.
+
+3. **Viral Health Score** (sección 1.2) — Badge de semáforo en el calendario para lectura rápida de performance.
+
+4. **Rankings / Leaderboard** (sección 2.4) — Top deals por ROI, GMV, CPNU; bottom 5.
+
+5. **Benchmarks por BU** (sección 2.2) — Tablas comparativas por dimensión.
+
+Cada item tiene su especificación completa arriba en este documento (código de referencia, ubicación exacta en el HTML, fórmulas). Solo hay que leer la sección correspondiente e implementar.
+
+---
+
+## CONTEXTO TECNICO
+
+### Archivos
+- `index.html` — UI completa (~2033 líneas)
+- `data.js` — Datos de todos los virales (~5286 líneas, 6 arrays: PREVIRAL_DEALS, PREVIRAL_SKU_DETAIL, POSTMORTEM_DEALS, POSTMORTEM_SKU_PERFORMANCE, POSTMORTEM_SELLUP_CATS, POSTMORTEM_CROSSBASKET)
+
+### Snowflake
+- Connection: `HG51401`
+- Tabla principal: `RP_SILVER_DB_PROD.TURBO_CORE.GLOBAL_ORDER_DISCOUNTS`
+- Inventario: `RP_SILVER_DB_PROD.TURBO_CORE.GLOBAL_INVENTORY_COST`
+- Impresiones: `RP_SILVER_DB_PROD.TURBO_SUPPLY.MX_PRODUCT_IMPRESSIONS`
+
+### Skills
+- `/Users/zaid/Desktop/Work/Skills/pre-viral.skill` — Creación de pre-virales (Q3 L7W)
+- `/Users/zaid/Desktop/Work/Skills/postmortem-activacion.skill` — Postmortem (Q0-Q9, Fase 1/2)
+
+### Deploy
+- GitHub Pages: `https://zaidbarragan-sys.github.io/viral-dashboard/`
+- Repo: `rappi-turbo-virals/viral-dashboard`
+- Auth: secret `gh_token` via URL
+
+### Cómo retomar
+1. Leer este archivo (solo la sección "PROXIMA SESION" + la spec del item a implementar)
+2. Commit de respaldo antes de cada cambio
+3. Verificar en browser después de cada deploy
+4. Revertir con `git revert <hash>` si algo no funciona
 
 ---
 
